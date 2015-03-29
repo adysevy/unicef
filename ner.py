@@ -37,7 +37,7 @@ def extract_phrases(tagged_words):
 def extract_entities(text):
     entities = []
     for sent in sent_tokenizer.tokenize(text):
-        tagged_words = ner_tagger.tag(sent.split())
+        tagged_words = ner_tagger.tag(sent.encode('utf8').split())
         entities += extract_phrases(tagged_words)
     
     return set(entities)
