@@ -3,6 +3,7 @@ import os
 from docx import Document
 from datetime import datetime
 import pandas as pd
+import json
 
 punctuation = "!\"#$%&'()*+,-./:;<=>?@[\\]^_`{|}~"
 def remove_punctuation(s):
@@ -13,12 +14,12 @@ def remove_punctuation(s):
     return s_sans_punct
 
 centroids = pd.read_csv('countrycentroidsmm.csv', usecols=['Country_name', 
-    'UNc_latitude', 'UNc_longitude'], index_col='ISO3166A2')
-# centroidcountrynames = []
-# for country in centroids['Country_name']:
-#     country.strip().lower()
-#     remove_punctuation(country)
-#     centroidcountrynames.append(country)
+    'UNc_latitude', 'UNc_longitude'])
+
+with open('countryTranslateDict.json') as json_file:
+    countryCrosswalk = json.load(json_file)
+
+print countryCrosswalk
 
 #stripping the country names in my centroid file of punctuation, 
 #leading/trailing spaces, and converting to all lower-case.
@@ -126,18 +127,27 @@ print len(titles)
 print len(links)
 print len(dates)
 
-formattedcountries = []
+# formattedcountries = []
 
-for country in countries:
-    country.strip()
-    remove_punctuation(country)
-    country.lower()
-    formattedcountries.append(country)
+# for country in countries:
+#     country.strip()
+#     remove_punctuation(country)
+#     country.lower()
+#     formattedcountries.append(country)
 
-df = pd.DataFrame({'region':regions, 'country':formattedcountries, 'title': titles , 'story':stories,\
+"""
+Add in matching on formatted countries == centroid country names, inserting 
+the appropriate lat and long into the lat and lng lists.
+"""
+
+df = pd.DataFrame({'region':regions, 'country':countries, 'title': titles , 'story':stories,\
                    'link': links,\
                    'file_name':file_names,\
                    'date':dates})
+
+df['country'].apply(lambda x: remove_punctuation(x))
+df['country'].apply(lambda x: x.strip())
+df['country'].apply(lambda x: x.lower())
 
 df.link.unique()
 
