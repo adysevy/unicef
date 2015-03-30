@@ -11,6 +11,8 @@ def remove_punctuation(s):
     for letter in s:
         if letter not in punctuation:
             s_sans_punct += letter
+        elif letter in punctuation:
+            s_sans_punct += ' '
     return s_sans_punct
 
 centroids = pd.read_csv('countrycentroidsmm.csv', usecols=['Country_name', 
@@ -19,13 +21,15 @@ centroids = pd.read_csv('countrycentroidsmm.csv', usecols=['Country_name',
 with open('countryTranslateDict.json') as json_file:
     countryCrosswalk = json.load(json_file)
 
-print countryCrosswalk
+# print countryCrosswalk
 
 #stripping the country names in my centroid file of punctuation, 
 #leading/trailing spaces, and converting to all lower-case.
-centroids['Country_name'].apply(lambda x: remove_punctuation(x))
-centroids['Country_name'].apply(lambda x: x.strip())
-centroids['Country_name'].apply(lambda x: x.lower())
+centroids['Country_name'] = centroids['Country_name'].apply(lambda x: remove_punctuation(x))
+centroids['Country_name'] = centroids['Country_name'].apply(lambda x: x.strip())
+centroids['Country_name'] = centroids['Country_name'].apply(lambda x: x.lower())
+
+print centroids['Country_name'].dtype
 
 dates = []
 file_names = []
@@ -89,6 +93,18 @@ for file_name in os.listdir(folder):
 
                 dates.append(date)
                 links.append(p.text)
+
+                formattedcountry = remove_punctuation(curr_country).strip().lower()
+
+                if formattedcountry in centroids['Country_name']:
+                    currCountryCentroid = centroids['Country_name'] == curr_country
+                    lat.append(currCountryCentroid['UNc_latitude'])
+                    lng.append(currCountryCentroid['UNc_longitude'])
+                    print "match"
+                else:
+                    lat.append(curr_country)
+                    lng.append(curr_country)
+
                 flag_country = True
                 flag_title = False
                 curr_story = ''
@@ -143,20 +159,16 @@ the appropriate lat and long into the lat and lng lists.
 df = pd.DataFrame({'region':regions, 'country':countries, 'title': titles , 'story':stories,\
                    'link': links,\
                    'file_name':file_names,\
-                   'date':dates})
+                   'date':dates,
+                   'lat': lat,
+                   'lng': lng})
 
-df['country'].apply(lambda x: remove_punctuation(x))
-df['country'].apply(lambda x: x.strip())
+df['country'] = df['country'].apply(lambda x: remove_punctuation(x))
+df['country'] = df['country'].apply(lambda x: x.strip())
 df['country'].apply(lambda x: x.lower())
 
 df.link.unique()
 
-    #!!!! There's a lot of data cleaning to do in there -- some of the country names include 
-    # line breaks or tabs included in the name. We also have issues with more than one country being
-    # in a title (See: DR Congo/Rwanda) -- this will be challenging to sort out which country to assign to. 
-    # Several countries are referenced with slightly different names -- Laos == Lao DPR, DR Congo == DRC, 
-    # State of Palestine/Israel == Israel/State of Palestine (these are also trouble because arguably (controversially) 
-    # different countries), DPRK == DPR Korea ("North Korea" isn't the accepted UN term for the country), etc.
 df.country.unique()
 
 df.region.unique()
