@@ -32,24 +32,24 @@ var g = svg.append("g");
 d3.json("world-110m2.json", function(error, topology) {
 
 // load and display the cities
-// d3.csv("cities.csv", function(error, data) {
-//     g.selectAll("circle")
-//        .data(data)
-//        .enter()
-//        .append("a")
-//           .attr("xlink:href", function(d) {
-//             return "https://www.google.com/search?q="+d.city;}
-//           )
-//        .append("circle")
-//        .attr("cx", function(d) {
-//                return projection([d.lon, d.lat])[0];
-//        })
-//        .attr("cy", function(d) {
-//                return projection([d.lon, d.lat])[1];
-//        })
-//        .attr("r", 5)
-//        .style("fill", "red");
-// });
+d3.csv("countries.csv", function(error, data) {
+    g.selectAll("circle")
+       .data(data)
+       .enter()
+       .append("a")
+          .attr("xlink:href", function(d) {
+            return "https://www.google.com/search?q="+d.country;}
+          )
+       .append("circle")
+       .attr("cx", function(d) {
+               return projection([d.lon, d.lat])[0];
+       })
+       .attr("cy", function(d) {
+               return projection([d.lon, d.lat])[1];
+       })
+       .attr("r", 5)
+       .style("fill", "red");
+});
 
 
 g.selectAll("path")
