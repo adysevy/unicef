@@ -36,10 +36,10 @@ d3.csv("countries.csv", function(error, data) {
     g.selectAll("circle")
        .data(data)
        .enter()
-       .append("a")
-          .attr("xlink:href", function(d) {
-            return "https://www.google.com/search?q="+d.country;}
-          )
+       // .append("a")
+       //    .attr("xlink:href", function(d) {
+       //      return "https://www.google.com/search?q="+d.country;}
+       //    )
        .append("circle")
        .attr("cx", function(d) {
                return projection([d.lon, d.lat])[0];
@@ -48,7 +48,11 @@ d3.csv("countries.csv", function(error, data) {
                return projection([d.lon, d.lat])[1];
        })
        .attr("r", 5)
-       .style("fill", "red");
+       .style("fill", "red")
+       .on("click",function (d){
+          d3.select(this).style("fill","blue")
+       }
+      );
 });
 
 
