@@ -40,6 +40,7 @@ titles = []
 links = []
 lat = []
 lng = []
+countries_simple = []
 
 regions_codes = {'GENERAL':'General',\
                  'CEE/CIS':'Central and Eastern Europe and the Commonwealth of Independent States',\
@@ -94,16 +95,17 @@ for file_name in os.listdir(folder):
                 dates.append(date)
                 links.append(p.text)
 
-                formattedcountry = remove_punctuation(curr_country).strip().lower()
+                # formattedcountry = remove_punctuation(curr_country).strip().lower()
+                countries_simple.append(remove_punctuation(curr_country).strip().lower())
 
-                if formattedcountry in centroids['Country_name']:
-                    currCountryCentroid = centroids['Country_name'] == curr_country
-                    lat.append(currCountryCentroid['UNc_latitude'])
-                    lng.append(currCountryCentroid['UNc_longitude'])
-                    print "match"
-                else:
-                    lat.append(curr_country)
-                    lng.append(curr_country)
+                # if formattedcountry in centroids['Country_name']:
+                #     currCountryCentroid = centroids['Country_name'] == curr_country
+                #     lat.append(currCountryCentroid['UNc_latitude'])
+                #     lng.append(currCountryCentroid['UNc_longitude'])
+                #     print "match"
+                # else:
+                #     lat.append(curr_country)
+                #     lng.append(curr_country)
 
                 flag_country = True
                 flag_title = False
@@ -142,6 +144,7 @@ print len(countries)
 print len(titles)
 print len(links)
 print len(dates)
+print len(countries_simple)
 
 # formattedcountries = []
 
@@ -160,20 +163,27 @@ df = pd.DataFrame({'region':regions, 'country':countries, 'title': titles , 'sto
                    'link': links,\
                    'file_name':file_names,\
                    'date':dates,
-                   'lat': lat,
-                   'lng': lng})
+                   # 'lat': lat,
+                   # 'lng': lng,
+                   'Country_name': countries_simple})
 
-df['country'] = df['country'].apply(lambda x: remove_punctuation(x))
+# df['country'] = df['country'].apply(lambda x: remove_punctuation(x))
 df['country'] = df['country'].apply(lambda x: x.strip())
-df['country'].apply(lambda x: x.lower())
+# df['country'].apply(lambda x: x.lower())
 
-df.link.unique()
+# dfmerged = pd.merge(df, centroids, how='left', on='Country_name', left_index=False)
 
-df.country.unique()
+df = pd.merge(df, centroids, how='left', on='Country_name', left_index=False)
 
-df.region.unique()
+# df.link.unique()
+
+# print df.country.unique()
+
+# df.region.unique()
 
 df.to_csv('OPSCENoutput.csv', encoding = 'utf-8')
 
+# dfmerged.to_csv('OPSCENoutputMERGE.csv', encoding='utf-8')
 
-print df.head()
+# print df.head()
+
