@@ -24,17 +24,26 @@ body {
 
 </style>
 <body>
-<div id="map_container" style="float:left; width: 75%; overflow:auto" ></div>
-<div id="info_panel" style="float:right; width: 24%; background-color:00FF00; ">
+<div id="map_container" style="float:left; width: 75%; overflow:auto; border: 1px solid black" ></div>
+<div id="info_panel" style="float:right; width: 24.5%; height: 250px; overflow:auto; border: 1px solid black">
   <h2>Country Info</h2>
+  <strong>Country:</strong> <span id="c_name"></span> <br/>
   <hr />
   <div>
-    Country: <span id="c_name"></span> <br/>
     Lat: <span id="c_lat"></span> <br/>
     Long: <span id="c_lng"></span><br/>
 
   </div>
 </div>
+  <div id='story-panel' style='float:right; width: 24.5%; height: 250px; overflow:auto; border: 1px solid black'>
+    <h2>More Things</h2>
+    <hr />
+    <div>
+      <strong>Story:</strong> <br />
+      <span id="s_text"</span><br />
+    </div>
+  </div>
+<!-- div -->
 
 
 <script src="http://d3js.org/d3.v3.min.js"></script>
@@ -47,7 +56,6 @@ var width = 900,
 var projection = d3.geo.mercator()
     .center([0, 0 ])
     .scale(180)
-    // .rotate([-180,0]);
 
 var svg = d3.select("#map_container").append("svg")
     .attr("width", width)
@@ -69,8 +77,8 @@ svg.call(tip);
 
 
 // load and display the World
-d3.json("world-110m2.json", function(error, topology) {
-      d3.csv("countryLatLngs.csv", function(error, data) {
+d3.json("d3_tests/world-110m2.json", function(error, topology) {
+      d3.csv("OPSCENoutput.csv", function(error, data) {
         g.selectAll("circle")
            .data(data)
            .enter()
@@ -89,7 +97,7 @@ d3.json("world-110m2.json", function(error, topology) {
               d3.select(this).style('fill', 'lightblue')
 
               d3.select("#c_name")
-                .html(d.country_simple.toUpperCase());
+                .html(d.country);
               console.log("Value of i: " + i);
               console.log("country name: " + d3.select("#c_name").html() );
 
@@ -98,6 +106,9 @@ d3.json("world-110m2.json", function(error, topology) {
 
               d3.select('#c_lng')
                 .html(d.lng);
+
+              d3.select('#s_text')
+                .html(d.story)
 
            })
 
