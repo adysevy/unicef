@@ -19,7 +19,7 @@ def remove_punctuation(s):
         elif letter in punctuation:
             s_sans_punct += ' '
         #all left over characters are letters, so we keep them as-is.
-        else letter not in punctuation:
+        else:# letter not in punctuation:
             s_sans_punct += letter
     return s_sans_punct
 
@@ -154,7 +154,7 @@ lng = []
 # google's geolocation API to get the lat and lng of the country's
 # centroid point. This lets Google do the hard work of sorting out
 # countries that are misspelled or which go by several spellings
-# (i.e. DRC, DR Congo, Democratic Republic of Congo)
+# (i.e. DRC, DR Congo, Democratic Republic of Congo). 
 for i in uniqueCountryList:
     googleGeolocation = goog.address_locator(i)
     lat.append(googleGeolocation['lat'])
