@@ -4,33 +4,24 @@ from docx import Document
 from datetime import datetime
 import pandas as pd
 import json
-import googleAddressLocator as goog
 import string
+# importing my googleAddressLocator.py script as a module
+import googleAddressLocator as goog
 
 punctuation = "!\"#$%&'()*+,-./:;<=>?@[\\]^_`{|}~"
 def remove_punctuation(s):
     s_sans_punct = ""
     for letter in s:
+        # this discards all non-ascii characters and replaces with a space
         if letter not in string.ascii_letters:
             s_sans_punct += ' '
-        elif letter not in punctuation:
-            s_sans_punct += letter
+        # removes all punctuation in the string above, saved as var punctuation
         elif letter in punctuation:
             s_sans_punct += ' '
+        #all left over characters are letters, so we keep them as-is.
+        else letter not in punctuation:
+            s_sans_punct += letter
     return s_sans_punct
-
-# centroids = pd.read_csv('countrycentroidsmm.csv', usecols=['Country_name', 
-#     'UNc_latitude', 'UNc_longitude'])
-
-# with open('countryTranslateDict.json') as json_file:
-#     countryCrosswalk = json.load(json_file)
-
-#stripping the country names in my centroid file of punctuation, 
-#leading/trailing spaces, and converting to all lower-case.
-# centroids['Country_name'] = centroids['Country_name'].apply(lambda x: remove_punctuation(x))
-# centroids['Country_name'] = centroids['Country_name'].apply(lambda x: x.strip())
-# centroids['Country_name'] = centroids['Country_name'].apply(lambda x: x.lower())
-
 
 dates = []
 file_names = []
@@ -39,8 +30,8 @@ regions = []
 stories = []
 titles = []
 links = []
-# lat = []
-# lng = []
+# countries_simple is added for the stripped country names. We preserve
+#countries, above, as they are entered in documents, for the display text
 countries_simple = []
 
 regions_codes = {'GENERAL':'General',\
@@ -55,7 +46,6 @@ regions_codes = {'GENERAL':'General',\
                  'SA':'South Asia'}
 
 folder = 'OPSCEN Brief 2014/'
-# folder = 'test/'
 
 special_files = ['UNICEF OPSCEN Brief – 29 December 2014.docx',
     'UNICEF OPSCEN Brief – 30 December 2014.docx',
@@ -66,6 +56,14 @@ flag_title = False
 flag_story = False
 curr_story = ''
             
+''' 
+# FYI: I moved the code from a try-except statement to a try-except-else statement
+# to fit with best practices. In try-except, you really just want the code that
+# might thrown an exception in the try part. All of the code you want to execute
+# if try is successful goes into the else statement. This prevents accidental
+# triggering of the except clause because of some other warning, error or simply
+# an if-else statement within code to be executed.
+'''
 for file_name in os.listdir(folder):
     try:
         f = open(folder+file_name)
@@ -104,13 +102,7 @@ for file_name in os.listdir(folder):
                 links.append(p.text)
 
                 formattedcountry = remove_punctuation(curr_country).strip().lower()
-                # print formattedcountry
-                # googleGeolocation = goog.address_locator(formattedcountry)
-                # lat.append(googleGeolocation['lat'])
-                # lng.append(googleGeolocation['lng'])
-
                 countries_simple.append(formattedcountry)
-
 
                 flag_country = True
                 flag_title = False
@@ -137,56 +129,49 @@ for file_name in os.listdir(folder):
                 curr_story = curr_story + p.text
                 continue
 
-
-
     f.close()
-
-print len(regions)
-print len(stories)
-print len(countries)
-print len(titles)
-print len(links)
-print len(dates)
-print len(countries_simple)
-
-"""
-Add in matching on formatted countries == centroid country names, inserting 
-the appropriate lat and long into the lat and lng lists.
-"""
 
 df = pd.DataFrame({'region':regions, 'country':countries, 'title': titles, 
                     'story':stories,\
                     'link': links,\
                     'file_name':file_names,\
                     'date':dates,
-                   # 'lat': lat,
-                   # 'lng': lng,
                     'country_simple': countries_simple})
 
-# df['country'] = df['country'].apply(lambda x: remove_punctuation(x))
+# stripping all leading and trailing spaces from the country display field
 df['country'] = df['country'].apply(lambda x: x.strip())
-# df['country'].apply(lambda x: x.lower())
 
-# dfmerged = pd.merge(df, centroids, how='left', on='Country_name', left_index=False)
+# debugging: checking the size of the dataframe
+print df.shape
 
+# creating a list of the unique country names from our files
 uniqueCountryList = df.country_simple.unique()
+# initializing lists to hold the lat and lng for country centroids
 lat = []
 lng = []
 
+# looping through the list of unique countries, running them through
+# google's geolocation API to get the lat and lng of the country's
+# centroid point. This lets Google do the hard work of sorting out
+# countries that are misspelled or which go by several spellings
+# (i.e. DRC, DR Congo, Democratic Republic of Congo)
 for i in uniqueCountryList:
     googleGeolocation = goog.address_locator(i)
     lat.append(googleGeolocation['lat'])
     lng.append(googleGeolocation['lng'])
 
+# creating a dataframe with just the unique country names and their centroids
 centroids = pd.DataFrame(data={'country_simple': uniqueCountryList,
     'lat': lat, 'lng': lng})
 
+# saving that list to a csv
+centroids.to_csv('countryLatLngs.csv')
+
+# adding country centroids to our main dataframe, by joining on the
+# simplified country name field.
 df = pd.merge(df, centroids, how='left', on='country_simple', 
     left_index=False)
 
+# finally, saving all our hard work to csv
 df.to_csv('OPSCENoutput.csv', encoding = 'utf-8')
-
-# dfmerged.to_csv('OPSCENoutputMERGE.csv', encoding='utf-8')
-
-# print df.head()
 
