@@ -36,6 +36,8 @@ for curr_country in df['country'].values:
 #adding the simplified country names to the dataframe for merging with 
 #centroid file created below.
 df['country_simple'] = countries_simple
+df['story_title'] = df['title']
+df['story_link'] = df['link']
 
 # creating a list of the unique country names from our files
 uniqueCountryList = df.country_simple.unique()
@@ -66,4 +68,4 @@ df = pd.merge(df, centroids, how='left', on='country_simple',
     left_index=False)
 
 # finally, saving all our hard work to csv
-df.to_csv('OPSCENoutput.csv', encoding = 'utf-8')
+df.to_csv('OPSCENoutput1.csv', encoding = 'utf-8', index_label='row_index')
