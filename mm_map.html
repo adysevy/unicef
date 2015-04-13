@@ -31,27 +31,27 @@ body {
   <strong>Country:</strong> <span id="c_name"></span> 
   <br/>
   <hr />
-  <div>
-    Lat: <span id="c_lat"></span> <br/>
-    Long: <span id="c_lng"></span><br/>
-    <strong>Title:</strong> <span id="s_titles"></span>
-    <br />
-<!--     <div id="article_template" style="display:none;">
-      <p style="background: #999999;">Lorem ipsum title 1</p>
-    </div> -->
-  </div>
-  <div id="article_list">
-    <p style="background: #999999;">Lorem ipsum title 2</p>
-    <p style="background: #999999;">Lorem ipsum title 3</p>
-    <p style="background: #999999;">Lorem ipsum title 4</p>
-  </div>
+    <div>
+      Lat: <span id="c_lat"></span> <br/>
+      Long: <span id="c_lng"></span><br/>
+      <strong>Title:</strong> <span id="s_titles"></span>
+      <br />
+  <!--     <div id="article_template" style="display:none;">
+        <p style="background: #999999;">Lorem ipsum title 1</p>
+      </div> -->
+    </div>
+    <div id="article_list">
+      <p style="background: #999999;">Lorem ipsum title 2</p>
+      <p style="background: #999999;">Lorem ipsum title 3</p>
+      <p style="background: #999999;">Lorem ipsum title 4</p>
+    </div>
 </div>
 <div id='story-panel' style='float:right; width: 24.5%; height: 250px; overflow:auto; border: 1px solid black'>
   <h2>More Things</h2>
   <hr />
   <div>
     <strong>Story:</strong> <br />
-    <span id="s_text"</span><br />
+    <span id="s_text"></span><br />
   </div>
 </div>
 <!-- div -->
@@ -89,7 +89,7 @@ svg.call(tip);
 
 // load and display the World
 d3.json("d3_tests/world-110m2.json", function(error, topology) {
-      d3.csv("news_stories.csv", function(error, data) {
+      d3.csv("news_stories_map.csv", function(error, data) {
         g.selectAll("circle")
            .data(data)
            .enter()
