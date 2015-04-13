@@ -23,7 +23,7 @@ def remove_punctuation(s):
             s_sans_punct += letter
     return s_sans_punct
 
-df = pd.read_csv('news_stories.csv', index_col=[0])
+df = pd.read_csv('data/news_stories.csv', index_col=[0])
 
 # countries_simple is added for the stripped country names. We preserve
 #countries, above, as they are entered in documents, for the display text
@@ -68,4 +68,4 @@ df = pd.merge(df, centroids, how='left', on='country_simple',
     left_index=False)
 
 # finally, saving all our hard work to csv
-df.to_csv('OPSCENoutput1.csv', encoding = 'utf-8', index_label='row_index')
+df.to_csv('data/news_stories_with_lat_long.csv', encoding = 'utf-8', index_label='row_index')

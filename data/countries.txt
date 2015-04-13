@@ -7,7 +7,7 @@ Argentina
 Bolivia
 Cameroon
 Burkina Faso
-China 
+China
 Across Region
 Turkey
 China
@@ -117,7 +117,6 @@ Fiji
 Barbados
 Madagascar
 Liberia
-CAR
 Bosnia Herzegovina
 Sudan/S. Sudan
 Across MENA
