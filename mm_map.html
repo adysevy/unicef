@@ -89,7 +89,7 @@ svg.call(tip);
 
 // load and display the World
 d3.json("d3_tests/world-110m2.json", function(error, topology) {
-      d3.csv("news_stories_map.csv", function(error, data) {
+      d3.csv("data/news_stories_with_lat_long.csv", function(error, data) {
         g.selectAll("circle")
            .data(data)
            .enter()
