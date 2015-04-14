@@ -1,0 +1,1880 @@
+0,"Liberia",LOCATION
+0,"Somalia",LOCATION
+0,"Nepal",LOCATION
+0,"Chad",LOCATION
+0,"Ethiopia",LOCATION
+0,"Tanzania",LOCATION
+0,"Bangladesh",LOCATION
+0,"Guinea Bissau",LOCATION
+0,"Lancet",ORGANIZATION
+1,"Coca-Cola",ORGANIZATION
+1,"Pepsi",ORGANIZATION
+1,"Calvert Investments",ORGANIZATION
+1,"Ellen Kennedy",PERSON
+2,"Serbia",LOCATION
+2,"EU",ORGANIZATION
+2,"NATO",ORGANIZATION
+2,"Bosnia",LOCATION
+2,"Balkans",LOCATION
+3,"UNICEF",ORGANIZATION
+4,"Tajikistan",LOCATION
+4,"Gorno-Badakhshan",LOCATION
+4,"Dushanbe",LOCATION
+4,"Khorog",LOCATION
+4,"Afghanistan",LOCATION
+5,"Dogan",PERSON
+5,"Istanbul",LOCATION
+5,"Okmeydani",LOCATION
+6,"Washington",LOCATION
+6,"NATO",ORGANIZATION
+6,"West",LOCATION
+6,"Russia",LOCATION
+6,"Moscow",LOCATION
+6,"Kiev",LOCATION
+6,"US",LOCATION
+7,"Donetsk",LOCATION
+8,"Beijing",LOCATION
+8,"China",LOCATION
+8,"Reuters",ORGANIZATION
+8,"South China Sea",LOCATION
+8,"Nguyen Tan Dung",PERSON
+8,"Vietnam",LOCATION
+9,"South Korea",LOCATION
+9,"North Korea",LOCATION
+10,"Ministry of Public Security",ORGANIZATION
+11,"U.N.",ORGANIZATION
+11,"Rakhine",LOCATION
+11,"Myanmar",LOCATION
+11,"United Nations",ORGANIZATION
+12,"Thailand",LOCATION
+12,"Reuters",ORGANIZATION
+13,"Thailand",LOCATION
+13,"National Peace and Order Maintaining Council",ORGANIZATION
+14,"Kenya",LOCATION
+14,"Kenyas",LOCATION
+14,"Somalia",LOCATION
+14,"UNHCR",ORGANIZATION
+15,"Banda",PERSON
+15,"Joyce Banda",PERSON
+15,"Malawi",LOCATION
+16,"Godfrey Kamanya",PERSON
+17,"Senate",ORGANIZATION
+17,"Committee",ORGANIZATION
+17,"Venezuela",LOCATION
+17,"US",LOCATION
+17,"Barack Obama",PERSON
+17,"US Senate Foreign Relations Committee",ORGANIZATION
+18,"Mohamed al-Bata",PERSON
+18,"Nile delta village",LOCATION
+18,"Egypt",LOCATION
+18,"Raslan Fadl",PERSON
+18,"FGM",ORGANIZATION
+18,"Sohair",PERSON
+18,"Sohair al-Bata",PERSON
+19,"Khalifa Hifter",PERSON
+19,"Libya Central Shield",LOCATION
+19,"Misrata",LOCATION
+19,"Tripoli",LOCATION
+20,"Interior Ministry",ORGANIZATION
+20,"Libya",LOCATION
+20,"Haftar",LOCATION
+20,"Khalifa Qassim Haftar",PERSON
+20,"Gomaa al-Abbani",PERSON
+20,"Haftar",ORGANIZATION
+21,"Benghazi",LOCATION
+21,"Libya",LOCATION
+22,"Hamdallah",PERSON
+22,"Hamas",ORGANIZATION
+22,"Ismail Haniya",PERSON
+22,"Palestinian Authority",ORGANIZATION
+22,"Gaza",LOCATION
+22,"Rami Hamdallah",PERSON
+22,"West Bank",LOCATION
+23,"Damascus",LOCATION
+24,"Transparency International Asia-Pacific",ORGANIZATION
+24,"Srirak Plipat",PERSON
+25,"Afghanistan",LOCATION
+25,"Badakhshan",LOCATION
+25,"Mohammad Jan Rassoulyar",PERSON
+25,"AFP",ORGANIZATION
+25,"Zabul",LOCATION
+26,"Afghanistan",LOCATION
+26,"US",LOCATION
+27,"Raxaul",LOCATION
+27,"Old Delhi",LOCATION
+27,"Bihar",LOCATION
+28,"Turbat",LOCATION
+28,"Pakistan",LOCATION
+28,"Panjgur",LOCATION
+28,"Reuters",ORGANIZATION
+28,"Afghanistan",LOCATION
+28,"Tanzeemul Islam-ul-Furqan",PERSON
+28,"Organisation of Islam",ORGANIZATION
+28,"Baluchistan",LOCATION
+28,"Iran",LOCATION
+28,"Mohammad Ayub",PERSON
+29,"North Waziristan",LOCATION
+29,"Mir Ali",LOCATION
+30,"MNLA",ORGANIZATION
+30,"Facebook Inc.",ORGANIZATION
+30,"Mali",LOCATION
+30,"Liberation of Azawad",ORGANIZATION
+30,"National Movement",ORGANIZATION
+30,"Kidal",LOCATION
+31,"Nigeria",LOCATION
+31,"Congress",ORGANIZATION
+31,"Chad",LOCATION
+31,"Boko Haram",PERSON
+31,"United States",LOCATION
+31,"U.S.",LOCATION
+31,"State Department",ORGANIZATION
+31,"Barack Obama",PERSON
+31,"FBI",ORGANIZATION
+32,"Nigeria",LOCATION
+32,"Jos",PERSON
+33,"University of Minnesota 's Institute",ORGANIZATION
+34,"Ukraine",LOCATION
+34,"Fairfax Media",ORGANIZATION
+34,"Glenn Thomas",PERSON
+34,"Lange",PERSON
+34,"Melbourne",LOCATION
+34,"WHO",ORGANIZATION
+34,"Joep Lange",PERSON
+35,"Israel",LOCATION
+35,"Gaza",LOCATION
+35,"Istanbul",LOCATION
+36,"Organization for Security and Cooperation in Europe",ORGANIZATION
+36,"Ukraine",LOCATION
+36,"Russia",LOCATION
+36,"OSCE",ORGANIZATION
+37,"Mark Rutte",PERSON
+37,"Ukraine",LOCATION
+37,"Interfax-Ukraine",ORGANIZATION
+37,"Vladimir Putin",PERSON
+37,"The Hague",LOCATION
+37,"Arseniy Yatsenyuk",PERSON
+37,"Kiev",LOCATION
+38,"Guangdong",LOCATION
+38,"China",LOCATION
+38,"National Meteorological Centre",ORGANIZATION
+38,"Xinhua",ORGANIZATION
+38,"Hainan",LOCATION
+38,"Philippines",LOCATION
+39,"Brunei",LOCATION
+39,"Taiwan",LOCATION
+39,"China",LOCATION
+39,"Spratlys",ORGANIZATION
+39,"Malaysia",LOCATION
+39,"Philippines",LOCATION
+39,"South China Sea",LOCATION
+39,"Vietnam",LOCATION
+39,"Manila",LOCATION
+39,"Scarborough Shoal",PERSON
+40,"Philippinesthis",LOCATION
+40,"Rammasun",PERSON
+40,"Alexander Parma",PERSON
+40,"Manila",LOCATION
+41,"National Anti-Corruption Commission",ORGANIZATION
+41,"Thailand",LOCATION
+41,"Yingluck Shinawatra",PERSON
+41,"Yingluck",PERSON
+42,"UDF",ORGANIZATION
+42,"Issa Timamy",PERSON
+42,"Mpeketoni",LOCATION
+42,"Lamu",LOCATION
+42,"Timamy",PERSON
+42,"Kenya",LOCATION
+42,"United Democratic Forum",ORGANIZATION
+42,"Lamu County",LOCATION
+43,"Malawi Electoral Commission",ORGANIZATION
+43,"Inspector General of Police",ORGANIZATION
+43,"Peter Mutharika",PERSON
+43,"Malawi",LOCATION
+43,"Maxon Mbendera",PERSON
+44,"Jamaica",LOCATION
+44,"San Juan",LOCATION
+44,"Kevin Harvey",PERSON
+44,"Puerto Rico",LOCATION
+44,"US",LOCATION
+44,"Caribbean",LOCATION
+44,"Ana Rius",PERSON
+45,"UNICEF",ORGANIZATION
+45,"ILO",ORGANIZATION
+45,"Bolivia",LOCATION
+46,"Dilma Rousseff",PERSON
+46,"Latin America",LOCATION
+46,"Brazil",LOCATION
+47,"Michoacan",LOCATION
+47,"Mexico",LOCATION
+47,"Rosa Verduzco",PERSON
+47,"Zamora",LOCATION
+48,"Lebanon",LOCATION
+48,"Nusra Front",ORGANIZATION
+48,"Hezbollah",ORGANIZATION
+48,"Qalamoun",LOCATION
+48,"Syria",LOCATION
+48,"al Qaeda",ORGANIZATION
+49,"Gaza",LOCATION
+49,"Israel",LOCATION
+49,"UN",ORGANIZATION
+49,"Gaza City",LOCATION
+50,"Benjamin Netanyahu",PERSON
+50,"Israel",LOCATION
+50,"Hamas",ORGANIZATION
+50,"Gaza",LOCATION
+50,"Gaza Strip",LOCATION
+51,"Ashraf al-Qudra",PERSON
+51,"Israel",LOCATION
+51,"Gaza",LOCATION
+51,"Beit Hanun",LOCATION
+51,"Gaza Strip",LOCATION
+52,"Abbas",PERSON
+52,"Isarel",LOCATION
+52,"Hamas",ORGANIZATION
+52,"Cairo",LOCATION
+52,"Israel",LOCATION
+52,"Egypt",LOCATION
+52,"Gaza",LOCATION
+52,"Mahmud Abbas",PERSON
+52,"Gaza Strip",LOCATION
+52,"MENA",ORGANIZATION
+53,"Abbas",PERSON
+53,"Hamas",ORGANIZATION
+53,"Egypt",LOCATION
+53,"Israel",LOCATION
+53,"Sisi",PERSON
+53,"Mahmoud Abbas",PERSON
+53,"Gaza",LOCATION
+53,"Abdel Fattah al-Sisi",PERSON
+54,"UN",ORGANIZATION
+54,"Islamic State",ORGANIZATION
+54,"Iraq",LOCATION
+55,"Mokhtar Lakhdar",PERSON
+55,"Zintan",LOCATION
+55,"Misrata",LOCATION
+55,"Tripoli",LOCATION
+56,"Mohamed Abdelaziz",PERSON
+56,"UN",ORGANIZATION
+56,"Abdelaziz",PERSON
+56,"Libya",LOCATION
+56,"UN Security Council",ORGANIZATION
+57,"Syrian Observatory for Human Rights",ORGANIZATION
+57,"Homs",LOCATION
+57,"Shaar",LOCATION
+58,"Iraq",LOCATION
+58,"Tunisia",LOCATION
+58,"North Africa",LOCATION
+58,"Syria",LOCATION
+58,"Mount Chaambi",LOCATION
+58,"Mehdi Jomaa",PERSON
+59,"Al-Aram",LOCATION
+59,"Shabwa",LOCATION
+60,"Afghanistan",LOCATION
+60,"Kabuls",LOCATION
+60,"Taliban",ORGANIZATION
+60,"NATO",ORGANIZATION
+61,"Kabul",LOCATION
+61,"Arapid",PERSON
+61,"Taliban",ORGANIZATION
+62,"Bangalore",LOCATION
+63,"Pakistan",LOCATION
+63,"North Waziristan",LOCATION
+63,"Taliban",ORGANIZATION
+63,"Afghanistan",LOCATION
+64,"Washington",LOCATION
+64,"Liberia",LOCATION
+64,"Guinea",LOCATION
+64,"Sierra Leone",LOCATION
+64,"US Centers for Disease Control and Prevention",ORGANIZATION
+64,"UN-backed WHO",ORGANIZATION
+64,"Scott Dowell",PERSON
+64,"West Africa",LOCATION
+65,"Liberia",LOCATION
+65,"Sierra Leone",LOCATION
+65,"Guinea",LOCATION
+66,"Mediterranean",LOCATION
+66,"Europe",LOCATION
+66,"North Africa",LOCATION
+66,"Libya",LOCATION
+66,"Italy",LOCATION
+66,"Syria",LOCATION
+67,"Syria",LOCATION
+67,"UNHCR",ORGANIZATION
+68,"Sudan",LOCATION
+68,"Egypt",LOCATION
+68,"Nile River",LOCATION
+68,"Ethiopia",LOCATION
+68,"Tanzania",LOCATION
+68,"Cairo",LOCATION
+68,"Kenya",LOCATION
+68,"Burundi",LOCATION
+68,"Uganda",LOCATION
+68,"Rwanda",LOCATION
+69,"Ukraine",LOCATION
+69,"Brussels",LOCATION
+69,"Russia",LOCATION
+69,"Anders Fogh Rasmussen",PERSON
+69,"NATO",ORGANIZATION
+69,"European Union",ORGANIZATION
+70,"Black Sea",LOCATION
+70,"Bulgaria",LOCATION
+70,"Varna",LOCATION
+71,"Ankara",LOCATION
+71,"Turkey",LOCATION
+71,"Istanbul",LOCATION
+72,"EU",ORGANIZATION
+72,"EU",LOCATION
+72,"Ukraine",LOCATION
+72,"Kiev",LOCATION
+72,"Brussels",LOCATION
+73,"Ukraine",LOCATION
+73,"Russia",LOCATION
+74,"Russian Federation",LOCATION
+74,"Koval",PERSON
+74,"Ukraine",LOCATION
+74,"Russia",LOCATION
+74,"Mykhailo Koval",PERSON
+75,"China",LOCATION
+75,"Hainan Island",LOCATION
+75,"Maritime Safety Administration",ORGANIZATION
+75,"Hanoi",LOCATION
+75,"Vietnam",LOCATION
+76,"Paul Paraka",PERSON
+76,"Papua New Guinea",LOCATION
+77,"Ramon",PERSON
+77,"Cavite province",LOCATION
+77,"Revilla",PERSON
+77,"Asia",LOCATION
+77,"Sandiganbayan",ORGANIZATION
+77,"Manila",LOCATION
+78,"Kenya",LOCATION
+78,"Interior Ministry",ORGANIZATION
+78,"Somalia",LOCATION
+78,"Mpeketoni",LOCATION
+79,"Riek Machar",PERSON
+79,"IGAD",ORGANIZATION
+79,"South Sudan",LOCATION
+79,"Salva Kiir",PERSON
+79,"Mahboub Maalim",PERSON
+80,"Reuters",ORGANIZATION
+80,"Ofwono Opondo",PERSON
+80,"US",LOCATION
+80,"Uganda",LOCATION
+80,"Kampala",LOCATION
+81,"Colombia",LOCATION
+82,"Abdullah",PERSON
+82,"Hosni Mubarak",PERSON
+82,"Saudi Arabia",LOCATION
+82,"Egypt",LOCATION
+82,"Abdel-Fattah el-Sissi",PERSON
+82,"Morocco",LOCATION
+82,"U.S.",LOCATION
+82,"el-Sissi",PERSON
+83,"Egypt",LOCATION
+83,"Muslim Brotherhood",ORGANIZATION
+83,"Mohammed Morsi",PERSON
+83,"Mohammed Badie",PERSON
+84,"Iran",LOCATION
+84,"Razieh Ebrahimi",PERSON
+84,"Mehr",ORGANIZATION
+84,"Ebrahimi",PERSON
+84,"Human Rights Watch",ORGANIZATION
+85,"Dahr al-Baidar",PERSON
+85,"Internal Security Forces",ORGANIZATION
+85,"Beirut",LOCATION
+85,"Beirut-Damascus",LOCATION
+85,"Bekaa Valley",LOCATION
+85,"The Daily Star",ORGANIZATION
+86,"Ezzedine al-Qassam Brigades",PERSON
+86,"AFP",ORGANIZATION
+86,"Israel",LOCATION
+86,"Hamas",ORGANIZATION
+87,"West Bank",LOCATION
+87,"Jenin",LOCATION
+88,"Hamas",ORGANIZATION
+88,"Israel",LOCATION
+88,"Mohammed Dudin",PERSON
+88,"Hebron",LOCATION
+88,"Dura",LOCATION
+88,"West Bank",LOCATION
+89,"Kurdish Democratic Union Party",ORGANIZATION
+89,"Syria",LOCATION
+89,"Damascus",LOCATION
+89,"People 's Protection Units",ORGANIZATION
+90,"Lebanon",LOCATION
+90,"Shiite Hezbollah",ORGANIZATION
+90,"Al-Nusra Front allies",ORGANIZATION
+90,"Damascus",LOCATION
+90,"Mleiha",LOCATION
+90,"Syrian Observatory for Human Rights",ORGANIZATION
+91,"Syria",LOCATION
+91,"Turkey",LOCATION
+92,"Hama",LOCATION
+92,"Bashar al-Assad",PERSON
+92,"Syria",LOCATION
+92,"Syrian Observatory for Human Rights",ORGANIZATION
+92,"Hurra",PERSON
+92,"SANA",ORGANIZATION
+93,"Ali Larayedh",PERSON
+93,"Larayedh",PERSON
+93,"Tunisia",LOCATION
+94,"Kashmir",LOCATION
+94,"Srinagar",LOCATION
+95,"Pyuthan",LOCATION
+95,"Deepak Regmi",PERSON
+95,"Gulmi",LOCATION
+95,"Nepal",LOCATION
+96,"Peshawar",LOCATION
+96,"Khyber Pakhtunkhwa",LOCATION
+96,"Pakistan",LOCATION
+96,"North Waziristan",LOCATION
+96,"Matan Adezai",LOCATION
+97,"North Waziristan",LOCATION
+97,"Taliban",ORGANIZATION
+98,"N. M. Ameen",PERSON
+98,"Agence France Presse",ORGANIZATION
+98,"Muslim",ORGANIZATION
+98,"Sri Lanka",LOCATION
+98,"Muslim Council",ORGANIZATION
+99,"Herve Ladsous",PERSON
+99,"UN",ORGANIZATION
+99,"Mali",LOCATION
+99,"Ladsous",PERSON
+99,"UN Security Council",ORGANIZATION
+100,"Sahel",LOCATION
+100,"Mohamad Ould Abdel-Aziz",PERSON
+101,"Africa",LOCATION
+101,"London",LOCATION
+101,"Kristen Sandberg",PERSON
+101,"UN Committee",ORGANIZATION
+101,"UK",LOCATION
+102,"European Commission",ORGANIZATION
+102,"Ukraine",LOCATION
+102,"Brussels",LOCATION
+102,"Russia",LOCATION
+102,"EU",ORGANIZATION
+102,"Jose Manuel Barroso",PERSON
+103,"EU",ORGANIZATION
+103,"Kosovo",LOCATION
+103,"European Union",ORGANIZATION
+104,"Ban",PERSON
+104,"New York",LOCATION
+104,"UN",ORGANIZATION
+104,"Ukraine",LOCATION
+104,"Minsk",LOCATION
+105,"National Security",ORGANIZATION
+105,"Ukraine",LOCATION
+105,"Defense Council",ORGANIZATION
+106,"Benigno Aquino",PERSON
+106,"Philippines",LOCATION
+106,"Haiyan",PERSON
+106,"Tacloban",LOCATION
+106,"Leyte province",LOCATION
+107,"US State Department",ORGANIZATION
+107,"Burundi",LOCATION
+107,"US",LOCATION
+108,"Democratic Movement of Mozambique",ORGANIZATION
+108,"Frelimo",ORGANIZATION
+108,"Mozambique",LOCATION
+108,"Renamo",ORGANIZATION
+108,"Afonso Dhlakama",PERSON
+108,"Daviz Simango",PERSON
+108,"Filipe Nyusi",PERSON
+109,"ICG",ORGANIZATION
+109,"South Sudan",LOCATION
+110,"Revolutionary Armed Forces of Colombia",ORGANIZATION
+110,"FARC",ORGANIZATION
+110,"Latin America",LOCATION
+110,"Colombia",LOCATION
+111,"Senate",ORGANIZATION
+111,"Haiti",LOCATION
+111,"Parliament",ORGANIZATION
+111,"Chamber of Deputies",ORGANIZATION
+111,"John Kerry",PERSON
+111,"US",LOCATION
+111,"Thomas Shannon",PERSON
+112,"Iguala",LOCATION
+112,"PRD",ORGANIZATION
+112,"Guerrero",LOCATION
+113,"Al-Aqsa",LOCATION
+113,"Israel",LOCATION
+113,"Mahmud Abbas",PERSON
+113,"Jerusalem",LOCATION
+114,"Al-Quds",ORGANIZATION
+114,"Nabil Abu Rudaina",PERSON
+114,"UN General Assembly",ORGANIZATION
+114,"Mahmoud Abbas",PERSON
+114,"Sweden",LOCATION
+114,"Palestine",LOCATION
+115,"Al-Bayda",PERSON
+116,"Kutch",LOCATION
+116,"Gujarat",LOCATION
+116,"Jamnagar",LOCATION
+117,"Abdullah Haqqani",PERSON
+117,"Pakistan",LOCATION
+117,"Taliban",ORGANIZATION
+117,"Birmil",LOCATION
+117,"South Waziristan",LOCATION
+117,"Wana",LOCATION
+117,"Haqqani",PERSON
+117,"US",LOCATION
+117,"Nargas",LOCATION
+117,"Afghanistan",LOCATION
+118,"Sindh",LOCATION
+118,"Pakistan",LOCATION
+118,"National Disaster Management Authority",ORGANIZATION
+118,"Balochistan",LOCATION
+118,"Pakistan Meteorological Department",ORGANIZATION
+119,"Sri Lanka",LOCATION
+120,"Blaise Compaore",PERSON
+121,"Burkina Fasos",PERSON
+121,"Traor",PERSON
+121,"Blaise Compaor",PERSON
+121,"National Assembly",ORGANIZATION
+122,"Blaise Compaore",PERSON
+122,"Burkina Faso",LOCATION
+123,"Blaise Compaore",PERSON
+123,"Burkina Faso",LOCATION
+123,"US",LOCATION
+124,"Agriculture Organization",ORGANIZATION
+124,"FAO",ORGANIZATION
+124,"Central African Republic",LOCATION
+125,"ADF",ORGANIZATION
+125,"DR Congo",LOCATION
+125,"Teddy Kataliko",PERSON
+125,"Beni",LOCATION
+125,"Kampi ya Chui",LOCATION
+126,"Niger",LOCATION
+126,"Tillabry",LOCATION
+126,"Mali",LOCATION
+127,"Adamawa",LOCATION
+127,"Gombe",LOCATION
+127,"Nigeria",LOCATION
+127,"Boko Haram",PERSON
+127,"Mubi",LOCATION
+128,"Ukraine",LOCATION
+128,"Vladimir Putin",PERSON
+128,"Obama",PERSON
+128,"Moscow",LOCATION
+128,"US",LOCATION
+128,"Barack Obama",PERSON
+129,"North Kivu",PERSON
+129,"Democratic Forces for the Liberation of Rwanda",ORGANIZATION
+129,"DR Congo",LOCATION
+129,"North Kivu",LOCATION
+129,"FDLR",ORGANIZATION
+129,"Rwanda",LOCATION
+130,"Medvedev",PERSON
+130,"Ukraine",LOCATION
+130,"Russia",LOCATION
+130,"Dmitry Medvedev",PERSON
+131,"Boris Gasparyan",PERSON
+131,"Andranik Egoyan",PERSON
+131,"Karabakh",LOCATION
+131,"Armenia",LOCATION
+132,"Thaci",PERSON
+132,"Serbia",LOCATION
+132,"Kosovo",LOCATION
+132,"Hashim Thaci",PERSON
+132,"Belgrade",LOCATION
+132,"EU",ORGANIZATION
+132,"Pristina",LOCATION
+133,"Lugansk",LOCATION
+133,"Ukraine",LOCATION
+134,"Xinjiang",LOCATION
+134,"Xi Jinping",PERSON
+135,"Sombat Boonngamanong",PERSON
+135,"Information and Communication Technology Ministry",ORGANIZATION
+135,"Bangkok",LOCATION
+135,"Pisit Pao-in",PERSON
+135,"Thailand",LOCATION
+135,"Chonburi province",LOCATION
+136,"Thailand",LOCATION
+136,"Commerce Ministry",ORGANIZATION
+137,"Ethiopia",LOCATION
+137,"Addis Ababa Football Stadium",LOCATION
+137,"Bole Mekaa'iil",ORGANIZATION
+137,"Addis Ababa",LOCATION
+138,"Mozambique",LOCATION
+138,"Renamo",ORGANIZATION
+139,"Washington",LOCATION
+139,"Kagame",PERSON
+139,"Paul Kagame",PERSON
+140,"Amos",PERSON
+140,"U.N.",ORGANIZATION
+140,"Valerie Amos",PERSON
+140,"Somalia",LOCATION
+140,"U.N. Security Council",ORGANIZATION
+141,"Tutu",PERSON
+141,"Desmond Tutu",PERSON
+141,"Mswati III",PERSON
+141,"Swaziland",LOCATION
+142,"Zuluaga",PERSON
+142,"Cabinet",ORGANIZATION
+142,"Alvaro Uribe",PERSON
+142,"Juan Manuel Santos",PERSON
+142,"Uribe",PERSON
+142,"Invamer-Gallup",ORGANIZATION
+142,"Colombia",LOCATION
+142,"El Espectador",ORGANIZATION
+142,"Santos",PERSON
+142,"Ivan Zuluaga",PERSON
+143,"Venezuela",LOCATION
+143,"Cano Limon-Covenas",PERSON
+143,"Ecopetrol",ORGANIZATION
+143,"FARC",ORGANIZATION
+143,"ELN",ORGANIZATION
+143,"Colombia",LOCATION
+143,"Norte de Santander",LOCATION
+144,"Mara Salvatrucha",PERSON
+144,"El Salvador",LOCATION
+144,"Salvador Sanchez Ceren",PERSON
+145,"Western Hemisphere",LOCATION
+145,"South America",LOCATION
+145,"Guyana",LOCATION
+145,"Caribbean Public Health Agency",ORGANIZATION
+145,"Suriname",LOCATION
+146,"Chamber of Deputies",ORGANIZATION
+146,"Canada",LOCATION
+146,"France",LOCATION
+146,"Port-au-Prince",LOCATION
+146,"United States",LOCATION
+147,"Bay of Campeche",LOCATION
+147,"NHC",ORGANIZATION
+147,"Mexico",LOCATION
+147,"U.S. National Hurricane Center",ORGANIZATION
+148,"Paraguay",LOCATION
+148,"Asuncion",LOCATION
+148,"Paraguay River",LOCATION
+148,"National Emergency Secretariat",ORGANIZATION
+149,"Choucha",PERSON
+149,"Tunisia",LOCATION
+149,"UNHCR",ORGANIZATION
+149,"Libya",LOCATION
+150,"UN",ORGANIZATION
+150,"Egypt",LOCATION
+150,"Adly Mansour",PERSON
+151,"Hosni Mubarak",PERSON
+151,"Egypt",LOCATION
+152,"Shiite Islam",ORGANIZATION
+152,"Al-Muwaffaqiyah",LOCATION
+152,"Nineveh",LOCATION
+152,"Shabak",LOCATION
+153,"Lebanon",LOCATION
+153,"UNHCR",ORGANIZATION
+153,"Cabinet",ORGANIZATION
+153,"Tammam Salam",PERSON
+153,"Interior",ORGANIZATION
+153,"Nouhad Machnouk",PERSON
+153,"Syria",LOCATION
+154,"Europe",LOCATION
+154,"Muammar Gaddafi",PERSON
+154,"Gharbouli",LOCATION
+154,"North Africa",LOCATION
+154,"Libya",LOCATION
+154,"Reuters",ORGANIZATION
+154,"Tripoli",LOCATION
+154,"Italy",LOCATION
+155,"al-Hassi",PERSON
+155,"Salem al-Hassi",PERSON
+155,"Libya",LOCATION
+155,"Supreme Constitutional Court",ORGANIZATION
+155,"Associated Press",ORGANIZATION
+155,"Ahmed Maiteg",PERSON
+155,"Mohammed al-Arisha",PERSON
+156,"Washington",LOCATION
+156,"Israeli Housing Ministry",ORGANIZATION
+156,"Hamas",ORGANIZATION
+156,"Israel",LOCATION
+156,"East Jerusalem",LOCATION
+156,"Uri Ariel",PERSON
+156,"West Bank",LOCATION
+157,"South Darfur",LOCATION
+157,"Janjaweed",ORGANIZATION
+157,"Kalma",PERSON
+157,"Radio Dabanga",PERSON
+157,"Kalma",LOCATION
+157,"Saleh Issa",PERSON
+158,"Levant",PERSON
+158,"Amnesty International",ORGANIZATION
+158,"Iraq",LOCATION
+158,"Hassakeh",LOCATION
+158,"Isis",ORGANIZATION
+158,"Syria",LOCATION
+159,"Afghanistan",LOCATION
+159,"Abdullah",PERSON
+159,"Zalmai Rassoul",PERSON
+159,"Tolo News TV",ORGANIZATION
+159,"Kabul",LOCATION
+159,"Abdullah Abdullah",PERSON
+159,"Tolo",PERSON
+160,"India",LOCATION
+160,"Golden Temple",LOCATION
+160,"AFP",ORGANIZATION
+160,"Amritsar",LOCATION
+161,"FDMA",ORGANIZATION
+161,"Afghanistan",LOCATION
+161,"Taliban",ORGANIZATION
+161,"Khost",LOCATION
+161,"North Waziristan",LOCATION
+161,"FATA Disaster Management Authority",ORGANIZATION
+161,"Paktika",LOCATION
+162,"Lahore",LOCATION
+162,"Farzana Parveen",PERSON
+163,"Afghanistan",LOCATION
+163,"Hafiz Gul Bahadar",PERSON
+163,"North Waziristan",LOCATION
+163,"Taliban",ORGANIZATION
+163,"Wazir",PERSON
+164,"Sri Lanka",LOCATION
+164,"Kalutara",LOCATION
+165,"India",LOCATION
+165,"Sinhala",PERSON
+165,"Parliament",ORGANIZATION
+165,"GL Peiris",PERSON
+166,"Security Council",ORGANIZATION
+166,"UN",ORGANIZATION
+167,"Democratic Republic of Congo",LOCATION
+167,"Bukavu",LOCATION
+167,"AFP",ORGANIZATION
+168,"Mahamar Mohamed El Moctar",PERSON
+168,"Reuters",ORGANIZATION
+168,"Mali",LOCATION
+168,"Youth Ministry",ORGANIZATION
+168,"Ibrahim Boubacar Keita",PERSON
+169,"Mediterranean",LOCATION
+169,"Africa",LOCATION
+169,"Niger",LOCATION
+169,"Europe",LOCATION
+169,"Algeria",LOCATION
+169,"Italy",LOCATION
+170,"Borno State",LOCATION
+170,"Gwoza",LOCATION
+170,"Special Forces of the Nigerian Army Unit",ORGANIZATION
+170,"NAN",ORGANIZATION
+170,"Boko Haram",PERSON
+170,"News Agency of Nigeria",ORGANIZATION
+171,"IATA",ORGANIZATION
+171,"West Africa",LOCATION
+172,"Sierra Leonean",ORGANIZATION
+172,"Ali Aden Houmed",PERSON
+172,"Somalia",LOCATION
+173,"Luhansk",LOCATION
+173,"Ukraine",LOCATION
+174,"Shakhtarsk",LOCATION
+174,"Ukraine",LOCATION
+175,"China",LOCATION
+175,"Xinjiang",LOCATION
+175,"Juma Tayir",PERSON
+175,"Silk Road",LOCATION
+175,"Kashgar",LOCATION
+175,"Id Kah Mosque",LOCATION
+176,"Benigno Aquino",PERSON
+176,"Philippines",LOCATION
+176,"Haiyan",PERSON
+177,"Mogadishu",LOCATION
+177,"al-Shebaab",PERSON
+177,"Abdiaziz Abu Musab",PERSON
+177,"Somalia",LOCATION
+177,"Shebab",ORGANIZATION
+178,"FAO",ORGANIZATION
+178,"South Sudan",LOCATION
+179,"Africa",LOCATION
+179,"Sudan",LOCATION
+179,"Ethiopia",LOCATION
+179,"United Kingdom",LOCATION
+179,"South Sudans",LOCATION
+179,"Mark Simmonds",PERSON
+180,"Juba",LOCATION
+180,"South Sudan",LOCATION
+180,"Upper Nile",LOCATION
+180,"Torit",LOCATION
+180,"Jonglei",LOCATION
+180,"Eastern Equatoria",LOCATION
+180,"Western Equatoria",LOCATION
+180,"Central Equatoria",LOCATION
+180,"Eastern Equatoria",ORGANIZATION
+180,"Uganda",LOCATION
+181,"Inter-American Court of Human Rights",ORGANIZATION
+181,"Guatemala",LOCATION
+182,"Algiers",LOCATION
+182,"USGS",ORGANIZATION
+183,"Washington",LOCATION
+183,"Obama",PERSON
+183,"US",LOCATION
+183,"Iraq",LOCATION
+184,"Muammar Gaddafi",PERSON
+184,"Benghazi",LOCATION
+184,"Libya",LOCATION
+184,"Tripoli",LOCATION
+185,"European Union",ORGANIZATION
+185,"Tunisia",LOCATION
+185,"Libya",LOCATION
+185,"EU",ORGANIZATION
+185,"Tripoli",LOCATION
+185,"EU",LOCATION
+186,"Israel",LOCATION
+186,"Gaza",LOCATION
+186,"Hamas",ORGANIZATION
+187,"Abbas",PERSON
+187,"Ziad al-Nakhale",PERSON
+187,"Azzam al-Ahmed",PERSON
+187,"Hamas",ORGANIZATION
+187,"Islamic Jihad",ORGANIZATION
+187,"Majed Faraj",PERSON
+187,"Palestinian Authority",ORGANIZATION
+187,"Gaza",LOCATION
+187,"Mahmud Abbas",PERSON
+187,"Cairo",LOCATION
+187,"Mussa Abu Marzuq",PERSON
+188,"Pierre Krhenbhl",PERSON
+188,"UN",ORGANIZATION
+188,"Israel",LOCATION
+188,"UNSC",ORGANIZATION
+188,"UNRWA",ORGANIZATION
+188,"Gaza",LOCATION
+188,"Islamist Hamas",ORGANIZATION
+189,"Syria",LOCATION
+189,"Valerie Amos",PERSON
+189,"UN",ORGANIZATION
+189,"UNSC",ORGANIZATION
+190,"Syria",LOCATION
+190,"Syrian Observatory for Human Rights",ORGANIZATION
+190,"Islamic State",ORGANIZATION
+190,"Iraq",LOCATION
+191,"Constitutional Court",ORGANIZATION
+191,"Uganda",LOCATION
+192,"Saifullah",PERSON
+192,"Logar",LOCATION
+192,"Mohamad Agha",LOCATION
+192,"Darwish",PERSON
+193,"India",LOCATION
+193,"West Bengal",LOCATION
+193,"UTWF",ORGANIZATION
+193,"Supreme Court",ORGANIZATION
+193,"Anuradha Talwar",PERSON
+193,"United Tea Workers Front",ORGANIZATION
+194,"India",LOCATION
+194,"Malin",LOCATION
+194,"Pune",LOCATION
+194,"Maharashtra",LOCATION
+195,"Pakistan",LOCATION
+195,"North Waziristan",LOCATION
+195,"Pakistani Taliban",ORGANIZATION
+196,"Liberia",LOCATION
+196,"Sierra Leone",LOCATION
+196,"West Africa",LOCATION
+196,"Guinea",LOCATION
+197,"Guinea",LOCATION
+197,"Aboubacar Sidiki Diakiti",PERSON
+197,"Sierra Leone",LOCATION
+197,"Liberia",LOCATION
+198,"Liberia",LOCATION
+198,"Guinea",LOCATION
+198,"MSF",ORGANIZATION
+198,"Sierra Leone",LOCATION
+198,"Doyone",PERSON
+198,"Health Ministry",ORGANIZATION
+198,"NGO",ORGANIZATION
+199,"Punch",ORGANIZATION
+199,"Nigeria",LOCATION
+199,"Lagos",LOCATION
+200,"Gambia",LOCATION
+200,"Ade Mamonyane Lekoetje",PERSON
+200,"UNDP",ORGANIZATION
+201,"WHO",ORGANIZATION
+201,"UNDP",ORGANIZATION
+201,"United Nations",ORGANIZATION
+202,"Africa",LOCATION
+202,"ITU",ORGANIZATION
+202,"Millicom",ORGANIZATION
+202,"UNICEF",ORGANIZATION
+202,"International Telecommunication Union",ORGANIZATION
+202,"Latin America",LOCATION
+203,"Mauritania",LOCATION
+203,"Ismail Ould Cheikh Ahmed",PERSON
+203,"UN Mission for Ebola Emergency Response",ORGANIZATION
+203,"Anthony Banbury",PERSON
+203,"Banbury",LOCATION
+203,"UN",ORGANIZATION
+203,"Ban Ki - moon",PERSON
+203,"Ahmed",PERSON
+203,"New York",LOCATION
+204,"West Bank",LOCATION
+204,"United Arab Emirates",LOCATION
+204,"Israel",LOCATION
+204,"NGO",ORGANIZATION
+204,"Islamic Relief Worldwide",ORGANIZATION
+205,"Ukraine",LOCATION
+205,"Russia",LOCATION
+206,"Donetsk",LOCATION
+206,"Luhansk",LOCATION
+206,"Ukraine",LOCATION
+207,"Ukraine",LOCATION
+207,"Organization for Security and Cooperation",ORGANIZATION
+207,"Kiev",LOCATION
+207,"Stina",PERSON
+207,"Europe",LOCATION
+207,"Kharkiv",LOCATION
+208,"New People 's Army",ORGANIZATION
+209,"Kenya",LOCATION
+209,"Interior Ministry",ORGANIZATION
+210,"Madagascar",LOCATION
+210,"Sucoma",LOCATION
+211,"Mogadishu",LOCATION
+212,"Senate",ORGANIZATION
+212,"Venezuela",LOCATION
+212,"Congress",ORGANIZATION
+212,"UN",ORGANIZATION
+212,"United States",LOCATION
+212,"House of Representatives",ORGANIZATION
+212,"US",LOCATION
+213,"Sohag",LOCATION
+213,"Egypt",LOCATION
+213,"WHO",ORGANIZATION
+214,"Moqtada al-Sadr",PERSON
+214,"Samarra",LOCATION
+214,"Islamic State",ORGANIZATION
+214,"Sadr",PERSON
+214,"Iraq",LOCATION
+215,"Souk al-Basra",LOCATION
+215,"Karbala",LOCATION
+216,"Athens",LOCATION
+217,"Jordan",LOCATION
+217,"Middle East",LOCATION
+217,"Cabinet",ORGANIZATION
+218,"Benghazi",LOCATION
+218,"Sabha",LOCATION
+218,"Ubari",LOCATION
+218,"Libyan Red Crescent",ORGANIZATION
+218,"Libya",LOCATION
+218,"Tripoli",LOCATION
+218,"ICRC",ORGANIZATION
+219,"United States",LOCATION
+219,"Israel",LOCATION
+219,"Switzerland",LOCATION
+219,"Geneva",LOCATION
+220,"West Bank",LOCATION
+220,"Jerusalem",LOCATION
+221,"Amin Makki Madani",PERSON
+221,"Omar al-Bashir",PERSON
+221,"Sudan",LOCATION
+221,"Geneva",LOCATION
+221,"Farouk Abu Issa",PERSON
+221,"U.N.",ORGANIZATION
+221,"Ravina Shamdasani",PERSON
+222,"Aleppo",LOCATION
+222,"Syrian Observatory for Human Rights",ORGANIZATION
+222,"Syria",LOCATION
+223,"Jordan",LOCATION
+223,"UNHCR",ORGANIZATION
+223,"Geneva",LOCATION
+223,"Hussein Majali",PERSON
+224,"Syria",LOCATION
+224,"Islamic State",ORGANIZATION
+225,"Somers",PERSON
+225,"Nasser bin Ali al-Ansi",PERSON
+225,"Obama",PERSON
+225,"Defence",ORGANIZATION
+225,"US",LOCATION
+225,"Arabian Peninsula",LOCATION
+225,"Chuck Hagel",PERSON
+225,"Korkie",PERSON
+225,"Barack Obama",PERSON
+226,"Afghanistan",LOCATION
+226,"Kabul",LOCATION
+228,"Shahid Usman",PERSON
+228,"Reuters",ORGANIZATION
+228,"Qaeda",PERSON
+228,"Karachi",LOCATION
+229,"IFRC",ORGANIZATION
+229,"Liberia",LOCATION
+229,"Guinea",LOCATION
+229,"Sierra Leone",LOCATION
+229,"Elhadj As Sy",PERSON
+229,"West Africa",LOCATION
+230,"Cameroon",LOCATION
+230,"Limani",PERSON
+230,"Boko Haram",PERSON
+230,"Nigeria",LOCATION
+230,"Amchide",LOCATION
+231,"Abdul Kadre",PERSON
+231,"John",PERSON
+231,"Mahamat Abdul",PERSON
+231,"MINUSCA",ORGANIZATION
+232,"Jean-Pierre Bemba",PERSON
+232,"Movement for the Liberation of Congo",ORGANIZATION
+233,"Senate",ORGANIZATION
+233,"Liberia",LOCATION
+233,"Ellen Sirleaf",PERSON
+233,"Monrovia",LOCATION
+234,"Boko Haram",PERSON
+234,"Jos",PERSON
+236,"Russia",LOCATION
+236,"EU",ORGANIZATION
+236,"Moscow",LOCATION
+236,"United States",LOCATION
+236,"U.S.",LOCATION
+236,"Crimea",LOCATION
+236,"European Union",ORGANIZATION
+237,"Parliament",ORGANIZATION
+237,"Tayyip Erdogan",PERSON
+238,"Sea of Azov",LOCATION
+238,"National Security and Defence Council",ORGANIZATION
+238,"Russia",LOCATION
+239,"European Commission",ORGANIZATION
+240,"EU",ORGANIZATION
+240,"European Union",ORGANIZATION
+240,"Ukraine",LOCATION
+240,"Kiev",LOCATION
+240,"Petro Poroshenko",PERSON
+241,"UN",ORGANIZATION
+241,"Buddhist",ORGANIZATION
+241,"Sittwe",LOCATION
+241,"Myanmar",LOCATION
+241,"Rakhine",LOCATION
+242,"Congress",ORGANIZATION
+242,"North Cotabato province",LOCATION
+243,"Thailand",LOCATION
+243,"Amnesty International",ORGANIZATION
+243,"Asia-Pacific",LOCATION
+244,"South Sudan",LOCATION
+245,"FARC",ORGANIZATION
+246,"Yondo",LOCATION
+246,"Middle Magdalena Bloc",LOCATION
+246,"Antioquia",LOCATION
+246,"FARC",ORGANIZATION
+246,"Bolivar",LOCATION
+246,"Santander",PERSON
+246,"Antioquia province",LOCATION
+247,"Caribbean",LOCATION
+247,"Americas",LOCATION
+247,"Fernando Ruiz",PERSON
+247,"Colombia",LOCATION
+248,"Haiti",LOCATION
+248,"UN",ORGANIZATION
+248,"Parliament",ORGANIZATION
+248,"MINUSTAH",PERSON
+249,"Brazil",LOCATION
+249,"Loreto",LOCATION
+249,"Yavari",PERSON
+249,"Ramon Castilla",PERSON
+249,"PNP",ORGANIZATION
+249,"Colombia",LOCATION
+250,"Nicolas Maduro",PERSON
+250,"Colombia",LOCATION
+251,"Muammar Gaddafi",PERSON
+251,"Benghazi",LOCATION
+251,"Tripoli",LOCATION
+251,"Libya",LOCATION
+252,"Hamas",ORGANIZATION
+252,"Israel",LOCATION
+252,"Gaza Strip",LOCATION
+252,"Mahmoud Abbas",PERSON
+252,"Palestinian Authority",ORGANIZATION
+252,"United Nations",ORGANIZATION
+253,"ICC",ORGANIZATION
+253,"Sudan",LOCATION
+253,"Abdallah Banda Abakaer Nourain",PERSON
+253,"The Hague",LOCATION
+253,"Banda",PERSON
+253,"Haskanita",LOCATION
+253,"Darfur",LOCATION
+254,"Islamic State",ORGANIZATION
+254,"Iraq",LOCATION
+254,"Damascus",LOCATION
+254,"United States",LOCATION
+254,"Syria",LOCATION
+254,"Ali Haidar",PERSON
+255,"Arabian Peninsula",LOCATION
+255,"Yemen",LOCATION
+256,"India",LOCATION
+256,"South Asia",LOCATION
+256,"UNICEF",ORGANIZATION
+256,"Bangladesh",LOCATION
+256,"Nepal",LOCATION
+257,"Damadola",LOCATION
+257,"Soraki",LOCATION
+257,"Pakistan",LOCATION
+257,"Bannu",LOCATION
+257,"Bajaur Agency",ORGANIZATION
+258,"Punjab",LOCATION
+258,"Jhang",LOCATION
+258,"Multan",LOCATION
+258,"Muzaffargarh",LOCATION
+259,"Cameroon",LOCATION
+259,"Cameroons",ORGANIZATION
+259,"Boko Haram",PERSON
+260,"Pakistan",LOCATION
+260,"UN Security Council",ORGANIZATION
+260,"Morocco",LOCATION
+260,"UN",ORGANIZATION
+260,"Bangladesh",LOCATION
+260,"Indonesia",LOCATION
+261,"IDPs",ORGANIZATION
+261,"Halle Ousmane",PERSON
+261,"Timbuktu",LOCATION
+262,"Nigeria",LOCATION
+262,"Boko Haram",PERSON
+262,"Maiduguri",LOCATION
+262,"Borno",LOCATION
+263,"Donetsk",LOCATION
+263,"Moscow",LOCATION
+263,"Ukraine",LOCATION
+264,"Izvaryne",LOCATION
+264,"Ukraine",LOCATION
+264,"Russia",LOCATION
+265,"Lugansk",LOCATION
+265,"Ukraine",LOCATION
+266,"Lugansk",LOCATION
+266,"Donetsk",LOCATION
+266,"Ukraine",LOCATION
+267,"Gaziantep",LOCATION
+267,"NTV",ORGANIZATION
+268,"MSF",ORGANIZATION
+268,"Myanmar",LOCATION
+268,"Rakhine",LOCATION
+269,"MILF",ORGANIZATION
+269,"Philippines",LOCATION
+269,"Moro Islamic Liberation Front",ORGANIZATION
+270,"PLA",ORGANIZATION
+270,"Kato",LOCATION
+270,"Samakkhi School",LOCATION
+270,"Patani Liberation Army",ORGANIZATION
+270,"Yala",LOCATION
+271,"AMISOM",ORGANIZATION
+271,"Mogadishu",LOCATION
+272,"Sudan",LOCATION
+272,"Jonglei State",LOCATION
+272,"Jonglei",LOCATION
+272,"Ayod",LOCATION
+272,"UN",ORGANIZATION
+272,"Unity State",LOCATION
+272,"Bentiu",LOCATION
+273,"Nicaragua",LOCATION
+273,"Central America",LOCATION
+273,"El Salvador",LOCATION
+273,"El Nino",ORGANIZATION
+273,"Honduras",LOCATION
+273,"Guatemala",LOCATION
+273,"WFP",ORGANIZATION
+274,"Colombias Pacific Coast",ORGANIZATION
+274,"Zulia",LOCATION
+274,"Medellin",LOCATION
+274,"Norte de Santander",ORGANIZATION
+274,"Catatumbo",LOCATION
+274,"Colombia",LOCATION
+275,"Haiti",LOCATION
+275,"UN",ORGANIZATION
+275,"Port-au-Prince",LOCATION
+275,"Aristide",PERSON
+275,"Jean-Bertrand Aristide",PERSON
+276,"CERF",ORGANIZATION
+276,"Haiti",LOCATION
+276,"Haitis Ministry of Health",ORGANIZATION
+276,"UNICEF",ORGANIZATION
+277,"Mitch",PERSON
+277,"Conagan",PERSON
+278,"Morsi",PERSON
+278,"Cairo",LOCATION
+278,"Egypt",LOCATION
+278,"army",ORGANIZATION
+278,"Mohamed Morsi",PERSON
+278,"Abdel Fattah al-Sisi",PERSON
+278,"Rabaa al-Adawiya",PERSON
+279,"Nuri al-Maliki",PERSON
+279,"Maliki",PERSON
+279,"Haider al-Abadi",PERSON
+279,"Iraq",LOCATION
+280,"India",LOCATION
+280,"Nepal",LOCATION
+281,"Quetta",LOCATION
+281,"Khalid",PERSON
+281,"Samungli",LOCATION
+281,"West Pakistan",LOCATION
+282,"Islamabad",LOCATION
+282,"Gujranwala",LOCATION
+282,"Khan",PERSON
+282,"Imran Khan",PERSON
+282,"Tahir ul-Qadri",PERSON
+283,"Cameroon",LOCATION
+283,"Boko Haram",PERSON
+283,"UNICEF",ORGANIZATION
+283,"UNHCR",ORGANIZATION
+283,"Minawao",LOCATION
+284,"Africa",LOCATION
+284,"LRA",ORGANIZATION
+284,"Cailleaux",PERSON
+284,"Guillaume Cailleaux",PERSON
+284,"Joseph Kony",PERSON
+284,"US",LOCATION
+284,"Invisible Children",ORGANIZATION
+284,"Resistance Army",ORGANIZATION
+285,"Mutarule",LOCATION
+285,"MONUSCO",ORGANIZATION
+285,"DR Congo",LOCATION
+285,"Ruzizi",LOCATION
+286,"UN",ORGANIZATION
+287,"Lake Chad",LOCATION
+287,"Boko Haram",PERSON
+287,"Maiduguri",LOCATION
+287,"Nigeria",LOCATION
+287,"Doron Baga",PERSON
+288,"Dakar",LOCATION
+288,"Cheikh Anta Diop University",ORGANIZATION
+289,"Lebanon",LOCATION
+289,"Middle East",LOCATION
+289,"Jordan",LOCATION
+289,"Netherlands",LOCATION
+289,"UAE",LOCATION
+289,"US",LOCATION
+289,"WHO",ORGANIZATION
+290,"Europe",LOCATION
+290,"Vladimir Putin",PERSON
+290,"Russia",LOCATION
+290,"Kremlin",LOCATION
+290,"John Kerry",PERSON
+290,"Moscow",LOCATION
+290,"US",LOCATION
+290,"Ukraine",LOCATION
+291,"EU",ORGANIZATION
+291,"Western Balkan",LOCATION
+291,"Roma",LOCATION
+291,"NATO",ORGANIZATION
+291,"Bosnia",LOCATION
+292,"EU",ORGANIZATION
+292,"Bulgaria",LOCATION
+292,"Turkey",LOCATION
+293,"Pushkino",LOCATION
+293,"Moscow",LOCATION
+293,"Ekho Moskvy",ORGANIZATION
+293,"Caucasus",LOCATION
+294,"Soma",LOCATION
+294,"Turkey",LOCATION
+295,"Taksim",LOCATION
+295,"Soma",LOCATION
+295,"Istanbul",LOCATION
+295,"Izmir",LOCATION
+296,"Ukraine",LOCATION
+296,"Sergei Zdrilyuk",PERSON
+297,"Navi Pillay",PERSON
+297,"Crimea",LOCATION
+297,"UN",ORGANIZATION
+297,"Ukraine",LOCATION
+297,"Pillay",PERSON
+298,"Donetsk",LOCATION
+298,"Akhmetov",PERSON
+298,"Ukraine",LOCATION
+298,"Metinvest",PERSON
+298,"Rinat Akhmetov",PERSON
+299,"Donetsk",LOCATION
+299,"Dmytro Naboka",PERSON
+299,"Luhansk",LOCATION
+299,"Ukraine",LOCATION
+299,"Serhiy Davidov",PERSON
+300,"Hanoi",LOCATION
+300,"Xinhua",ORGANIZATION
+300,"China",LOCATION
+300,"Liu Jianchao",PERSON
+300,"Vietnamafter",LOCATION
+300,"Vietnam",LOCATION
+301,"NDOC",ORGANIZATION
+301,"Somalia",LOCATION
+301,"Nairobi",LOCATION
+301,"Gikomba Market",LOCATION
+301,"National Disaster Operations Centre",ORGANIZATION
+302,"South Sudan",LOCATION
+302,"UNFPA",ORGANIZATION
+303,"Juba",LOCATION
+303,"Juba III",PERSON
+303,"UNICEF",ORGANIZATION
+303,"IOM",ORGANIZATION
+303,"Central Equatoria State",ORGANIZATION
+303,"Mingkaman",LOCATION
+303,"Nairobi",LOCATION
+303,"Malakal",LOCATION
+303,"MSF",ORGANIZATION
+303,"Medair",PERSON
+303,"Ministry of Health",ORGANIZATION
+303,"UN",ORGANIZATION
+303,"AMREF",ORGANIZATION
+303,"WHO",ORGANIZATION
+303,"Tomping",PERSON
+304,"Human Rights Watch and Amnesty International",ORGANIZATION
+304,"Uganda",LOCATION
+305,"Sao Paulo",LOCATION
+306,"Jose Manuel Santos",PERSON
+306,"FARC",ORGANIZATION
+306,"Colombia",LOCATION
+306,"Havana",LOCATION
+307,"Alto Baud",LOCATION
+307,"Department of Choc",ORGANIZATION
+307,"Puerto Meluk",LOCATION
+308,"Pilar",PERSON
+308,"Chaco",LOCATION
+309,"U.S.",LOCATION
+309,"United Nations",ORGANIZATION
+309,"Caracas",LOCATION
+309,"Nicolas Maduro",PERSON
+310,"Bouteflika",PERSON
+310,"Abdelaziz Bouteflika",PERSON
+311,"Baghdad",LOCATION
+311,"Karrada",LOCATION
+311,"Iraq",LOCATION
+312,"Falluja",LOCATION
+313,"Haftar",PERSON
+313,"Sidi Fradj",LOCATION
+313,"Muammar Gaddafi",PERSON
+313,"National Army",ORGANIZATION
+313,"Benghazi",LOCATION
+313,"Khalifa Haftar",PERSON
+314,"Saudi Arabia",LOCATION
+314,"Middle East",LOCATION
+314,"Gulf",LOCATION
+315,"Adnan al-Damiri",PERSON
+315,"Ramallah",LOCATION
+315,"Palestine",LOCATION
+315,"Israel",LOCATION
+315,"West Bank",LOCATION
+315,"AFP",ORGANIZATION
+316,"West Bank",LOCATION
+316,"Washington",LOCATION
+316,"Israel",LOCATION
+316,"Uri Ariel",PERSON
+317,"OCHA",ORGANIZATION
+317,"UN",ORGANIZATION
+317,"Sudan",LOCATION
+317,"South Kordofan",LOCATION
+317,"Blue Nile",ORGANIZATION
+318,"Sudan",LOCATION
+318,"US",LOCATION
+318,"Islam",ORGANIZATION
+318,"Meriam Yahia Ibrahim Ishag",PERSON
+318,"Britain",LOCATION
+318,"Abbas Mohammed Al-Khalifa",PERSON
+319,"Sadiq al-Mahdi",PERSON
+319,"Mahdi",PERSON
+319,"Umma Party",ORGANIZATION
+319,"Darfur",LOCATION
+319,"National Intelligence and Security Service",ORGANIZATION
+319,"Nabil Adieb",PERSON
+319,"AFP",ORGANIZATION
+320,"Observatory",ORGANIZATION
+320,"Suleiman al-Halabi",LOCATION
+320,"Al-Nusra Front",ORGANIZATION
+320,"Aleppo",LOCATION
+320,"Ashrafiyeh",LOCATION
+320,"Red Crescent Aleppo",ORGANIZATION
+320,"Syria",LOCATION
+320,"Syrian Observatory for Human Rights",ORGANIZATION
+320,"Al-Qaeda",ORGANIZATION
+321,"Arabian Peninsula",LOCATION
+321,"Abd Rabbu Mansour Hadi",PERSON
+321,"al Qaeda",PERSON
+321,"Yemen",LOCATION
+322,"Pakistan",LOCATION
+322,"WHO",ORGANIZATION
+322,"Nawaz Sharif",PERSON
+322,"FATA",ORGANIZATION
+323,"Grabo",PERSON
+323,"Liberia",LOCATION
+323,"Fetai",LOCATION
+323,"Ivory Coast",LOCATION
+323,"Cavally River",LOCATION
+323,"Yaya Coulibaly",PERSON
+324,"Cameroon",LOCATION
+324,"Souleyman Diabat",PERSON
+324,"DRC",ORGANIZATION
+324,"Chad",LOCATION
+324,"South Sudan",LOCATION
+325,"Red Cross",ORGANIZATION
+325,"Dekoa",LOCATION
+325,"Bangui",LOCATION
+326,"Nyunzu",LOCATION
+326,"Katanga",LOCATION
+326,"Ma Ma  Bakata Katanga",ORGANIZATION
+326,"DRC",ORGANIZATION
+326,"Kiambi",LOCATION
+326,"Luba",LOCATION
+327,"NTDs",LOCATION
+328,"Red Cross",ORGANIZATION
+328,"Ukraine",LOCATION
+328,"Kiev",LOCATION
+328,"ICRC",ORGANIZATION
+329,"Crimea",LOCATION
+329,"Russian Federation",LOCATION
+329,"Ukraine",LOCATION
+329,"Russia",LOCATION
+329,"Defence Council",ORGANIZATION
+330,"Andrei Purgin",PERSON
+330,"Belarus",LOCATION
+330,"Donetsk Peoples Republic",LOCATION
+330,"Leonid Kuchma",PERSON
+330,"Minsk",LOCATION
+331,"Organization for Security and Cooperation in Europe",ORGANIZATION
+331,"Ukraine",LOCATION
+331,"Kiev",LOCATION
+331,"OSCE",ORGANIZATION
+332,"Washington",LOCATION
+332,"Ukraine",LOCATION
+332,"United States",LOCATION
+332,"Kiev",LOCATION
+332,"US",LOCATION
+332,"Barack Obama",PERSON
+332,"Petro Poroshenko",PERSON
+333,"South Korea",LOCATION
+333,"Defense Ministry",ORGANIZATION
+333,"Baengnyeong",LOCATION
+333,"South",LOCATION
+334,"Casiguran",LOCATION
+334,"South China Sea",LOCATION
+334,"Marikina City",LOCATION
+334,"Aurora province",LOCATION
+335,"Yoweri Museveni",PERSON
+335,"Mbabazi",PERSON
+335,"Amama Mbabazi",PERSON
+335,"Museveni",PERSON
+335,"Uganda",LOCATION
+336,"Mexico",LOCATION
+336,"Central America",LOCATION
+336,"US",LOCATION
+336,"Americas Program of the Center for Strategic and International Studies",ORGANIZATION
+337,"Gardasil",ORGANIZATION
+337,"Juan Manuel Santos",PERSON
+337,"Merck",ORGANIZATION
+337,"Colombia",LOCATION
+337,"US",LOCATION
+337,"Santos",PERSON
+338,"San Salvador",LOCATION
+338,"El Salvador",LOCATION
+339,"Odile",PERSON
+339,"Baja California Sur state",LOCATION
+339,"Hurricane Odile",LOCATION
+339,"Baja California Sur",LOCATION
+339,"Baja California",LOCATION
+339,"Los Cabos",LOCATION
+340,"Arsal",LOCATION
+340,"Islamic State",ORGANIZATION
+341,"Baghdad",LOCATION
+341,"Karrada",LOCATION
+341,"Islamic State",ORGANIZATION
+341,"Kirkuk",LOCATION
+342,"Francois Hollande",PERSON
+342,"France",LOCATION
+342,"Islamic State",ORGANIZATION
+342,"Iraq",LOCATION
+343,"Benghazi",LOCATION
+343,"Ahmed Habib al-Mesmari",PERSON
+343,"Libya",LOCATION
+343,"Abdullah al-Thani",PERSON
+343,"Thani",PERSON
+343,"Tobruk",LOCATION
+344,"Senate",ORGANIZATION
+344,"Islamic State",ORGANIZATION
+344,"Obama",PERSON
+344,"Congress",ORGANIZATION
+344,"House of Representatives",ORGANIZATION
+344,"US",LOCATION
+344,"Barack Obama",PERSON
+345,"Syrian Observatory for Human Rights",ORGANIZATION
+345,"Observatory",ORGANIZATION
+345,"Talbiseh",PERSON
+345,"Homs",PERSON
+345,"Homs",ORGANIZATION
+346,"John Kerry",PERSON
+346,"Bashar Assad",PERSON
+346,"Kerry",PERSON
+346,"Assad",PERSON
+346,"US",LOCATION
+347,"Islamic State",ORGANIZATION
+347,"Dikmetas",LOCATION
+347,"Kobani",PERSON
+347,"Reuters",ORGANIZATION
+347,"Syria",LOCATION
+347,"Turkey",LOCATION
+348,"Reuters",ORGANIZATION
+348,"Thalatheen Street",LOCATION
+348,"Sanaa",LOCATION
+348,"Yemen",LOCATION
+349,"Shamlan",PERSON
+349,"Yemen",LOCATION
+349,"Iman University",ORGANIZATION
+349,"Sanaa",LOCATION
+349,"UN",ORGANIZATION
+349,"Shamlan",LOCATION
+349,"Huthis",PERSON
+349,"Islah",ORGANIZATION
+350,"Saba",LOCATION
+350,"Sanaa",LOCATION
+350,"Civil Aviation Authority",ORGANIZATION
+350,"Yemen",LOCATION
+351,"Guinea",LOCATION
+351,"Reuters",ORGANIZATION
+351,"Damantang Albert Camara",PERSON
+352,"Aguelhok",LOCATION
+352,"UN",ORGANIZATION
+352,"Mali",LOCATION
+352,"Kidal",LOCATION
+352,"Tessalit",LOCATION
+353,"Boko Haram",PERSON
+353,"Amnesty International",ORGANIZATION
+353,"Nigeria",LOCATION
+353,"Amnesty",ORGANIZATION
+354,"Security Council",ORGANIZATION
+354,"UNSG Ban Ki - moon",PERSON
+354,"UN",ORGANIZATION
+354,"United Nations",ORGANIZATION
+354,"New York",LOCATION
+355,"Sudan Armed Forces",ORGANIZATION
+355,"South Sudan",LOCATION
+355,"Sudan Tribune",ORGANIZATION
+356,"Andriy Lysenko",PERSON
+356,"Ukraine",LOCATION
+356,"Russia",LOCATION
+356,"International Red Cross",ORGANIZATION
+356,"Valentyn Nalivaychenko",PERSON
+357,"Ukraine",LOCATION
+357,"International Committee of the Red Cross",ORGANIZATION
+357,"Valentyn Nalivaychenko",PERSON
+358,"Davutoglu",PERSON
+358,"Ahmet Davutoglu",PERSON
+358,"Erdogan",PERSON
+358,"AK Party",ORGANIZATION
+358,"Tayyip Erdogan",PERSON
+359,"Turkey",LOCATION
+359,"Dogan",PERSON
+359,"Agri province",LOCATION
+359,"PKK",ORGANIZATION
+359,"Diyadin",LOCATION
+359,"Kurdish Workers ' Party",ORGANIZATION
+359,"Mahsum Korkmaz",PERSON
+359,"Diyarbakir",LOCATION
+360,"Lugansk",LOCATION
+360,"ICRC",ORGANIZATION
+361,"Ukraine",LOCATION
+361,"Amos",PERSON
+361,"Eastern Ukraine",LOCATION
+361,"UN",ORGANIZATION
+361,"Valerie Amos",PERSON
+361,"USG Amos",ORGANIZATION
+361,"Humanitarian Affairs and Emergency Relief Coordinator",ORGANIZATION
+362,"Mekong River",LOCATION
+362,"National Committee for Disaster Management",ORGANIZATION
+362,"Cambodia",LOCATION
+363,"Joko Widodo",PERSON
+363,"Jakarta",LOCATION
+363,"Prabowo Subianto",PERSON
+363,"Widodo",PERSON
+363,"Indonesia",LOCATION
+363,"Hamdan Zoelva",PERSON
+364,"Asian Development Bank",ORGANIZATION
+364,"ADB",ORGANIZATION
+364,"Manila",LOCATION
+364,"Asia",LOCATION
+364,"Haiyan",PERSON
+365,"Yoweri Museveni",PERSON
+365,"Reuters",ORGANIZATION
+365,"Sudan",LOCATION
+365,"South Sudan",LOCATION
+365,"Uganda",LOCATION
+366,"SPLA",ORGANIZATION
+366,"Sudan Tribune",ORGANIZATION
+366,"Sudan",LOCATION
+366,"Joseph Mariel Samuel",PERSON
+366,"Human Rights Watch",ORGANIZATION
+367,"Michelle Bachelet",PERSON
+367,"Alameda Avenue",LOCATION
+367,"Santiago",LOCATION
+368,"FARC",ORGANIZATION
+368,"Chiefs of Staff",ORGANIZATION
+368,"Havana",LOCATION
+370,"Mara Salvatrucha Gang",PERSON
+370,"Mexico",LOCATION
+370,"National Institute of Immigration",ORGANIZATION
+370,"Chiapas",LOCATION
+370,"Federal Police",ORGANIZATION
+371,"Felipe Calderon",PERSON
+371,"Enrique Pena Nieto",PERSON
+371,"Calderon",PERSON
+371,"Benitez",PERSON
+371,"Mariana Benitez",PERSON
+372,"Venezuela",LOCATION
+372,"Nicolas Maduro",PERSON
+373,"Egypts Cairo",LOCATION
+373,"Cairo",LOCATION
+373,"Tunisia",LOCATION
+373,"Libya",LOCATION
+373,"LANA",ORGANIZATION
+373,"Tunisian Aviation Authority",ORGANIZATION
+373,"Tripoli",LOCATION
+374,"Sinai Peninsula",LOCATION
+374,"Mohamed Lashin",PERSON
+374,"Middle East News Agency",ORGANIZATION
+374,"Egypt",LOCATION
+374,"Lashin",PERSON
+374,"MENA",ORGANIZATION
+375,"Iraq",LOCATION
+375,"Islamic State",ORGANIZATION
+375,"United Nations",ORGANIZATION
+376,"Misrata Brigade",ORGANIZATION
+376,"Misrata",LOCATION
+376,"Zintan",PERSON
+376,"Tripoli",LOCATION
+376,"General Staff",ORGANIZATION
+377,"Israel",LOCATION
+377,"Gaza",LOCATION
+377,"Hamas",ORGANIZATION
+378,"Islamic State",ORGANIZATION
+378,"UK-based Syrian Observatory for Human Rights",ORGANIZATION
+379,"Syria",LOCATION
+379,"UN",ORGANIZATION
+380,"Navi Pillay",PERSON
+380,"Syria",LOCATION
+380,"UN",ORGANIZATION
+380,"United Nations",ORGANIZATION
+381,"Sanaa International Airport",LOCATION
+381,"Huthi",PERSON
+381,"Zaidi",PERSON
+381,"Abdulmalik al-Huthi",PERSON
+382,"India",LOCATION
+382,"Nagaland",LOCATION
+382,"Tripathy",PERSON
+382,"Assam",LOCATION
+382,"Golaghat",LOCATION
+383,"India",LOCATION
+383,"Jaitley",PERSON
+383,"Narendra Modi",PERSON
+383,"Arun Jaitley",PERSON
+383,"Delhi",LOCATION
+384,"Peshawar",LOCATION
+384,"Afghanistan",LOCATION
+384,"Jamrud",LOCATION
+384,"Khyber Pakhtunkhwa",LOCATION
+384,"Regi",LOCATION
+384,"Khyber Agency",ORGANIZATION
+384,"Zahirul Islam",PERSON
+385,"OCHA",ORGANIZATION
+385,"Sri Lanka",LOCATION
+386,"Liberia",LOCATION
+386,"Guinea",LOCATION
+386,"Fadela Chaib",PERSON
+386,"Sierra Leone",LOCATION
+386,"Geneva",LOCATION
+386,"United Nations",ORGANIZATION
+386,"WHO",ORGANIZATION
+386,"West Africa",LOCATION
+387,"Bangui",LOCATION
+387,"European Union",ORGANIZATION
+388,"Canada",LOCATION
+388,"Ndassima",LOCATION
+388,"Seleka",LOCATION
+388,"Muslim Seleka",ORGANIZATION
+388,"Bambari",LOCATION
+388,"Central African Republic",LOCATION
+389,"Equateur",LOCATION
+389,"WHO",ORGANIZATION
+389,"DR Congo",LOCATION
+390,"Nigeria",LOCATION
+390,"Gwoza",LOCATION
+390,"Borno",LOCATION
+390,"National Emergency Management Agency",ORGANIZATION
+390,"NEMA",ORGANIZATION
+390,"Boko Haram",PERSON
+390,"Adamawa",LOCATION
+390,"Maiduguri",LOCATION
+391,"Boko Haram",PERSON
+391,"Yobe",LOCATION
+391,"Nigeria",LOCATION
+391,"Buni Yadi",LOCATION
+392,"Tanzania",LOCATION
+392,"US",LOCATION
+393,"Italy",LOCATION
+393,"Egypt",LOCATION
+393,"Bangladesh",LOCATION
+394,"Serbia",LOCATION
+394,"EU",ORGANIZATION
+394,"Bosnia",LOCATION
+394,"Balkans",LOCATION
+395,"Mutlu",PERSON
+395,"Huseyin Avni Mutlu",PERSON
+395,"Istanbul",LOCATION
+396,"Security Council",ORGANIZATION
+396,"Ukraine",LOCATION
+396,"Ivan",PERSON
+396,"Donetsk",LOCATION
+396,"United Nations",ORGANIZATION
+396,"Odessa",LOCATION
+396,"Kyiv",PERSON
+397,"Donetsk",LOCATION
+397,"Moscow",LOCATION
+397,"Ukraine",LOCATION
+397,"Volnovakha",LOCATION
+398,"Washington",LOCATION
+398,"Odessa",LOCATION
+398,"Ukraine",LOCATION
+398,"Viktor Yanukovych",PERSON
+398,"Vladimir Putin",PERSON
+398,"Russia",LOCATION
+398,"Saint Petersburg",LOCATION
+398,"Putin",PERSON
+398,"European Union",ORGANIZATION
+398,"Yanukovych",PERSON
+399,"South Korea",LOCATION
+399,"Yeonpyeong",LOCATION
+399,"North Korea",LOCATION
+399,"Yonhap",ORGANIZATION
+400,"Pyongyang",LOCATION
+400,"North Korea",LOCATION
+400,"Seoul",LOCATION
+400,"World Food Programme",ORGANIZATION
+400,"WFP",ORGANIZATION
+400,"Ertharin Cousin",PERSON
+401,"Susilo Bambang Yudhoyono",PERSON
+401,"Benigno Aquino III",PERSON
+401,"Philippines",LOCATION
+401,"Mindanao Sea",LOCATION
+401,"Indonesia",LOCATION
+401,"Aquino",PERSON
+402,"Paracel Islands",LOCATION
+402,"China",LOCATION
+402,"Le Truong Hai Hieu",PERSON
+402,"Ho Chin Minh City",LOCATION
+402,"Thanh Nien",PERSON
+402,"Vietnam",LOCATION
+403,"China",LOCATION
+403,"Hong Lei",PERSON
+403,"Xinjiang",LOCATION
+403,"Foreign Ministry",ORGANIZATION
+404,"Shalmali Guttal",PERSON
+404,"Laos",LOCATION
+404,"IRIN",ORGANIZATION
+404,"Global South",ORGANIZATION
+405,"Myanmar",LOCATION
+406,"Myanmar",LOCATION
+406,"Yangon",LOCATION
+407,"Solomon Star",ORGANIZATION
+407,"Solomon Islands",LOCATION
+407,"Fiu",ORGANIZATION
+407,"Solomon Islands Meteorological Services",ORGANIZATION
+407,"Malaita",LOCATION
+407,"Kwaiafa Rivers",LOCATION
+407,"Auki",LOCATION
+408,"Thailand",LOCATION
+408,"Yingluck Shinawatra",PERSON
+408,"Asia",LOCATION
+408,"Prayuth",PERSON
+408,"Prayuth Chan-ocha",PERSON
+409,"Thailand",LOCATION
+409,"Bangkok",LOCATION
+410,"Mozambique",LOCATION
+410,"Afonso Dhlakama",PERSON
+410,"Dhlakama",PERSON
+410,"Renamo",ORGANIZATION
+410,"Frelimo",ORGANIZATION
+411,"Somalia",LOCATION
+411,"Kampala",LOCATION
+411,"Sudan Tribune",ORGANIZATION
+411,"Douglas Asiimwe",PERSON
+411,"Uganda",LOCATION
+411,"Congo",LOCATION
+412,"Caribbean",LOCATION
+412,"Pan American Health Organization",ORGANIZATION
+413,"Oscar Ivan Zuluaga",PERSON
+413,"FARC",ORGANIZATION
+413,"Latin America",LOCATION
+413,"Juan Manuel Santos",PERSON
+414,"Mara Trinidad Snchez",PERSON
+414,"COE",ORGANIZATION
+414,"Elas Pia",PERSON
+414,"La Vega",LOCATION
+414,"Espaillat",PERSON
+414,"Emergency Operations Center",ORGANIZATION
+415,"Haiti",LOCATION
+415,"Dominican Republic",LOCATION
+416,"Taiwan",LOCATION
+416,"Alfonso Portillo",PERSON
+416,"United States",LOCATION
+416,"US",LOCATION
+416,"Guatemala",LOCATION
+416,"Portillo",PERSON
+416,"New York",LOCATION
+417,"Amazonas",LOCATION
+417,"Bolvar",LOCATION
+417,"Amazonas",ORGANIZATION
+417,"Venezuela",LOCATION
+417,"Ministry of Health",ORGANIZATION
+417,"Caracas",LOCATION
+418,"Mauritania",LOCATION
+418,"Niger",LOCATION
+418,"Tunisia",LOCATION
+418,"Libya",LOCATION
+418,"Abdelaziz Bouteflika",PERSON
+418,"Mali",LOCATION
+418,"Algeria",LOCATION
+418,"Ministry of National Defense",ORGANIZATION
+418,"Ministry of Interior",ORGANIZATION
+418,"Algerias",LOCATION
+419,"Mohammed Morsi",PERSON
+419,"Egypt",LOCATION
+419,"Ansar Beit al-Maqdis",PERSON
+420,"Tayaran Square",LOCATION
+420,"Baghdad",LOCATION
+421,"Michel Suleiman",PERSON
+421,"Suleiman",PERSON
+422,"Benghazi",LOCATION
+422,"Khalifa Haftar",PERSON
+422,"Muammar Gaddafi",PERSON
+422,"Libya",LOCATION
+422,"US",LOCATION
+422,"Haftar",PERSON
+422,"Al Abyar",PERSON
+423,"Khalifa Haftar",PERSON
+423,"Benghazi",LOCATION
+423,"Libya",LOCATION
+424,"Hamdallah",PERSON
+424,"Hamas",ORGANIZATION
+424,"Mahmoud Abbas",PERSON
+424,"Gaza",LOCATION
+424,"Rami Hamdallah",PERSON
+424,"West Bank",LOCATION
+424,"AFP",ORGANIZATION
+425,"Washington",LOCATION
+425,"Sudan",LOCATION
+425,"Donald Booth",PERSON
+425,"US",LOCATION
+425,"Booth",PERSON
+425,"Khartoum",LOCATION
+426,"Syrian Observatory for Human Rights",ORGANIZATION
+426,"Bashar Assad",PERSON
+426,"Assad",PERSON
+426,"Daraa",LOCATION
+427,"Hamid Karzai",PERSON
+427,"Ashraf Ghani",PERSON
+427,"Abdullah Abdullah",PERSON
+428,"Herat",LOCATION
+429,"Pakistan",LOCATION
+429,"Human Rights Commission of Pakistan",ORGANIZATION
+429,"Maulana Mohammad Khan Sheerani",PERSON
+429,"CII",ORGANIZATION
+429,"Zohra Yousuf",PERSON
+430,"Reuters",ORGANIZATION
+430,"North Waziristan",LOCATION
+430,"Taliban",ORGANIZATION
+430,"Matchis Camp",LOCATION
+430,"Siraj Ahmed",PERSON
+431,"Bambari",PERSON
+431,"Seleka",PERSON
+431,"Bambari",LOCATION
+432,"Bogoro",LOCATION
+432,"Katanga",LOCATION
+432,"Democratic Republic of Congo",LOCATION
+432,"International Criminal Court",ORGANIZATION
+432,"Germain Katanga",PERSON
+432,"Ituri",LOCATION
+433,"Aguelhok",LOCATION
+433,"Tessalit",LOCATION
+433,"MNLA",ORGANIZATION
+433,"Menaka",PERSON
+433,"UN",ORGANIZATION
+433,"Mali",LOCATION
+433,"National Movement for t
