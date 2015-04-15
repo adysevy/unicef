@@ -147,6 +147,7 @@ for i,s in enumerate(df.story.values):
     if 'http' in s:
         ind.append(i)
 df = df.drop(df.index[[ind]])
+print "removed "+ str(len(ind)) + " records"
 
 # remove non utf chars
 s = get_bad_chars(df)

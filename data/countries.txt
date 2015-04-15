@@ -144,3 +144,59 @@ Across MENA
 Israel/State of Palestine
 Dominican Republic
 Botswana
+Sudan
+Uruguay
+Tunisia
+Togo
+Timor Leste
+Swaziland
+State of Palestine/Israel
+Sri Lanka
+South Sudan/Sudan
+Solomon Islands
+Serbia/Kosovo
+Senegal
+Saudia Arabia
+Saudi Arabia
+Peru
+Phillipines
+Paraguay
+Panama
+Pakistan
+Nicaragua
+Niger
+Nepal
+Namibia
+Morocco
+Mauritania
+Maldives
+Malaysia
+Malawi
+Macedonia
+Laos
+Lao DPR
+Kyrgyzstan
+Kuwait
+Nigeria
+Jordan
+Jerusalem
+Jamaica
+Israel
+Indonasia
+India/Pakistan
+Honduras
+Guinea-Bissau
+Gambia
+ESAR
+Equatorial Guinea
+Ecuador
+DR Congo
+Cote dIvoire
+Burundi/CAR
+Bangladesh
+Bahrain
+Across SA
+Uzbekistan
+Yemen
+Zambia
+Zimbabwe
