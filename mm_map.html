@@ -27,30 +27,32 @@ body {
 <div id="map_container" style="float:left; width: 75%; overflow:auto; border: 1px solid black" >
 </div>
 <div id="info_panel" style="float:right; width: 24.5%; height: 250px; overflow:auto; border: 1px solid black">
-  <h2>Country Info</h2>
+  <h2>All Stories</h2>
   <strong>Country:</strong> <span id="c_name"></span> 
   <br/>
   <hr />
     <div>
-      Lat: <span id="c_lat"></span> <br/>
-      Long: <span id="c_lng"></span><br/>
-      <strong>Title:</strong> <span id="s_titles"></span>
+<!--       Lat: <span id="c_lat"></span> <br/>
+      Long: <span id="c_lng"></span><br/> -->
+      <strong>News Stories:</strong> <span id="s_titles"></span>
       <br />
   <!--     <div id="article_template" style="display:none;">
         <p style="background: #999999;">Lorem ipsum title 1</p>
       </div> -->
     </div>
     <div id="article_list">
-      <p style="background: #999999;">Lorem ipsum title 2</p>
+<!--       <p style="background: #999999;">Lorem ipsum title 2</p>
       <p style="background: #999999;">Lorem ipsum title 3</p>
-      <p style="background: #999999;">Lorem ipsum title 4</p>
+      <p style="background: #999999;">Lorem ipsum title 4</p> -->
     </div>
 </div>
 <div id='story-panel' style='float:right; width: 24.5%; height: 250px; overflow:auto; border: 1px solid black'>
-  <h2>More Things</h2>
+  <h2>Selected Story</h2>
   <hr />
   <div>
-    <strong>Story:</strong> <br />
+    <strong>Title:</strong> <br />
+    <span id="s_title"></span><br /><br />
+    <strong>Full Story:</strong><br />
     <span id="s_text"></span><br />
   </div>
 </div>
@@ -112,14 +114,14 @@ d3.json("d3_tests/world-110m2.json", function(error, topology) {
               console.log("Value of i: " + i);
               console.log("country name: " + d3.select("#c_name").html() );
 
-              d3.select('#c_lat')
-                .html(d.lat);
+              // d3.select('#c_lat')
+              //   .html(d.lat);
 
-              d3.select('#c_lng')
-                .html(d.lng);
+              // d3.select('#c_lng')
+              //   .html(d.lng);
 
-              d3.select('#s_text')
-                .html(d.story);
+              // d3.select('#s_text')
+              //   .html(d.story);
 
               d3.select("#article_list").html("");
 
@@ -134,8 +136,13 @@ d3.json("d3_tests/world-110m2.json", function(error, topology) {
                     .on('click', function(article_elem) {
                       console.log("Clicked on article " + article_elem.story);
                       
+                      d3.select(this).style('background', 'gray');
+
                       d3.select('#s_text')
                         .html(article_elem.story);
+
+                      d3.select('#s_title')
+                        .html(article_elem.story_title);
 
                     })
                     .attr("article_index", e.row_index)
