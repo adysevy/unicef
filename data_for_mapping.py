@@ -8,22 +8,9 @@ import string
 # importing my googleAddressLocator.py script as a module
 import googleAddressLocator as goog
 
-punctuation = "!\"#$%&'()*+,-./:;<=>?@[\\]^_`{|}~"
 def remove_punctuation(s):
-    s = str(s)
-    # s_sans_punct = ""
-    # for letter in s:
-    #     # this discards all non-ascii characters and replaces with a space
-    #     if letter not in string.ascii_letters:
-    #         s_sans_punct += ' '
-    #     # removes all punctuation in the string above, saved as var punctuation
-    #     elif letter in punctuation:
-    #         s_sans_punct += ' '
-    #     #all left over characters are letters, so we keep them as-is.
-    #     else:# letter not in punctuation:
-    #         s_sans_punct += letter
-    # return s_sans_punct
-    t = ''.join(l for l in s if l not in string.digits and l not in string.punctuation)
+    s=str(s)
+    t = ''.join(l for l in s if l not in string.digits and l not in string.punctuation and l in string.ascii_letters or l == ' ')
     return t
 
 df = pd.read_csv('data/news_stories.csv', index_col=[0])
