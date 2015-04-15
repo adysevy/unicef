@@ -10,7 +10,7 @@ import googleAddressLocator as goog
 
 def remove_punctuation(s):
     s=str(s)
-    t = ''.join(l for l in s if l not in string.digits and l not in string.punctuation and l in string.ascii_letters or l == ' ')
+    t = ''.join(l for l in s if l in string.ascii_letters or l == ' ')
     return t
 
 df = pd.read_csv('data/news_stories.csv', index_col=[0])
