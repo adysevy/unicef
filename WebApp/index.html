@@ -27,29 +27,91 @@
   <link rel="icon" type="image/png" href="images/favicon.png">
 
 </head>
+
+<style>
+  .full-width-container {
+    width: 100%;
+    max-width: 95%;
+    clear: both;
+    margin: 15px 15px;
+  }
+</style>
+
 <body>
 
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <div class="container">
-    <div class="row">
-      <div class="one-half column" style="margin-top: 25%">
-        <h4>Crisis News Briefs</h4>
+<div class="full-width-container">
+
+  <div class="row">
+    <div id="heading" class="u-max-full-width">
+      <h5> News Bulletins </h5>
+    </div>
+  </div>
+
+  <div class="row">
+    <div id="filters" class="ten columns">
+      <div class="u-max-full-width">
+        <button>Political/social unrest</button>
+        <button>Conflict</button>
+        <button>Disaster</button>
+        <button>Food insecurity/drought</button>
+        <button>Disease outbreak</button> 
+      </div>
+    </div>  
+
+    <div id="filters" class="two columns">
+      <input class="u-pull-right" type="search" placeholder="search" id="search">
+    </div> 
+  </div>
+
+  <div class="row">
+    <div class="ten columns">
+      <div id="map" class="u-pull-left"> </div>
+    </div>
+
+    <div id="info_panel" class="two columns"> 
+      <div class="u-pull-right">
+      <h5> Country </h5>
+        <table>
+          <tbody>
+            <tr>
+              <td>date</td>
+              <td>article</td>
+              <td>category</td>
+            </tr>
+            <tr>
+              <td>date</td>
+              <td>article</td>
+              <td>category</td>
+            </tr>
+          </tbody>
+        </table>
       </div>
     </div>
   </div>
+
+    <div class="row">
+    <div id="trend_line" class="u-max-full-width">
+    </div>
+  </div>
+
+</div><!-- container -->
+
+<!-- JS
+================================================== -->
 <script src="http://d3js.org/d3.v3.min.js"></script>
 <script src="http://d3js.org/topojson.v0.min.js"></script>
 <script>
-    var width = 960,
-        height = 500;
+    var width = 1119,
+        height = 440;
 
     var projection = d3.geo.mercator()
         .center([0, 5 ])
         .scale(200)
         .rotate([-180,0]);
 
-    var svg = d3.select("body").append("svg")
+    var svg = d3.select("#map").append("svg")
         .attr("width", width)
         .attr("height", height);
 
@@ -79,8 +141,7 @@
            .style("fill", "red")
            .on("click",function (d){
               d3.select(this).style("fill","blue")
-           }
-          );
+           })
     });
 
     g.selectAll("path")
@@ -104,6 +165,10 @@
       });
 
     svg.call(zoom)
+
+    var svg_line = d3.select("#trend_line").append("svg")
+    .attr("width", 1000)
+    .attr("height", 200);
 
 </script>
 
