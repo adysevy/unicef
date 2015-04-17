@@ -206,9 +206,10 @@
 
     var parseDate = d3.time.format("%Y-%m-%d").parse;
 
-    var line = d3.svg.line()
-        .x(function(d) { return x(d.key); })
-        .y(function(d) { return y(d.values); });
+  var line = d3.svg.line()
+    .x(function(d,i) { return x(i); })
+    .y(function(d) { return y(d); });
+
 
     var svg_line = d3.select("#trend_line").append("svg")
         .attr("width", width_line + margin.left + margin.right)
@@ -224,9 +225,7 @@
       }).entries(csv_data);
     
 
-    console.log(line_data);
-
-    x.domain(d3.extent(line_data, function(d) { return d.key ; }));
+    x.domain(d3.extent(line_data, function(d) { return parseDate(d.key) ; }));
     y.domain(d3.extent(line_data, function(d) { return d.values; }));
 
     svg_line.append("g")
@@ -244,10 +243,18 @@
         .style("text-anchor", "end")
         .text("Number of Events");
 
-    svg_line.append("path")
-        .datum(line_data)
-        .attr("class", "line")
-        .attr("d", line);
+   
+
+    line_data.forEach(function(d) {
+        debugger;
+        svg_line.append("path")
+            .attr("class", "line")
+            .attr("d", line(d.values)); 
+    });
+    // svg_line.append("path")
+    //     .datum(line_data)
+    //     .attr("class", "line")
+    //     .attr("d", line);
 });
 </script>
 
