@@ -21,6 +21,16 @@ countries_simple = []
 
 for curr_country in df['country'].values:
     formattedcountry = remove_punctuation(curr_country).strip().lower()
+    if formattedcountry == 'car':
+        formattedcountry = 'central african republic'
+    if 'across' in formattedcountry:
+        formattedcountry = ''
+    if 'palestine' in formattedcountry:
+        formattedcountry = 'israel'
+    if 'dpr' in formattedcountry:
+        formattedcountry = 'north korea'
+    if formattedcountry == 'georgia':
+        formattedcountry = 'republic of georgia'
     countries_simple.append(formattedcountry)
 
 #adding the simplified country names to the dataframe for merging with 
