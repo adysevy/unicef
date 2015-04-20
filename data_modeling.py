@@ -149,6 +149,13 @@ for i,s in enumerate(df.story.values):
 df = df.drop(df.index[[ind]])
 print "removed "+ str(len(ind)) + " records"
 
+ind = []
+for i,s in enumerate(df.title.values):
+    if 'http' in s:
+        ind.append(i)
+df = df.drop(df.index[[ind]])
+print "removed "+ str(len(ind)) + " records"
+
 # remove non utf chars
 s = get_bad_chars(df)
 df.title = df.title.apply(lambda x: norm_text(x,s))
