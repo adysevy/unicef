@@ -141,6 +141,7 @@
 <script src="http://d3js.org/d3.v3.min.js"></script>
 <script src="http://d3js.org/topojson.v0.min.js"></script>
 <script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+<script src="/data_collection-1.1.6-min.js"></script>
 <script>
 /*-------------------Map-------------------*/
     var width = 1000,
@@ -170,24 +171,65 @@
 
     var map_data;
 
+    var filtered;
+
     var rscale = d3.scale.sqrt()
+
+
 
     // load and display the World
     d3.json("world-110m2.json", function(error, topology) {
 
     // load and display the cities
-    d3.csv("../data/news_stories_with_lat_long.csv", function(error, data) {
+    d3.csv("../data/news_stories_final.csv", function(error, data) {
         //group elements by [lng,lat]
         map_data = d3.nest()
         .key(function(d) { return (d.lng+","+d.lat);})
         .sortKeys(d3.ascending)
         .entries(data);
 
+
+    // function category_true(true_story){
+    //   console.log(true);
+    //   // return true_story.Category=='Political/social unrest';
+    //   return true;
+    // };
+
+      map_data.forEach(function(d) {
+      d.values = d.values.filter(function(s, i, a){
+       return s.Category2=='disease';
+       })
+
+     });
+      
+
+      
+        filtered = map_data.filter(function(v, i, a){
+          return !(v.values.length==0);
+        });
+      debugger;
+
+
+              // debugger;
+    //     console.log(s);
+    //     return s.filter(category_true); 
+    //   })
+    // })
+    // ;
+
+
+
         //enter a circle for each country
         g.selectAll("circle")
-           .data(map_data)
+           .data(filtered)
            .enter()
            .append("circle")
+
+      //      .filter(function(d) {
+      // d.values.forEach(function(s) {
+      //   return s.Category=='Political/social unrest'
+      // })
+    // })
            .attr("cx", function(d) {
                    return projection([d.values[0].lng, d.values[0].lat])[0];
            })
