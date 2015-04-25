@@ -83,6 +83,11 @@
   fill: #f0f0f0;
   stroke: #bdbdbd;
 }
+
+.brush .extent {
+  fill-opacity: .125;
+  shape-rendering: crispEdges;
+}
 </style>
 
 <body>
@@ -217,8 +222,6 @@
     // })
     // ;
 
-
-
         //enter a circle for each country
         g.selectAll("circle")
            .data(filtered)
@@ -330,7 +333,8 @@
         .append("g")
         .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-    d3.csv("../data/news_stories_with_lat_long.csv", function(error, csv_data) {
+    d3.csv("../data/news_stories_with_lat_long.csv", 
+      function(error, csv_data) {
      line_data = d3.nest()
       .key(function(d) { return (d.date.substring(0, 10));})
 	  .sortKeys(d3.ascending)
@@ -360,6 +364,49 @@
         .style("text-anchor", "end")
         .text("Number of Events");
 
+    // starting timeline brush here
+
+    var brush = d3.svg.brush()
+        .x(x)
+        .extent([100, 700])
+        .on("brushstart", brushstart)
+        .on("brush", brushmove)
+        .on("brushend", brushend);
+
+    var arc = d3.svg.arc()
+        .outerRadius(height_line / 2)
+        .startAngle(0)
+        .endAngle(function(d, i) { return i ? -Math.PI : Math.PI; });
+
+    var brushg = svg_line.append('g')
+        .attr('class', 'brush')
+        .call(brush);
+
+    brushg.selectAll(".resize").append("path")
+        .attr("transform", "translate(0," +  height_line / 2 + ")")
+        .attr("d", arc);
+
+    brushg.selectAll("rect")
+        .attr("height", height_line);
+    
+          // initializing css styling for brush and line segments
+    brushstart();
+    brushmove();
+
+    function brushstart() {
+        svg.classed("selecting", true);
+      }
+
+    function brushmove() {
+        var s = brush.extent();
+        // circle.classed("selected", function(d) { return s[0] <= d && d <= s[1]; });
+      }
+
+    function brushend() {
+        svg.classed("selecting", !d3.event.target.empty());
+      }
+
+    //ending timeline brush
    
 	svg_line.append("path")
 		.attr("class", "line")
