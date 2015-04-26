@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Visualizing Crisis News Briefs</title>
+  <meta name="description" content="A visualization tool for exploring worldwide news crisis events">
+  <meta name="author" content="Meredith McCarron, Andrea Krukowski and Ady Sevy">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+</head>
+
+<style>
+  .full-width-container {
+    width: 100%;
+    max-width: 95%;
+    clear: both;
+    margin: 15px 15px;
+  }
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+.x.axis path {
+  display: inline;
+}
+.d3-tip {
+  line-height: 1;
+  font-weight: bold;
+  padding: 12px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 2px;
+}
+.line {
+  fill: none;
+  stroke: #525252;
+  stroke-width: 1.5px;
+}
+.circle {
+  fill: #525252;
+  opacity: 0.7;
+}
+.circle_selected {
+  fill: yellow;
+  stroke: #bdbdbd;
+}
+.story {
+  background: none;
+}
+.story_selected {
+  background: #d9d9d9;
+}
+.map {
+  fill: #f0f0f0;
+  stroke: #bdbdbd;
+}
+.brush .extent {
+  fill-opacity: .125;
+  shape-rendering: crispEdges;
+}
+</style>
+
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<div class="full-width-container">
+
+  <div class="row">
+    <div id="heading" class="u-max-full-width">
+      <h5> News Bulletins </h5>
+    </div>
+  </div>
+
+  <div class="row">
+    <div id="filters" class="ten columns">
+        <button style="background: #8dd3c7;" class='filter-button' name="Political/social unrest" checked="1">Political/social unrest</button>
+        <button style="background: #ffffb3;" class='filter-button' name="conflict" checked="1">Conflict</button>
+        <button style="background: #bebada;" class='filter-button' name="disaster" checked="1">Disaster</button>
+        <button style="background: #fb8072;" class='filter-button' name="food" checked="1">Food insecurity</button>
+        <button style="background: #80b1d3;" class='filter-button' name="disease" checked="1">Disease outbreak</button> 
+        <button style="background: #fdb462;" class='filter-button' name="water" checked="1">Water insecurity</button>
+    </div>
+
+    <div id="filters" class="two columns">
+      <input class="u-pull-right" type="search" placeholder="search" id="search">
+    </div> 
+  </div>
+
+  <div class="row">
+    <div class="nine columns">
+      <div id="map" class="u-pull-left" style='overflow: auto;'> </div>
+      <div id="trend_line" class="u-pull-left" style='overflow: auto;'></div>
+    </div>
+
+    <div id="info_panel" class="three columns"> 
+      <div class="u-pull-right">
+        <h5>  <span id="c_name"></span> </h5>
+        <div class="u-pull-right" id="story_titles" style='height: 220px; overflow: auto;'> </div>
+        <div class="u-pull-right" id="story_text" style='height: 350px; overflow: auto;'> </div>
+      </div>
+
+    </div>
+  </div>
+
+</div><!-- container -->
+
+<!-- JS
+================================================== -->
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="http://d3js.org/topojson.v0.min.js"></script>
+<script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+<script src="jquery-2.1.3.js"></script>
+<script>
+/*-------------------Map-------------------*/
+    var width = 1000,
+        height = 440;
+
+    var projection = d3.geo.mercator()
+        .center([0, 0])
+        .scale(180);
+
+    var svg = d3.select("#map").append("svg")
+        .attr("width", width)
+        .attr("height", height);
+
+    var path = d3.geo.path()
+        .projection(projection);
+
+    var g = svg.append("g");
+
+    var tip = d3.tip()
+              .attr('class', 'd3-tip')
+              .html(function(d){
+                      return d.values[0].country;
+                    });
+
+    svg.call(tip);
+   
+    var filtered;
+
+    var rscale = d3.scale.sqrt();
+
+	  var map_data;
+
+    // load and display the World
+    d3.json("world-110m2.json", function(error, topology) {
+      g.selectAll("path")
+        .data(topojson.object(topology, topology.objects.countries)
+              .geometries)
+        .enter()
+        .append("path")
+        .attr("d", path)
+        .attr("class", "map")
+    });
+
+    // load and display the cities
+    d3.csv("/data/news_stories_with_lat_long.csv", function(error, data) {
+        //group elements by [lng,lat]
+        map_data = data;
+		draw_circles(map_data);
+		draw_trend(map_data);
+		});
+		
+		function draw_circles(filtered_data){
+			 //enter a circle for each country
+			nested_data = d3.nest()
+				.key(function(d) { return (d.lng+","+d.lat);})
+				.sortKeys(d3.ascending)
+				.entries(filtered_data);
+			 
+			g.selectAll("circle").remove();
+			g.selectAll("circle")
+			   .data(nested_data)
+			   .enter()
+			   .append("circle")
+			   .attr("cx", function(d) {
+					   return projection([d.values[0].lng, d.values[0].lat])[0];
+			   })
+			   .attr("cy", function(d) {
+					   return projection([d.values[0].lng, d.values[0].lat])[1];
+			   })
+			   .attr("r", function(d) {
+					   return rscale(d.values.length);
+			   })
+			   .attr('class', 'circle')
+			   .on("click",function (d){
+				  // change circles styles
+				  d3.selectAll('circle').attr('class', 'circle')
+				  d3.select(this).attr('class', 'circle_selected');
+				  //display country name
+				  d3.select("#c_name").html(d.values[0].country);
+				  //clear story text and title
+				  d3.select("#story_text").html("");
+				  d3.select("#story_titles").html("");
+				  //select current circle
+				  d3.select(this)
+					.each(function(e) {
+					  //iterate over all stories in circle
+					  e.values.forEach(function(v) {
+						d3.select('#story_titles').append("p")
+						.datum(v)
+						.on('click', function(article_elem) {
+							d3.selectAll('p').attr('class', 'story');
+							d3.select(this).attr('class', 'story_selected');
+							d3.select('#story_text')
+							  .html(article_elem.story);
+						  })
+						.text(v.story_title);
+					  });
+					});   
+				})
+			   .on('mouseover', tip.show)
+			   .on('mouseout', tip.hide)
+		}
+		
+	 //filters
+		d3.selectAll(".filter-button").on("click", function() {
+			var currButton = d3.select(this);
+			if (currButton.attr('checked')){
+				currButton.attr('checked',null);
+				currButton.style('opacity',0.3);
+			}
+			else{
+				currButton.attr('checked','1');
+				currButton.style('opacity',null);
+			}
+			var checkedValues = $('.filter-button[checked]').map(function() {
+					return this.name;
+					}).get();
+				
+			filtered = map_data.filter(function(s){
+			   return $.inArray(s.Category, checkedValues) > -1
+			   });
+			draw_circles(filtered);
+			draw_trend(filtered);
+			debugger;
+		});
+
+    // zoom and pan
+    var zoom = d3.behavior.zoom()
+        .on("zoom",function() {
+            g.attr("transform","translate("+ 
+                d3.event.translate.join(",")+")scale("+d3.event.scale+")");
+            g.selectAll("circle")
+                .attr("d", path.projection(projection));
+            g.selectAll("path")  
+                .attr("d", path.projection(projection)); 
+      });
+    svg.call(zoom)
+
+
+/*-------------------Line chart-------------------*/
+    var margin = {top: 20, right: 20, bottom: 30, left: 50},
+        width_line = 1000 - margin.left - margin.right,
+        height_line = 200 - margin.top - margin.bottom;
+    var x = d3.time.scale()
+        .range([0, width_line]);
+    var y = d3.scale.linear()
+        .range([height_line, 0]);
+    var xAxis = d3.svg.axis()
+        .scale(x)
+        .orient("bottom");
+    var yAxis = d3.svg.axis()
+        .scale(y)
+        .orient("left");
+    var parseDate = d3.time.format("%d/%m/%Y").parse;
+    var line = d3.svg.line()
+      .x(function(d) { return x(d.date); })
+      .y(function(d) { return y(d.values); });
+
+		
+    function draw_trend(filtered_data) {
+		d3.select("#trend_line").select("svg").remove();
+		
+		var svg_line = d3.select("#trend_line").append("svg")
+        .attr("width", width_line + margin.left + margin.right)
+        .attr("height", height_line + margin.top + margin.bottom)
+        .append("g")
+        .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+		
+		 var line_data = d3.nest()
+		  .key(function(d) { return (d.date.substring(0, 10));})
+		  .rollup(function(d) { 
+		   return d3.sum(d, function(g) {return 1; });
+		  }).entries(filtered_data);
+		
+		line_data.forEach(function(d){
+			d.date = parseDate(d.key);
+		});
+		line_data.sort(function(a, b){
+			if (a.date<b.date){
+				return -1;
+			}
+			if (b.date<a.date){
+				return 1;
+			}
+			return 0;
+		});
+
+		x.domain(d3.extent(line_data, function(d) { return d.date; }));
+		y.domain(d3.extent(line_data, function(d) { return d.values; }));
+		svg_line.append("g")
+			.attr("class", "x axis")
+			.attr("transform", "translate(0," + height_line + ")")
+			.call(xAxis);
+		svg_line.append("g")
+			.attr("class", "y axis")
+			.call(yAxis)
+			.append("text")
+			.attr("transform", "rotate(-90)")
+			.attr("y", 6)
+			.attr("dy", ".71em")
+			.style("text-anchor", "end")
+			.text("Number of Events");
+			
+		svg_line.append("path")
+			.attr("class", "line")
+			.attr("d", line(line_data)); 	
+			
+			
+		// starting timeline brush here
+		var brush = d3.svg.brush()
+			.x(x)
+			.extent([100, 700])
+			.on("brushstart", brushstart)
+			.on("brush", brushmove)
+			.on("brushend", brushend);
+		var arc = d3.svg.arc()
+			.outerRadius(height_line / 2)
+			.startAngle(0)
+			.endAngle(function(d, i) { return i ? -Math.PI : Math.PI; });
+		var brushg = svg_line.append('g')
+			.attr('class', 'brush')
+			.call(brush);
+		brushg.selectAll(".resize").append("path")
+			.attr("transform", "translate(0," +  height_line / 2 + ")")
+			.attr("d", arc);
+		brushg.selectAll("rect")
+			.attr("height", height_line);
+		
+		// initializing css styling for brush and line segments
+		brushstart();
+		brushmove();
+		function brushstart() {
+			svg.classed("selecting", true);
+		  }
+		function brushmove() {
+			var s = brush.extent();
+			// circle.classed("selected", function(d) { return s[0] <= d && d <= s[1]; });
+		  }
+		function brushend() {
+			svg.classed("selecting", !d3.event.target.empty());
+		  }
+		//ending timeline brush 
+		}
+
+		
+</script>
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>
