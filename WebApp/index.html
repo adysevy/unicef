@@ -248,7 +248,6 @@
 		filtered = map_data.filter(function(s){
 			return $.inArray(s.row_index, stories_ids) > -1
 		   });
-		debugger;
 		draw_circles(filtered);
 		draw_trend(filtered);
 	});
