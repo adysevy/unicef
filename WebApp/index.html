@@ -339,13 +339,15 @@
 	    .orient("left");
 
 	//defining a function which gets a string and parse it into a real date type
-	var parseDate = d3.time.format("%d/%m/%Y").parse;
+	var parseDate = d3.time.format("%d/%m/%y").parse;
 
 	//defining a line function which gets our stories_by_date data and returns x and y
 	// arrays in the mapping defined above
 	var line = d3.svg.line()
 	  .x(function(d) { return x(d.date); })
 	  .y(function(d) { return y(d.values); });
+
+    var stories_by_date;
 
 	/*----------------------End Global Variables - Trend Chart-----------------------*/	
 
@@ -363,8 +365,9 @@
 		    .attr("transform", "translate(" + margin_trend.left + "," + margin_trend.top + ")");
 
 		//creating a nested data structure out of the filtered data
-		var stories_by_date = d3.nest()
-			.key(function(d) { return (d.date.substring(0, 10));})
+		// var stories_by_date = d3.nest()
+        stories_by_date = d3.nest()
+			.key(function(d) { return (d.date.substring(0, 8));})
 			.rollup(function(d) { 
 			   return d3.sum(d, function(g) {return 1; });
 			}).entries(filtered_data);
@@ -410,7 +413,7 @@
 		svg_trend.append("path")
 			.attr("class", "line")
 			.attr("d", line(stories_by_date)); 	
-	}		
+	// }		
 		// starting timeline brush here
 		var brush = d3.svg.brush()
 			.x(x)
@@ -445,7 +448,7 @@
 			svg.classed("selecting", !d3.event.target.empty());
 		  }
 		//ending timeline brush 
-	//}	
+	}	
 </script>
 
 <!-- End Document
