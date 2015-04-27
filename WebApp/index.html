@@ -364,7 +364,7 @@
 
 		//creating a nested data structure out of the filtered data
 		var stories_by_date = d3.nest()
-			.key(function(d) { return (d.date.substring(0, 10));})
+			.key(function(d) { return (d.date.substring(0, 8));})
 			.rollup(function(d) { 
 			   return d3.sum(d, function(g) {return 1; });
 			}).entries(filtered_data);
@@ -410,7 +410,7 @@
 		svg_trend.append("path")
 			.attr("class", "line")
 			.attr("d", line(stories_by_date)); 	
-	}		
+			
 		// starting timeline brush here
 		var brush = d3.svg.brush()
 			.x(x)
@@ -445,7 +445,7 @@
 			svg.classed("selecting", !d3.event.target.empty());
 		  }
 		//ending timeline brush 
-	//}	
+	}	
 </script>
 
 <!-- End Document
