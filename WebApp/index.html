@@ -201,7 +201,7 @@
 				}).get();
 			
 		filtered = map_data.filter(function(s){
-		   return $.inArray(s.Category, checkedValues) > -1
+		   return $.inArray(s.category, checkedValues) > -1
 		   });
 		draw_circles(filtered);
 		draw_trend(filtered);
