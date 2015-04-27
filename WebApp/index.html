@@ -29,7 +29,7 @@
 </head>
 
 <style>
-  .full-width-container {
+.full-width-container {
     width: 100%;
     max-width: 95%;
     clear: both;
@@ -179,7 +179,7 @@
 	});
 
 	// load the data once and draw the map and the trend chart
-	d3.csv("/data/news_stories_with_lat_long.csv", function(error, data) {
+	d3.csv("data/news_stories_final.csv", function(error, data) {
 	    map_data = data;
 		draw_circles(map_data);
 		draw_trend(map_data);
