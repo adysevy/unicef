@@ -109,12 +109,12 @@
   </div>
 
   <div class="row">
-    <div class="nine columns">
-      <div id="map" class="u-pull-left" style='overflow: auto;'> </div>
-      <div id="trend" class="u-pull-left" style='overflow: auto;'></div>
+    <div class="nine columns" style='overflow: auto;'>
+      <div id="map" class="u-pull-left" > </div>
+      <div id="trend" class="u-pull-left"></div>
     </div>
 
-    <div id="info_panel" class="three columns"> 
+    <div id="info_panel" class="three columns" style='overflow: auto;'> 
       <div class="u-pull-right">
         <h5>  <span id="c_name"></span> </h5>
         <div class="u-pull-right" id="story_titles" style='height: 220px; overflow: auto;'> </div>
@@ -384,7 +384,7 @@
 			}
 			return 0;
 		});
-
+    
 		//defining the axes
 		x.domain(d3.extent(stories_by_date, function(d) { return d.date; }));
 		y.domain(d3.extent(stories_by_date, function(d) { return d.values; }));
@@ -410,7 +410,7 @@
 		svg_trend.append("path")
 			.attr("class", "line")
 			.attr("d", line(stories_by_date)); 	
-			
+	}		
 		// starting timeline brush here
 		var brush = d3.svg.brush()
 			.x(x)
@@ -430,7 +430,7 @@
 			.attr("d", arc);
 		brushg.selectAll("rect")
 			.attr("height", height_trend);
-
+    //}
 		// initializing css styling for brush and line segments
 		brushstart();
 		brushmove();
@@ -445,7 +445,7 @@
 			svg.classed("selecting", !d3.event.target.empty());
 		  }
 		//ending timeline brush 
-	}	
+	//}	
 </script>
 
 <!-- End Document
