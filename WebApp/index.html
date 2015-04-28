@@ -1,19 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang='en'>
 <head>
 
-  <!-- Basic Page Needs
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <meta charset="utf-8">
-  <title>Visualizing Crisis News Briefs</title>
-  <meta name="description" content="A visualization tool for exploring worldwide news crisis events">
-  <meta name="author" content="Meredith McCarron, Andrea Krukowski and Ady Sevy">
+    <!-- Basic Page Needs
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta charset="utf-8">
+    <title>Visualizing Crisis News Briefs</title>
+    <meta name="description" content="A visualization tool for exploring worldwide news crisis events">
+    <meta name="author" content="Meredith McCarron, Andrea Krukowski and Ady Sevy">
 
-  <!-- Mobile Specific Metas
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Mobile Specific Metas
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- FONT
+    <!-- FONT
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
 
@@ -329,7 +329,7 @@
     //defining the size for the graph
     var margin_trend = {top: 20, right: 20, bottom: 30, left: 50};
     var width_trend = 900 - margin_trend.left - margin_trend.right;
-    var height_trend = 100 - margin_trend.top - margin_trend.bottom;
+    var height_trend = 120 - margin_trend.top - margin_trend.bottom;
 
     var x = d3.time.scale()
         .range([0, width_trend]);
@@ -443,7 +443,7 @@
             .style("opacity", "0.7");
         brushg.selectAll("rect")
             .attr("height", height_trend);
-    //}
+
         // initializing css styling for brush and line segments
         brushstart();
         brushmove();
