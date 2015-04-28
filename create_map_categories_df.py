@@ -287,7 +287,7 @@ print 'STEP 4'
 print len(df)
 
 df['week/year']=''
-df['week/year']=df['date'].map(lambda x:str('{week}/{year}'.format(week=x.weekofyear,year=x.year)))
+df['week/year']=df['date'].map(lambda x:('{week}/{year}'.format(week=x.weekofyear,year=x.year)))
 
 df.to_csv('WebApp/data/news_stories_final.csv', index_label='row_index', index=True, date_format='%m/%d/%y')
 
