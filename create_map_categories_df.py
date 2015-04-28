@@ -174,6 +174,13 @@ for i,s in enumerate(df.title.values):
 df = df.drop(df.index[[ind]])
 print "removed "+ str(len(ind)) + " records"
 
+ind = []
+for i,s in enumerate(df.title.values):
+    if len(s.split())<3:
+        ind.append(i)
+df = df.drop(df.index[[ind]])
+print "removed "+ str(len(ind)) + " records"
+
 # remove non utf chars
 s = get_bad_chars(df)
 df.title = df.title.apply(lambda x: norm_text(x,s))
@@ -196,8 +203,12 @@ for curr_country in df['country'].values:
         formattedcountry = 'israel'
     if 'dpr' in formattedcountry:
         formattedcountry = 'north korea'
+    if 'sudan' in formattedcountry:
+        formattedcountry  = 'sudan'
     if formattedcountry == 'georgia':
         formattedcountry = 'republic of georgia'
+    if 'burundi' in formattedcountry:
+        formattedcountry = 'burundi'
     countries_simple.append(formattedcountry)
 
 #adding the simplified country names to the dataframe for merging with 
@@ -228,8 +239,16 @@ centroids = pd.DataFrame(data={'country_simple': uniqueCountryList,
     'lat': lat, 'lng': lng})
 
 df = pd.merge(df, centroids, how='left', on='country_simple', left_index=False)
+regions = ['Across Regions', 'LAC', 'CEE', 'WCA', 'ESA',  'MENA', 'EAP','Across SA']
 
-regions = ['Across Regions', 'LAC', 'CEE', 'WCAR', 'ESA',  'MENA', 'EAP', 'EAPR', 'ROSA', 'Across SA']
+df['country'][(df['country'].str.contains('EAP'))]='Across EAP'
+df['country'][(df['country'].str.contains('ROSA'))]='Across SA'
+df['country'][(df['country'].str.contains('Across Region'))]='Across Regions'
+df['country'][(df['country'].str.contains('Across region'))]='Across Regions'
+df['country'][(df['country'].str.contains('WCAR'))]='Across WCA'
+df['country'][(df['country'].str.contains('Across West Africa'))]='Across WCA'
+df['country'][(df['country'].str.contains('WAC'))]='Across WCA'
+
 
 regional_lat = 19.5
 regional_lng = -136.4
