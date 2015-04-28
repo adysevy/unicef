@@ -157,6 +157,7 @@ for file_name in os.listdir(folder):
 
 # bulding the data frame
 df = pd.DataFrame(data)
+df['story_id']=df.index
 
 # removing 5 stories with multiple urls
 ind = []
@@ -205,6 +206,7 @@ df['country_simple'] = countries_simple
 df['story_title'] = df['title']
 df['story_link'] = df['link']
 
+
 # creating a list of the unique country names from our files
 uniqueCountryList = df.country_simple.unique()
 # initializing lists to hold the lat and lng for country centroids
@@ -226,6 +228,15 @@ centroids = pd.DataFrame(data={'country_simple': uniqueCountryList,
     'lat': lat, 'lng': lng})
 
 df = pd.merge(df, centroids, how='left', on='country_simple', left_index=False)
+
+regions = ['Across Regions', 'LAC', 'CEE', 'WCAR', 'ESA',  'MENA', 'EAP', 'EAPR', 'ROSA', 'Across SA']
+
+regional_lat = 19.5
+regional_lng = -136.4
+for region in regions:
+    df['lat'][(df['country'].str.contains(region))] = regional_lat
+    df['lng'][(df['country'].str.contains(region))] = regional_lng
+    regional_lat = regional_lat - 7.5
 
 print 'DATAFRAME STEP 2:'
 print len(df)
@@ -274,6 +285,9 @@ df['category'][(df['category'] == 'conflict') & (df['category2'] == 'disease')] 
 
 print 'STEP 4'
 print len(df)
+
+df['week/year']=''
+df['week/year']=df['date'].map(lambda x:str('{week}/{year}'.format(week=x.weekofyear,year=x.year)))
 
 df.to_csv('WebApp/data/news_stories_final.csv', index_label='row_index', index=True, date_format='%m/%d/%y')
 
