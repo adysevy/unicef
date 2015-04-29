@@ -125,9 +125,10 @@
         <h6>All Headlines</h6>
         <div id="story_titles" style='height: 220px; overflow: auto; padding: 5px; margin: 0px 0px 5px 0px; border: 1px solid #e4e4e4;'> </div>
         <h6 style="align: left;">Full Story Text</h6>
-        <div id="story_text" style='height: 220px; overflow: auto; padding: 10px; border: 1px solid #e4e4e4'> </div>
+        <div id="story_text" style='height: 220px; overflow: auto; padding: 10px; border: 1px solid #e4e4e4'> </div>  
+        <h6 style="align: left;">Source:</h6>
+        <div id="story_link" style='padding: 5px; overflow: auto; height: 50px; border: 1px solid #e4e4e4;'></div>
       </div>
-
     </div>
   </div>
 
@@ -140,6 +141,8 @@
 <script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
 <script src="jquery-2.1.3.js"></script>
 <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+<script src="search.js"></script>
+
 <script>
     /*--------------------------------Map--------------------------------*/
 
@@ -192,6 +195,8 @@
         draw_trend(map_data);
         });
 
+    /*--------------------------------Filter Buttons--------------------------------*/
+
     //filters
     d3.selectAll(".filter-button").on("click", function() {
         var currButton = d3.select(this);
@@ -214,6 +219,8 @@
         draw_trend(filtered);
     });
 
+    /*--------------------------------Zoom and Pan--------------------------------*/
+
     // zoom and pan
     var zoom = d3.behavior.zoom()
         .on("zoom",function() {
@@ -227,37 +234,7 @@
         
     svg.call(zoom);
 
-    //search
-    var entities_mapping = {};
-    d3.csv('data/entities.txt', function(error, data) {
-        var entities_nest = d3.nest()
-            .key(function(d){return d.entity;})
-            .sortKeys(d3.ascending)
-            .entries(data);
-        var entities = entities_nest 
-            .map(function(d){
-                return d.key;
-            });
-        $(function() {
-            $("#search").autocomplete({
-                source: entities
-            });
-        });
-        entities_nest.forEach(function(d){
-            entities_mapping[d.key] = d.values.map(function(d){
-                return d.id;
-            });
-        });
-    });
 
-    d3.select("#search").on("search", function() {
-        var stories_ids = entities_mapping[this.value]; 
-        filtered = map_data.filter(function(s){
-            return $.inArray(s.row_index, stories_ids) > -1
-           });
-        draw_circles(filtered);
-        draw_trend(filtered);
-    });
 
 
 
@@ -311,7 +288,9 @@
                         d3.selectAll('p').attr('class', 'story');
                         d3.select(this).attr('class', 'story_selected');
                         d3.select('#story_text')
-                          .html(article_elem.story);
+                          .html(article_elem.story)
+                        d3.select('#story_link')
+                          .html(article_elem.story_link);
                       })
                     .text(v.story_title);
                   });
@@ -347,7 +326,7 @@
         .orient("left");
 
     //defining a function which gets a string and parse it into a real date type
-    var parseDate = d3.time.format("%m/%d/%y").parse;
+    var parseDate = d3.time.format("%U%Y").parse;
 
     //defining a line function which gets our stories_by_date data and returns x and y
     // arrays in the mapping defined above
@@ -375,7 +354,7 @@
         //creating a nested data structure out of the filtered data
         // var stories_by_date = d3.nest()
         stories_by_date = d3.nest()
-            .key(function(d) { return (d.date.substring(0, 8));})
+            .key(function(d) { return (d.week/year);})
             .rollup(function(d) { 
                return d3.sum(d, function(g) {return 1; });
             }).entries(filtered_data);
