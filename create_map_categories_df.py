@@ -158,6 +158,9 @@ for file_name in os.listdir(folder):
 # bulding the data frame
 df = pd.DataFrame(data)
 
+df['story_id']=df.index
+
+
 # removing 5 stories with multiple urls
 ind = []
 for i,s in enumerate(df.story.values):
@@ -169,6 +172,13 @@ print "removed "+ str(len(ind)) + " records"
 ind = []
 for i,s in enumerate(df.title.values):
     if 'http' in s:
+        ind.append(i)
+df = df.drop(df.index[[ind]])
+print "removed "+ str(len(ind)) + " records"
+
+ind = []
+for i,s in enumerate(df.title.values):
+    if len(s.split())<3:
         ind.append(i)
 df = df.drop(df.index[[ind]])
 print "removed "+ str(len(ind)) + " records"
@@ -197,6 +207,10 @@ for curr_country in df['country'].values:
         formattedcountry = 'north korea'
     if formattedcountry == 'georgia':
         formattedcountry = 'republic of georgia'
+    if 'sudan' in formattedcountry:
+        formattedcountry  = 'sudan'
+    if 'burundi' in formattedcountry:
+        formattedcountry = 'burundi'
     countries_simple.append(formattedcountry)
 
 #adding the simplified country names to the dataframe for merging with 
@@ -204,6 +218,7 @@ for curr_country in df['country'].values:
 df['country_simple'] = countries_simple
 df['story_title'] = df['title']
 df['story_link'] = df['link']
+
 
 # creating a list of the unique country names from our files
 uniqueCountryList = df.country_simple.unique()
@@ -226,6 +241,25 @@ centroids = pd.DataFrame(data={'country_simple': uniqueCountryList,
     'lat': lat, 'lng': lng})
 
 df = pd.merge(df, centroids, how='left', on='country_simple', left_index=False)
+
+regions = ['Across Regions', 'LAC', 'CEE', 'WCA', 'ESA',  'MENA', 'EAP','Across SA']
+
+df['country'][(df['country'].str.contains('EAP'))]='Across EAP'
+df['country'][(df['country'].str.contains('ROSA'))]='Across SA'
+df['country'][(df['country'].str.contains('Across Region'))]='Across Regions'
+df['country'][(df['country'].str.contains('Across region'))]='Across Regions'
+df['country'][(df['country'].str.contains('WCAR'))]='Across WCA'
+df['country'][(df['country'].str.contains('Across West Africa'))]='Across WCA'
+df['country'][(df['country'].str.contains('WAC'))]='Across WCA'
+
+
+regional_lat = 19.5
+regional_lng = -136.4
+for region in regions:
+    df['lat'][(df['country'].str.contains(region))] = regional_lat
+    df['lng'][(df['country'].str.contains(region))] = regional_lng
+    regional_lat = regional_lat - 7.5
+
 
 print 'DATAFRAME STEP 2:'
 print len(df)
@@ -274,6 +308,10 @@ df['category'][(df['category'] == 'conflict') & (df['category2'] == 'disease')] 
 
 print 'STEP 4'
 print len(df)
+
+
+df['week_year']=''
+df['week_year']=df['date'].map(lambda x:('{week}/{year}'.format(week=x.weekofyear,year=x.year)))
 
 df.to_csv('WebApp/data/news_stories_final.csv', index_label='row_index', index=True, date_format='%m/%d/%y')
 

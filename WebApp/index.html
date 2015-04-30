@@ -145,32 +145,38 @@
 
 <script>
     /*--------------------------------Map--------------------------------*/
+
     /*----------------------Global Variables - Map-----------------------*/
-
-var toType = function(obj) {
-  return ({}).toString.call(obj).match(/\s([a-zA-Z]+)/)[1].toLowerCase()
-}
-
     var width = 1000,
         height = 440;
+
     var projection = d3.geo.mercator()
         .center([0, 0])
         .scale(180);
+
     var svg = d3.select("#map").append("svg")
         .attr("width", width)
         .attr("height", height);
+
     var path = d3.geo.path()
         .projection(projection);
+
     var g = svg.append("g");
+
     var tip = d3.tip()
               .attr('class', 'd3-tip')
               .html(function(d){
                       return d.values[0].country;
                     });
+
     svg.call(tip);
+
     var filtered;
+
     var rscale = d3.scale.sqrt();
+
     var map_data;
+
     // load and display the World
     d3.json("world-110m2.json", function(error, topology) {
       g.selectAll("path")
@@ -181,12 +187,14 @@ var toType = function(obj) {
         .attr("d", path)
         .attr("class", "map")
     });
+
     // load the data once and draw the map and the trend chart
     d3.csv("data/news_stories_final.csv", function(error, data) {
         map_data = data;
         draw_circles(map_data);
         draw_trend(map_data);
         });
+
     //filters
     d3.selectAll(".filter-button").on("click", function() {
         var currButton = d3.select(this);
@@ -208,48 +216,7 @@ var toType = function(obj) {
         draw_circles(filtered);
         draw_trend(filtered);
     });
-    // zoom and pan
-    var zoom = d3.behavior.zoom()
-        .on("zoom",function() {
-            g.attr("transform","translate("+ 
-                d3.event.translate.join(",")+")scale("+d3.event.scale+")");
-            g.selectAll("circle")
-                .attr("d", path.projection(projection));
-            g.selectAll("path")  
-                .attr("d", path.projection(projection)); 
-      });
-        
-    svg.call(zoom);
-    //search
-    var entities_mapping = {};
-    d3.csv('data/entities.txt', function(error, data) {
-        var entities_nest = d3.nest()
-            .key(function(d){return d.entity;})
-            .sortKeys(d3.ascending)
-            .entries(data);
-        var entities = entities_nest 
-            .map(function(d){
-                return d.key;
-            });
-        $(function() {
-            $("#search").autocomplete({
-                source: entities
-            });
-        });
-        entities_nest.forEach(function(d){
-            entities_mapping[d.key] = d.values.map(function(d){
-                return d.id;
-            });
-        });
-    });
-    d3.select("#search").on("search", function() {
-        var stories_ids = entities_mapping[this.value]; 
-        filtered = map_data.filter(function(s){
-            return $.inArray(s.row_index, stories_ids) > -1
-           });
-        draw_circles(filtered);
-        draw_trend(filtered);
-    });
+
     /*----------------------End Global Variables - Map-----------------------*/
     
     //drawing the map   
@@ -374,11 +341,13 @@ var toType = function(obj) {
         //defining the axes
         x.domain(d3.extent(stories_by_date, function(d) { return d.date; }));
         y.domain(d3.extent(stories_by_date, function(d) { return d.values; }));
+
         //adding the axes to the trend SVG
         svg_trend.append("g")
             .attr("class", "x axis")
             .attr("transform", "translate(0," + height_trend + ")")
             .call(xAxis);
+
         svg_trend.append("g")
             .attr("class", "y axis")
             .call(yAxis)
@@ -388,6 +357,7 @@ var toType = function(obj) {
             .attr("dy", ".71em")
             .style("text-anchor", "end")
             .text("# Stories");
+
         //drawing the line accrording to stories_by_date
         //using the line function defined in the global scope   
         svg_trend.append("path")
@@ -401,7 +371,7 @@ var toType = function(obj) {
             .on("brushstart", brushstart)
             .on("brush", brushmove)
             .on("brushend", brushend);
-            // debugger;
+
         var arc = d3.svg.arc()
             .outerRadius(height_trend / 2)
             .startAngle(0)
@@ -432,6 +402,7 @@ var toType = function(obj) {
                 return include_point;
             })
             draw_circles(filtered_by_date);
+
           }
         function brushend() {
             svg.classed("selecting", !d3.event.target.empty());
