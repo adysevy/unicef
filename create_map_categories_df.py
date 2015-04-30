@@ -157,7 +157,9 @@ for file_name in os.listdir(folder):
 
 # bulding the data frame
 df = pd.DataFrame(data)
+
 df['story_id']=df.index
+
 
 # removing 5 stories with multiple urls
 ind = []
@@ -203,10 +205,10 @@ for curr_country in df['country'].values:
         formattedcountry = 'israel'
     if 'dpr' in formattedcountry:
         formattedcountry = 'north korea'
-    if 'sudan' in formattedcountry:
-        formattedcountry  = 'sudan'
     if formattedcountry == 'georgia':
         formattedcountry = 'republic of georgia'
+    if 'sudan' in formattedcountry:
+        formattedcountry  = 'sudan'
     if 'burundi' in formattedcountry:
         formattedcountry = 'burundi'
     countries_simple.append(formattedcountry)
@@ -239,6 +241,7 @@ centroids = pd.DataFrame(data={'country_simple': uniqueCountryList,
     'lat': lat, 'lng': lng})
 
 df = pd.merge(df, centroids, how='left', on='country_simple', left_index=False)
+
 regions = ['Across Regions', 'LAC', 'CEE', 'WCA', 'ESA',  'MENA', 'EAP','Across SA']
 
 df['country'][(df['country'].str.contains('EAP'))]='Across EAP'
@@ -256,6 +259,7 @@ for region in regions:
     df['lat'][(df['country'].str.contains(region))] = regional_lat
     df['lng'][(df['country'].str.contains(region))] = regional_lng
     regional_lat = regional_lat - 7.5
+
 
 print 'DATAFRAME STEP 2:'
 print len(df)
@@ -304,6 +308,7 @@ df['category'][(df['category'] == 'conflict') & (df['category2'] == 'disease')] 
 
 print 'STEP 4'
 print len(df)
+
 
 df['week_year']=''
 df['week_year']=df['date'].map(lambda x:('{week}/{year}'.format(week=x.weekofyear,year=x.year)))
