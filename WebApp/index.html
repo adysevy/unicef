@@ -46,7 +46,6 @@
 }
 .d3-tip {
   line-height: 1;
-  font-weight: bold;
   padding: 12px;
   background: rgba(0, 0, 0, 0.8);
   color: #fff;
@@ -125,9 +124,9 @@
         <h6>All Headlines</h6>
         <div id="story_titles" style='height: 220px; overflow: auto; padding: 5px; margin: 0px 0px 5px 0px; border: 1px solid #e4e4e4;'> </div>
         <h6 style="align: left;">Full Story Text</h6>
-        <div id="story_text" style='height: 220px; overflow: auto; padding: 10px; border: 1px solid #e4e4e4'> </div>  
+        <div id="story_text" style='height: 250px; overflow: auto; padding: 10px; border: 1px solid #e4e4e4'> </div>  
         <h6 style="align: left;">Source:</h6>
-        <div id="story_link" style='padding: 5px; overflow: auto; height: 50px; border: 1px solid #e4e4e4;'></div>
+        <div id="story_link" style='padding: 5px; overflow: auto; height: 30px; border: 1px solid #e4e4e4;'></div>
       </div>
     </div>
   </div>
@@ -166,14 +165,18 @@
     var tip = d3.tip()
               .attr('class', 'd3-tip')
               .html(function(d){
-                      return d.values[0].country;
+                      return "<b>"+ d.values[0].country + "</b><br>"
+                            + d.values.length + ' stories';
                     });
 
     svg.call(tip);
 
     var filtered;
 
-    var rscale = d3.scale.sqrt();
+    var rscale = d3.scale.log()
+                    .domain([1,222])
+                    .range([2,18]);
+    
 
     var map_data;
 
@@ -218,7 +221,6 @@
     });
 
     /*----------------------End Global Variables - Map-----------------------*/
-    
     //drawing the map   
     function draw_circles(filtered_data){
          //group the data by lat/lon
@@ -226,7 +228,6 @@
             .key(function(d) { return (d.lng+","+d.lat);})
             .sortKeys(d3.ascending)
             .entries(filtered_data);
-        
         //remove all current circles 
         g.selectAll("circle").remove();
         //draw new circles
@@ -253,6 +254,7 @@
               //clear story text and title
               d3.select("#story_text").html("");
               d3.select("#story_titles").html("");
+              d3.select("#story_link").html("");
               //select current circle
               d3.select(this)
                 .each(function(e) {
@@ -266,7 +268,7 @@
                         d3.select('#story_text')
                           .html(article_elem.story);
                         d3.select('#story_link')
-                          .html(article_elem.story_link);
+                          .html("<a href=\""+article_elem.story_link.match(/http.*/)[0]+"\"target=\"_blank\">"+ article_elem.story_link.match(/.*(?=http)/)+"</a>");
                       })
                     .text(v.story_title);
                   });
