@@ -171,12 +171,7 @@
 
     svg.call(tip);
 
-    var filtered;
-
-    var rscale = d3.scale.log()
-                    .domain([1,222])
-                    .range([2,18]);
-    
+    var filtered;  
 
     var map_data;
 
@@ -220,6 +215,8 @@
         draw_trend(filtered);
     });
 
+    var rscale = null;
+
     /*----------------------End Global Variables - Map-----------------------*/
     //drawing the map   
     function draw_circles(filtered_data){
@@ -228,6 +225,18 @@
             .key(function(d) { return (d.lng+","+d.lat);})
             .sortKeys(d3.ascending)
             .entries(filtered_data);
+
+        //calculate max values for rscale    
+        var max_number_stories;
+        if (rscale==null){
+          max_number_stories = d3.max(nested_data,function(d){
+            return d.values.length;
+          });
+          rscale = d3.scale.log()
+          .domain([1,max_number_stories])
+          .range([2,18]);
+        }
+
         //remove all current circles 
         g.selectAll("circle").remove();
         //draw new circles
