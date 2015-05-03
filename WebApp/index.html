@@ -115,7 +115,7 @@
 
 <!-- ROW & COLUMN CONTAINING MAP AND TRENDLINE -->
   <div class="row">
-    <div class="nine columns" style='overflow: auto;'>
+    <div class="nine columns" >
       <div id="map" style="background: #dbf2fb;"> </div>
       <div id="trend"></div>
     </div>
@@ -152,16 +152,17 @@
     /*----------------------Global Variables - Map-----------------------*/
 	var categoryColors = {'Political/social unrest':'#ccebc5','conflict':'#ffffcc','disaster':'#decbe4','food':'#fbb4ae','disease':'#e5d8bd','water':'#fed9a6'}
 			
-    var width = 1000,
-        height = 440;
+    var width = $('#map').width();
+    var map_height = 440;
 
     var projection = d3.geo.mercator()
         .center([0, 0])
         .scale(180);
 
+	debugger;
     var svg = d3.select("#map").append("svg")
         .attr("width", width)
-        .attr("height", height);
+        .attr("height", map_height);
 
     var path = d3.geo.path()
         .projection(projection);
@@ -180,30 +181,18 @@
 	
     /*----------------------Global Variables - Trend Chart-----------------------*/
     //defining the size for the graph
-    var margin_trend = {top: 20, right: 5, bottom: 30, left: 50};
-    var width_trend = 1000 - margin_trend.left - margin_trend.right;
-    var height_trend = 100 - margin_trend.top - margin_trend.bottom;
-    var x = d3.time.scale()
-        .range([0, width_trend]);
-    var y = d3.scale.linear()
-        .range([height_trend, 0]);
-    var xAxis = d3.svg.axis()
-        .scale(x)
-        .orient("bottom");
-    var yAxis = d3.svg.axis()
-        .scale(y)
-        .ticks(4)
-        .orient("left");
-	var defaultBrushEndDate;
-	var defaultBrushStartDate;
+    var margin_trend = {top: 20, right: 50, bottom: 20, left: 50};
+    var width_trend = width - margin_trend.left - margin_trend.right;
+    var height_trend = 120 - margin_trend.top - margin_trend.bottom;
+	
+	var minStartDate;
+	var maxStartDate;
+	var barWidth;
+	var x;
+	var xAxis;
 
     //defining a function which gets a string and parse it into a real date type
     var parseDate = d3.time.format("%w/%U/%Y").parse;
-    //defining a line function which gets our stories_by_date data and returns x and y
-    // arrays in the mapping defined above
-    var line = d3.svg.line()
-      .x(function(d) { return x(d.week_year); })
-      .y(function(d) { return y(d.values); });
 	  
 	var svg_trend = d3.select("#trend").append("svg")
             .attr("width", width_trend + margin_trend.left + margin_trend.right)
@@ -213,6 +202,7 @@
 	
 
     var map_data;
+	var filtered_data;
 
     // load and display the World
     d3.json("world-110m2.json", function(error, topology) {
@@ -224,12 +214,32 @@
         .attr("d", path)
         .attr("class", "map")
     });
+	
+	var bars_padding = 3
 
     // load the data once and draw the map and the trend chart
     d3.csv("data/news_stories_final.csv", function(error, data) {
         map_data = data;
-        draw_circles(map_data);
-		draw_trend(map_data);
+		minStartDate = parseDate(d3.min(map_data,function(d){return d.week_year;}));
+		maxStartDate = parseDate(d3.max(map_data,function(d){return d.week_year;}));
+		var oneWeek = 24*60*60*1000*7; 
+		var numberOfBars = Math.ceil((maxStartDate-minStartDate)/oneWeek)
+		barWidth = width_trend/(numberOfBars);
+		barWidth = barWidth - bars_padding;
+				
+		maxStartDate = d3.time.week.offset(maxStartDate,1)
+		x = d3.time.scale()
+		.domain([d3.time.week.offset(minStartDate,-1), maxStartDate])
+		.rangeRound([0, width_trend]);
+
+			
+		xAxis = d3.svg.axis()
+			.scale(x)
+			.orient("bottom")
+			.ticks(d3.time.weeks, 4)
+			.tickFormat(d3.time.format('%U/%Y'));	
+
+		draw_all();
         });
 
     d3.selectAll(".filter-button").on("click", function() {
@@ -243,9 +253,7 @@
             currButton.style('opacity',null);
         }
         
-		var filtered = filter_data();
-		draw_circles(filtered);
-		draw_trend(filtered);
+		draw_all();
     });
 
     var rscale = null;
@@ -323,103 +331,128 @@
     }
             
 
-    //drawing the trend chart
-    function filter_data() {
+
+
+	function draw_all(){
+		//filter categories
 		var checkedValues = $('.filter-button[checked]').map(function() {
                 return this.name;
                 }).get();
             
-        var filtered_data = map_data.filter(function(s){
+        filtered_data = map_data.filter(function(s){
            return $.inArray(s.category, checkedValues) > -1
            });
 		   
-		var s = brush.extent();
-		var filtered_data = filtered_data.filter(function(d){
-			parsedSelectedDate = parseDate(d.week_year);
-			var include_point = parsedSelectedDate >= s[0] && parsedSelectedDate <= s[1];
-			return include_point;
-		})
-			
-		return filtered_data
-	}
-
-	function draw_trend(filtered_data){
-  	     defaultBrushStartDate = d3.min(map_data, function(d){
-			return parseDate(d.week_year);
-          });
-	    defaultBrushEndDate = d3.max(map_data, function(d){
-			return parseDate(d.week_year);
-          });	
+		   
+		//filter search
+		var search = $('#search').val();
+		if (search!=""){
+			var stories_ids = entities_mapping[search];
+			filtered_data  = filtered_data.filter(function(s){
+				return $.inArray(s.row_index, stories_ids) > -1
+			   });
+		}
 	
-	
-        //removing the current SVG of the trend graph
+         //removing the current SVG of the trend graph
         d3.select("#trend").select("#trendg").remove();
         //creating a new SVG in the proper size
         var svg_trend_g = svg_trend.append("g")
-            .attr("id", "trendg").attr("transform", "translate(" + margin_trend.left + "," + margin_trend.top + ")");
+            .attr("id", "trendg")
+			.attr("transform", "translate(" + margin_trend.left + "," + margin_trend.top + ")");
         //creating a nested data structure out of the filtered data
         var stories_by_date = d3.nest()
             .key(function(d) { return (d.week_year);})
+			.key(function(d) { return (d.category);})
             .rollup(function(d) { 
                return d3.sum(d, function(g) {return 1; });
             }).entries(filtered_data);
         //adding a real (not string) date field to stories_by_date
-        stories_by_date.forEach(function(d){
-            d.week_year = parseDate(d.key);
-        });
+		
+		var stories_aggregated = stories_by_date.map(function(d){
+			var res = {'key':parseDate(d.key)}
+			var arr = [];
+			var i =-1;
+			var y0 = 0;
+			for (var key in categoryColors) {
+			  i+=1;
+			  arr[i] = {'category':key};
+			  var val = 0;
+			  d.values.forEach(function(h){
+				if(h.key==key){
+					val =  h.values
+				}
+			  });		  
+			  if (i>0){
+				y0 = arr[i-1]['y1'];
+			  }
+			  arr[i]['y0']=y0;
+			  arr[i]['y1']=y0+val;
+			}
+			res['total'] = arr[arr.length - 1].y1;
+			res['values'] = arr;
+			return res;
+		});
+		
         //sort the data according to the date field
-        stories_by_date.sort(function(a, b){
-            if (a.week_year<b.week_year){
+        stories_aggregated.sort(function(a, b){
+            if (a.key<b.key){
                 return -1;
             }
-            if (b.week_year<a.week_year){
+            if (b.key<a.key){
                 return 1;
             }
             return 0;
         });
-    
-        //defining the axes
-        x.domain(d3.extent(stories_by_date, function(d) { return d.week_year; }));
-        y.domain(d3.extent(stories_by_date, function(d) { return d.values; }));
-        
-		var  barWidth = width_trend/stories_by_date.length;
-        
-		//adding the axes to the trend SVG
-		svg_trend_g.selectAll("g")
-		.data(stories_by_date)
-		.enter();
 		
-        svg_trend_g.append("g")
-            .attr("class", "x axis")
-            .attr("transform", "translate(0," + height_trend + ")")
-            .call(xAxis);
-
-        svg_trend_g.append("g")
-            .attr("class", "y axis")
-            .call(yAxis)
-            .append("text")
-            .attr("transform", "rotate(-90)")
-            .attr("y", 0-margin_trend.left)
-            .attr("dy", ".71em")
-            .style("text-anchor", "end")
-            .text("# Stories");
-		  
-        //drawing the line according to stories_by_date
-        //using the line function defined in the global scope   
-        svg_trend_g.append("path")
-            .attr("class", "line")
-            .attr("d", line(stories_by_date));  
+	
+		var y = d3.scale.linear()
+			.rangeRound([height_trend, 0]);
 			
-		draw_brush(svg_trend_g);
+		var yAxis = d3.svg.axis()
+			.scale(y)
+			.ticks(4)
+			.orient("left");
+
+		y.domain([0, d3.max(stories_aggregated, function(d) { return d.total; })]);
+
+		svg_trend_g.append("g")
+		  .attr("class", "x axis")
+		  .attr("transform", "translate("+barWidth/2 +"," + height_trend + ")")
+		  .call(xAxis);
+
+		svg_trend_g.append("g")
+		  .attr("class", "y axis")
+		  .call(yAxis)
+		.append("text")
+		  .attr("transform", "rotate(-90)")
+          .attr("y", 0-margin_trend.left)
+		  .attr("dy", ".71em")
+		  .style("text-anchor", "end")
+		  .text("# Stories");
+
+		var week = svg_trend_g.selectAll(".week")
+		  .data(stories_aggregated)
+		.enter().append("g")
+		  .attr("class", "g")
+		  .attr("transform", function(d) { return "translate(" + x(d.key) + ",0)"; });
+
+		week.selectAll("rect")
+		  .data(function(d) { return d.values; })
+		.enter().append("rect")
+		  .attr("width", barWidth)
+		  .attr("y", function(d) { return y(d.y1); })
+		  .attr("height", function(d) { return y(d.y0) - y(d.y1); })
+		  .style("fill", function(d) { return categoryColors[d.category]; });
+
+		draw_brush(svg_trend_g)
     } 
 
 	var brush;
 	function draw_brush(svg){
-
 	// starting timeline brush here
         brush = d3.svg.brush()
             .x(x)
-            .extent([defaultBrushStartDate, defaultBrushEndDate])
+            .extent([minStartDate, maxStartDate])
             .on("brushstart", brushstart)
             .on("brush", brushmove)
             .on("brushend", brushend);
@@ -430,12 +463,11 @@
             .endAngle(function(d, i) { return i ? -Math.PI : Math.PI; });
         var brushg = svg.append('g')
             .attr('class', 'brush')
-            // .style('fill', '#1CACE2')
             .call(brush);
         brushg.selectAll(".resize").append("path")
             .attr("transform", "translate(0," +  height_trend / 2 + ")")
             .attr("d", arc)
-            .style("opacity", "0.7");
+            .style("opacity", "0.4");
         brushg.selectAll("rect")
             .attr("height", height_trend);
 
@@ -446,7 +478,13 @@
             svg.classed("selecting", true);
           }
         function brushmove() {
-            draw_circles(filter_data());
+			var s = brush.extent();
+			var filtered_data_date = filtered_data.filter(function(d){
+				parsedSelectedDate = parseDate(d.week_year);
+				var include_point = parsedSelectedDate >= s[0] && parsedSelectedDate <= s[1];
+				return include_point;
+			});	
+            draw_circles(filtered_data_date);
           }
         function brushend() {
             svg.classed("selecting", !d3.event.target.empty());
@@ -454,6 +492,35 @@
         //ending timeline brush 
 	}
 	
+	
+	    /*--------------------------------Search Bar--------------------------------*/
+
+    //search
+    var entities_mapping = {};
+    d3.csv('data/entities.txt', function(error, data) {
+        var entities_nest = d3.nest()
+            .key(function(d){return d.entity;})
+            .sortKeys(d3.ascending)
+            .entries(data);
+        var entities = entities_nest 
+            .map(function(d){
+                return d.key;
+            });
+        $(function() {
+            $("#search").autocomplete({
+                source: entities
+            });
+        });
+        entities_nest.forEach(function(d){
+            entities_mapping[d.key] = d.values.map(function(d){
+                return d.id;
+            });
+        });
+    });
+
+    d3.select("#search").on("search", function() {
+        draw_all();
+    });
 	
 	
 	
