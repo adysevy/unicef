@@ -98,7 +98,7 @@
     </div>
 
     <div id="filters" class="two columns">
-      <input class="u-pull-right" type="search" placeholder="search" id="search" style="background: #FFFFFB;">
+      <input class="u-pull-right" type="search" placeholder="search" id="search" style="background: #FFFFFB; cursor:pointer;">
     </div> 
   </div>
 
@@ -114,7 +114,7 @@
       <div>
         <h5>  <span id="c_name"></span> </h5>
         <h6>All Headlines</h6>
-        <div id="story_titles" style='height: 220px; overflow: scroll; padding: 5px; margin: 0px 0px 5px 0px; border: 1px solid #e4e4e4;'> </div>
+        <div id="story_titles" style='height: 220px; overflow: scroll; padding: 5px; margin: 0px 0px 5px 0px; border: 1px solid #e4e4e4; cursor:pointer;'> </div>
         <h6>Full Story</h6>
         <div id="story_text" style='height: 250px; overflow: auto; padding: 5px; border: 1px solid #e4e4e4'> </div>  
         <h6>Source:</h6>
@@ -288,6 +288,7 @@
                  return rscale(d.values.length);
          })
          .attr('class', 'circle')
+         .style('cursor', 'pointer')
          .on("click",function (d){
             // change circles styles
             d3.selectAll('circle').attr('class', 'circle')
