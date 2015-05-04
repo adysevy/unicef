@@ -3,7 +3,7 @@
 ## Link to working demo 
 `http://adysevy.github.io/unicef/WebApp/`
 	
-## Run visualization localy:
+### Run visualization localy
 1. Clone the repository
 2. Navigate to unicef/WebApp
 3. Run a local Web server `python -m SimpleHTTPServer 8888 &`
