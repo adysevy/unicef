@@ -1,6 +1,19 @@
-# unicef
+# Visualizing Crisis News Briefs
 
+Link to working demo 
+	http://adysevy.github.io/unicef/WebApp/
     
+	Run visualization localy:
+----------------------
+
+	1. Clone the repository
+	2. Navigate to unicef/WebApp
+	3. Run a local Web server. 
+		For instance:
+		python -m SimpleHTTPServer 8888 &
+		
+In order to run the pre processing part, these configurations are required:
+
     Downloding Packages
 ----------------------
 	easy_install python-docx
