@@ -1,3 +1,4 @@
+story_id,entity,type
 0,"Liberia",LOCATION
 0,"Somalia",LOCATION
 0,"Nepal",LOCATION
