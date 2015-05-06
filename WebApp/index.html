@@ -89,12 +89,13 @@
 <!-- ROW CONTAINING BUTTONS AND SEARCH BAR -->
   <div class="row">
     <div id="filters" class="ten columns">
-        <button style="background: #ccebc5;" class='filter-button' name="Political/social unrest" checked="1">Political/social unrest</button>
+        <button style="background: #ccebc5;" class='filter-button' name="Political/social unrest" checked="1">Political/Social Unrest</button>
         <button style="background: #ffffcc;" class='filter-button' name="conflict" checked="1">Conflict</button>
         <button style="background: #decbe4;" class='filter-button' name="disaster" checked="1">Disaster</button>
-        <button style="background: #fbb4ae;" class='filter-button' name="food" checked="1">Food insecurity</button>
-        <button style="background: #e5d8bd;" class='filter-button' name="disease" checked="1">Disease outbreak</button> 
-        <button style="background: #fed9a6;" class='filter-button' name="water" checked="1">Water insecurity</button>
+        <button style="background: #fbb4ae;" class='filter-button' name="food insecurity" checked="1">Food Insecurity</button>
+        <button style="background: #e5d8bd;" class='filter-button' name="disease" checked="1">Disease</button> 
+        <button style="background: #fed9a6;" class='filter-button' name="water insecurity" checked="1">Water Insecurity</button>
+        <button style="background: #a6cee3;" class='filter-button' name="population displacement" checked="1">Population Displacement</button>
     </div>
 
     <div id="filters" class="two columns">
@@ -135,7 +136,7 @@
 <script>
 
   /*----------------------Global Variables - Map-----------------------*/
-	var categoryColors = {'Political/social unrest':'#ccebc5','conflict':'#ffffcc','disaster':'#decbe4','food':'#fbb4ae','disease':'#e5d8bd','water':'#fed9a6'}
+	var categoryColors = {'Political/social unrest':'#ccebc5','conflict':'#ffffcc','disaster':'#decbe4','food insecurity':'#fbb4ae','disease':'#e5d8bd','water insecurity':'#fed9a6', 'population displacement': '#a6cee3'}
 			
   var width = $('#map').width();
   var map_height = 480;
@@ -339,8 +340,13 @@
     }).get();
             
     filtered_data = map_data.filter(function(s){
-       return $.inArray(s.category, checkedValues) > -1
+      //debugger;
+      //return $.inArray(s.category, checkedValues)> -1
+      return ($.inArray(s.category, checkedValues) >-1 || $.inArray(s.category2, checkedValues) >-1 || $.inArray(s.category3, checkedValues)> -1)
+      
     });
+
+
 		   
 		//filter by search
 		var search = $('#search').val();
