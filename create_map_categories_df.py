@@ -312,7 +312,8 @@ print len(df)
 
 
 df['week_year']=''
-df['week_year']=df['date'].map(lambda x:('0/{week}/{year}'.format(week=x.weekofyear,year=x.year)))
+# df['week_year']=df['date'].map(lambda x:('0/{week}/{year}'.format(week=x.weekofyear,year=x.year)))
+df['week_year']=df['date'].map(lambda x: x.strftime('0/%U/%Y'))
 
 df = df.rename(columns={'category': 'category1'})
 df = df.rename(columns={'category2': 'category'})
@@ -322,5 +323,5 @@ df['category2'][(df['category']==df['category2'])] = ''
 df = df.drop(['category4'], axis=1)
 
 
-df.to_csv('WebApp/data/news_stories_final1.csv', index_label='row_index', index=True, date_format='%m/%d/%y')
+df.to_csv('WebApp/data/news_stories_final.csv', index_label='row_index', index=True, date_format='%m/%d/%y')
 
