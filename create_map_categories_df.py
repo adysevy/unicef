@@ -252,6 +252,11 @@ df['country'][(df['country'].str.contains('WCAR'))]='Across WCA'
 df['country'][(df['country'].str.contains('Across West Africa'))]='Across WCA'
 df['country'][(df['country'].str.contains('WAC'))]='Across WCA'
 
+#Really want to pull these into the same dot/have a less controversial name
+df['country'][(df['country'].str.contains('Palestine'))]='Israel/Palestine'
+df['country'][(df['country'].str.contains('Israel'))]='Israel/Palestine'
+df['country'][(df['country'].str.contains('Jerusalem'))]='Israel/Palestine'
+
 
 regional_lat = 0
 regional_lng = -136.4
