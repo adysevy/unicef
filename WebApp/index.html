@@ -288,9 +288,16 @@
         .attr("r", function(d) {
                 return rscale(d.values.length);
         })
+        .attr("country", function(d) {
+          return d.values[0].country;
+        })
         .attr('class', 'circle')
         .style('cursor', 'pointer')
-        .on("click",function (d){
+        .on("click", select_circle)
+        .on('mouseover', tip.show)
+        .on('mouseout', tip.hide)
+  }
+  function select_circle(d){
             // change circles styles
             d3.selectAll('circle').attr('class', 'circle')
             d3.select(this).attr('class', 'circle_selected');
@@ -316,6 +323,7 @@
                         .html("<a href=\""+article_elem.story_link.match(/http.*/)[0]+"\"target=\"_blank\">"+ article_elem.story_link.match(/.*(?=- http)/)+"</a>");
                     })
                   .html(v.story_title + "<br />" + "Date: " + v.date)
+                  // this is a tricky way of appending a colored tag to each headline, denoting category
                   .append('svg')
                       .attr('width',300)
                       .attr('height',15)
@@ -326,12 +334,9 @@
                       .attr('height',15)
                       .attr('fill',categoryColors[v.category]);
                 });
-              });   
-          })
-         .on('mouseover', tip.show)
-         .on('mouseout', tip.hide)
+              });
   }
-            
+
   function draw_all(){
 
     //filter by categories buttons
