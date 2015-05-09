@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <title>Visualizing Crisis News Briefs</title>
     <meta name="description" content="A visualization tool for exploring worldwide news crisis events">
-    <meta name="author" content="Meredith McCarron, Andrea Krukowski and Ady Sevy">
+    <meta name="author" content="Andrea Krukowski, Meredith McCarron, and Ady Sevy">
 
     <!-- Mobile Specific Metas
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -79,20 +79,20 @@
 
     <div class="row">
         <div id="heading" class="u-max-full-width">
-            <h5> News Bulletins </h5>
+            <h5> Visualizing Crisis News Briefs </h5>
         </div>
     </div>
 
 <!-- ROW CONTAINING BUTTONS AND SEARCH BAR -->
     <div class="row">
         <div id="filters" class="ten columns">
-            <button style="background: #ccebc5;" class='filter-button' name="Political/social unrest" checked="1">Political/Social Unrest</button>
-            <button style="background: #ffffcc;" class='filter-button' name="conflict" checked="1">Conflict</button>
-            <button style="background: #decbe4;" class='filter-button' name="disaster" checked="1">Disaster</button>
-            <button style="background: #fbb4ae;" class='filter-button' name="food insecurity" checked="1">Food Insecurity</button>
-            <button style="background: #e5d8bd;" class='filter-button' name="disease" checked="1">Disease</button> 
-            <button style="background: #fed9a6;" class='filter-button' name="water insecurity" checked="1">Water Insecurity</button>
-            <button style="background: #a6cee3;" class='filter-button' name="population displacement" checked="1">Population Displacement</button>
+            <button style="background: #66c2a5;" class='filter-button' name="Political/social unrest" checked="1">Political/Social Unrest</button>
+            <button style="background: #ffd92f;" class='filter-button' name="conflict" checked="1">Conflict</button>
+            <button style="background: #8da0cb;" class='filter-button' name="disaster" checked="1">Disaster</button>
+            <button style="background: #e78ac3;" class='filter-button' name="food insecurity" checked="1">Food Insecurity</button>
+            <button style="background: #a6d854;" class='filter-button' name="disease" checked="1">Disease</button> 
+            <button style="background: #fc8d62;" class='filter-button' name="water insecurity" checked="1">Water Insecurity</button>
+            <button style="background: #e5c494;" class='filter-button' name="population displacement" checked="1">Population Displacement</button>
         </div>
 
         <div id="filters" class="two columns">
@@ -133,7 +133,7 @@
 <script>
 
   /*----------------------Global Variables - Map-----------------------*/
-  var categoryColors = {'Political/social unrest':'#ccebc5','conflict':'#ffffcc','disaster':'#decbe4','food insecurity':'#fbb4ae','disease':'#e5d8bd','water insecurity':'#fed9a6', 'population displacement': '#a6cee3'}
+  var categoryColors = {'Political/social unrest':'#66c2a5','conflict':'#ffd92f','disaster':'#8da0cb','food insecurity':'#e78ac3','disease':'#a6d854','water insecurity':'#fc8d62', 'population displacement': '#e5c494', '':'#FFFFFB'}
       
   var width = $('#map').width();
   var map_height = 480;
@@ -205,7 +205,18 @@
 
   // load the data once and draw the map and the trend chart
   d3.csv("data/news_stories_final.csv", function(error, data) {
-      map_data = data;
+      map_data = data
+          .sort(function(a, b){
+              var date1 = new Date(a.date),
+              date2 = new Date(b.date);
+              if (date1<date2){
+                  return 1;
+              }
+              if (date2<date1){
+                  return -1;
+              }
+              return 0;
+          });
       minStartDate = parseDate(d3.min(map_data,function(d){return d.week_year;}));
       maxStartDate = parseDate(d3.max(map_data,function(d){return d.week_year;}));
       var oneWeek = 24*60*60*1000*7; 
@@ -294,24 +305,46 @@
       d3.select("#story_titles").html("");
       d3.select("#story_link").html("");
       //select current circle
+      
+
+
       d3.select(this)
           .each(function(e) {
               //iterate over all stories in circle
               e.values.forEach(function(v) {
-                  d3.select('#story_titles').append("p")
-                  .datum(v)
-                  .on('click', select_headline)
-                  .html(v.story_title + "<br />" + "Date: " + v.date)
-                  // this is a tricky way of appending a colored tag to each headline, denoting category
-                  .append('svg')
+                  var tags_svg = d3.select('#story_titles').append("p")
+                      .datum(v)
+                      .on('click', select_headline)
+                      .html(v.story_title + "<br />" + "Date: " + v.date)
+                      .append('svg')
                       .attr('width',300)
-                      .attr('height',15)
-                      .append('rect')
-                      .attr('x',0)
-                      .attr('y',5)
-                      .attr('width',25)
-                      .attr('height',15)
-                      .attr('fill',categoryColors[v.category]);
+                      .attr('height',15);
+
+                  // var rectangleData = [
+                  // {'rx':0, 'ry': 5, 'height': 15, 'width': 25, 'color': categoryColors[v.category]}
+                  // {'rx':30, 'ry': 5, 'height': 15, 'width': 25, 'color': categoryColors[v.category2]}
+                  // {'rx':60, 'ry': 5, 'height': 15, 'width': 25, 'color': categoryColors[v.category3]}
+                  // ]
+                  // this is a tricky way of appending a colored tag to each headline, denoting category
+                  
+                      tags_svg.append('rect')
+                          .attr('x',0)
+                          .attr('y',5)
+                          .attr('width',25)
+                          .attr('height',15)
+                          .attr('fill',categoryColors[v.category]);
+                      tags_svg.append('rect')
+                          .attr('x',30)
+                          .attr('y',5)
+                          .attr('width',25)
+                          .attr('height',15)
+                          .attr('fill',categoryColors[v.category2]);
+                      tags_svg.append('rect')
+                          .attr('x',60)
+                          .attr('y',5)
+                          .attr('width',25)
+                          .attr('height',15)
+                          .attr('fill',categoryColors[v.category3]);
               });
           });
   }
