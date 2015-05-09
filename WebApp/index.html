@@ -315,9 +315,9 @@
                       d3.select('#story_link')
                         .html("<a href=\""+article_elem.story_link.match(/http.*/)[0]+"\"target=\"_blank\">"+ article_elem.story_link.match(/.*(?=- http)/)+"</a>");
                     })
-                  .text(v.story_title)
-                  .append('svg').
-                  attr('width',300)
+                  .html(v.story_title + "<br />" + "Date: " + v.date)
+                  .append('svg')
+                  .attr('width',300)
                   .attr('height',15)
                   .append('rect')
                   .attr('x',0)
