@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang='en'>
 <head>
-
     <!-- Basic Page Needs
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <meta charset="utf-8">
@@ -14,19 +13,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- FONT
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
 
-  <!-- CSS
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/skeleton.css">
-  <link rel="stylesheet" href="css/jquery-ui.css">
+    <!-- CSS
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/jquery-ui.css">
 
-  <!-- Favicon
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="icon" type="image/png" href="images/favicon.png">
-
+    <!-- Favicon
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="icon" type="image/png" href="images/favicon.png">
 </head>
 
 <style>
@@ -35,94 +33,93 @@
     max-width: 95%;
     clear: both;
     margin: 10px 15px;
-  }
+}
 .axis path,
 .axis line {
-  fill: none;
-  stroke: #000;
-  shape-rendering: crispEdges;
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
 }
 .d3-tip {
-  line-height: 1;
-  padding: 12px;
-  background: rgba(0, 0, 0, 0.8);
-  color: #fff;
-  border-radius: 2px;
+    line-height: 1;
+    padding: 12px;
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    border-radius: 2px;
 }
 .circle_unselected {
-  fill: #525252;
-  opacity: 0.7;
+    fill: #525252;
+    opacity: 0.7;
 }
 .circle_selected {
-  fill: #1CACE2;
-  stroke: #bdbdbd;
-  opacity: 0.7;
+    fill: #1CACE2;
+    stroke: #bdbdbd;
+    opacity: 0.7;
 }
 .story {
-  background: none;
+    background: none;
 }
 .story_selected {
-  background: #d9d9d9;
+    background: #d9d9d9;
 }
 .map {
-  fill: #f0f0f0;
-  stroke: #bdbdbd;
+    fill: #f0f0f0;
+    stroke: #bdbdbd;
 }
 .brush .extent {
-  fill-opacity: .125;
-  shape-rendering: crispEdges;
+    fill-opacity: .125;
+    shape-rendering: crispEdges;
 }
 </style>
 
 <body style='background: #FFFFFB'>
-
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 <div class="full-width-container">
 
-  <div class="row">
-    <div id="heading" class="u-max-full-width">
-      <h5> News Bulletins </h5>
+    <div class="row">
+        <div id="heading" class="u-max-full-width">
+            <h5> News Bulletins </h5>
+        </div>
     </div>
-  </div>
 
 <!-- ROW CONTAINING BUTTONS AND SEARCH BAR -->
-  <div class="row">
-    <div id="filters" class="ten columns">
-        <button style="background: #ccebc5;" class='filter-button' name="Political/social unrest" checked="1">Political/Social Unrest</button>
-        <button style="background: #ffffcc;" class='filter-button' name="conflict" checked="1">Conflict</button>
-        <button style="background: #decbe4;" class='filter-button' name="disaster" checked="1">Disaster</button>
-        <button style="background: #fbb4ae;" class='filter-button' name="food insecurity" checked="1">Food Insecurity</button>
-        <button style="background: #e5d8bd;" class='filter-button' name="disease" checked="1">Disease</button> 
-        <button style="background: #fed9a6;" class='filter-button' name="water insecurity" checked="1">Water Insecurity</button>
-        <button style="background: #a6cee3;" class='filter-button' name="population displacement" checked="1">Population Displacement</button>
+    <div class="row">
+        <div id="filters" class="ten columns">
+            <button style="background: #ccebc5;" class='filter-button' name="Political/social unrest" checked="1">Political/Social Unrest</button>
+            <button style="background: #ffffcc;" class='filter-button' name="conflict" checked="1">Conflict</button>
+            <button style="background: #decbe4;" class='filter-button' name="disaster" checked="1">Disaster</button>
+            <button style="background: #fbb4ae;" class='filter-button' name="food insecurity" checked="1">Food Insecurity</button>
+            <button style="background: #e5d8bd;" class='filter-button' name="disease" checked="1">Disease</button> 
+            <button style="background: #fed9a6;" class='filter-button' name="water insecurity" checked="1">Water Insecurity</button>
+            <button style="background: #a6cee3;" class='filter-button' name="population displacement" checked="1">Population Displacement</button>
+        </div>
+
+        <div id="filters" class="two columns">
+            <input class="u-pull-right" type="search" placeholder="search" id="search" style="background: #FFFFFB; cursor:pointer;">
+        </div> 
     </div>
 
-    <div id="filters" class="two columns">
-      <input class="u-pull-right" type="search" placeholder="search" id="search" style="background: #FFFFFB; cursor:pointer;">
-    </div> 
-  </div>
+  <!-- ROW & COLUMN CONTAINING MAP AND TRENDLINE -->
+    <div class="row">
+        <div class="nine columns" >
+            <div id="map" style="background: #dbf2fb; overflow: hidden;"> </div>
+            <div id="trend" style="overflow: hidden;"></div>
+        </div>
 
-<!-- ROW & COLUMN CONTAINING MAP AND TRENDLINE -->
-  <div class="row">
-    <div class="nine columns" >
-      <div id="map" style="background: #dbf2fb; overflow: hidden;"> </div>
-      <div id="trend" style="overflow: hidden;"></div>
+  <!-- COLUMN WITH STORY DETAILS -->
+        <div id="info_panel" class="three columns"> 
+            <div>
+                <h5><span id="c_name"></span></h5>
+                <h6>All Headlines</h6>
+                    <div id="story_titles" style='height: 220px; overflow: scroll; padding: 5px; margin: 0px 0px 5px 0px; border: 1px solid #e4e4e4; cursor:pointer;'> </div>
+                <h6>Full Story</h6>
+                    <div id="story_text" style='height: 250px; overflow: auto; padding: 5px; border: 1px solid #e4e4e4'> </div>  
+                <h6>Source:</h6>
+                    <div id="story_link" style='padding: 5px; overflow: auto; height: 30px; border: 1px solid #e4e4e4;'></div>
+            </div>
+        </div>
     </div>
-
-<!-- COLUMN WITH STORY DETAILS -->
-    <div id="info_panel" class="three columns"> 
-      <div>
-        <h5>  <span id="c_name"></span> </h5>
-        <h6>All Headlines</h6>
-        <div id="story_titles" style='height: 220px; overflow: scroll; padding: 5px; margin: 0px 0px 5px 0px; border: 1px solid #e4e4e4; cursor:pointer;'> </div>
-        <h6>Full Story</h6>
-        <div id="story_text" style='height: 250px; overflow: auto; padding: 5px; border: 1px solid #e4e4e4'> </div>  
-        <h6>Source:</h6>
-        <div id="story_link" style='padding: 5px; overflow: auto; height: 30px; border: 1px solid #e4e4e4;'></div>
-      </div>
-    </div>
-  </div>
 
 </div><!-- container -->
 
@@ -157,10 +154,8 @@
   var tip = d3.tip()
       .attr('class', 'd3-tip')
       .html(function(d){
-              return "<b>"+ d.values[0].country + "</b><br>"
-                    + d.values.length + ' stories';
-            });
-
+            return "<b>"+ d.values[0].country + "</b><br>" + d.values.length + ' stories';
+        });
   svg.call(tip);
   
   //zoom and pan
@@ -172,8 +167,7 @@
               .attr("d", path.projection(projection));
           g.selectAll("path")  
               .attr("d", path.projection(projection)); 
-  });
-       
+  });     
   svg.call(zoom);
   
   /*----------------------Global Variables - Trend Chart-----------------------*/
@@ -181,37 +175,33 @@
   var margin_trend = {top: 30, right: 50, bottom: 30, left: 50};
   var width_trend = width - margin_trend.left - margin_trend.right;
   var height_trend = 150 - margin_trend.top - margin_trend.bottom;
-
   var minStartDate;
   var maxStartDate;
   var barWidth;
   var x;
   var xAxis;
   var brush;
-
   //defining a function which gets a string and parse it into a real date type
   var parseDate = d3.time.format("%w/%U/%Y").parse;
-  
   var svg_trend = d3.select("#trend").append("svg")
-            .attr("width", width_trend + margin_trend.left + margin_trend.right)
-            .attr("height", height_trend + margin_trend.top + margin_trend.bottom) 
+      .attr("width", width_trend + margin_trend.left + margin_trend.right)
+      .attr("height", height_trend + margin_trend.top + margin_trend.bottom) 
   
   /*----------------------Load data and call draw_all()-----------------------*/ 
   var map_data;
   var filtered_data;
+  var bars_padding = 3
 
   // load and display the World
   d3.json("data/world-110m2.json", function(error, topology) {
-    g.selectAll("path")
-      .data(topojson.object(topology, topology.objects.countries)
-            .geometries)
-      .enter()
-      .append("path")
-      .attr("d", path)
-      .attr("class", "map")
-  });
-  
-  var bars_padding = 3
+      g.selectAll("path")
+          .data(topojson.object(topology, topology.objects.countries)
+              .geometries)
+          .enter()
+          .append("path")
+          .attr("d", path)
+          .attr("class", "map")
+    });
 
   // load the data once and draw the map and the trend chart
   d3.csv("data/news_stories_final.csv", function(error, data) {
@@ -222,22 +212,18 @@
       var numberOfBars = Math.ceil((maxStartDate-minStartDate)/oneWeek);
       barWidth = width_trend/(numberOfBars);
       barWidth = barWidth - bars_padding;
-          
       maxStartDate = d3.time.week.offset(maxStartDate,1);
       x = d3.time.scale()
-        .domain([d3.time.week.offset(minStartDate,-1), maxStartDate])
-        .rangeRound([0, width_trend]);
-        
+          .domain([d3.time.week.offset(minStartDate,-1), maxStartDate])
+          .rangeRound([0, width_trend]);
       xAxis = d3.svg.axis()
-        .scale(x)
-        .orient("bottom")
-        .ticks(d3.time.weeks, 4)
-        .tickFormat(d3.time.format('%U/%Y'));  
-
+          .scale(x)
+          .orient("bottom")
+          .ticks(d3.time.weeks, 4)
+          .tickFormat(d3.time.format('%U/%Y'));
       draw_all();
       populate_on_load();
   });
-
 
   d3.selectAll(".filter-button").on("click", function() {
       var currButton = d3.select(this);
@@ -261,18 +247,16 @@
           .key(function(d) { return (d.lng+","+d.lat);})
           .sortKeys(d3.ascending)
           .entries(filtered_data);
-
       //calculate max values for rscale    
       var max_number_stories;
       if (rscale==null){
-        max_number_stories = d3.max(nested_data,function(d){
-          return d.values.length;
-        });
-        rscale = d3.scale.log()
-        .domain([1,max_number_stories])
-        .range([2,18]);
+          max_number_stories = d3.max(nested_data,function(d){
+              return d.values.length;
+          });
+          rscale = d3.scale.log()
+          .domain([1,max_number_stories])
+          .range([2,18]);
       }
-
       //remove all current circles 
       g.selectAll("circle").remove();
       //draw new circles
@@ -281,16 +265,16 @@
         .enter()
         .append("circle")
         .attr("cx", function(d) {
-                return projection([d.values[0].lng, d.values[0].lat])[0];
+            return projection([d.values[0].lng, d.values[0].lat])[0];
         })
         .attr("cy", function(d) {
-                return projection([d.values[0].lng, d.values[0].lat])[1];
+            return projection([d.values[0].lng, d.values[0].lat])[1];
         })
         .attr("r", function(d) {
-                return rscale(d.values.length);
+            return rscale(d.values.length);
         })
         .attr("country", function(d) {
-          return d.values[0].country;
+            return d.values[0].country;
         })
         .attr('class', 'circle_unselected')
         .style('cursor', 'pointer')
@@ -298,21 +282,22 @@
         .on('mouseover', tip.show)
         .on('mouseout', tip.hide)
   }
+
   function select_circle(d){
-            // change circles styles
-            d3.selectAll('circle').attr('class', 'circle_unselected')
-            d3.select(this).attr('class', 'circle_selected');
-            //display country name
-            d3.select("#c_name").html(d.values[0].country);
-            //clear story text and title
-            d3.select("#story_text").html("");
-            d3.select("#story_titles").html("");
-            d3.select("#story_link").html("");
-            //select current circle
-            d3.select(this)
-              .each(function(e) {
-                //iterate over all stories in circle
-                e.values.forEach(function(v) {
+      // change circles styles
+      d3.selectAll('circle').attr('class', 'circle_unselected')
+      d3.select(this).attr('class', 'circle_selected');
+      //display country name
+      d3.select("#c_name").html(d.values[0].country);
+      //clear story text and title
+      d3.select("#story_text").html("");
+      d3.select("#story_titles").html("");
+      d3.select("#story_link").html("");
+      //select current circle
+      d3.select(this)
+          .each(function(e) {
+              //iterate over all stories in circle
+              e.values.forEach(function(v) {
                   d3.select('#story_titles').append("p")
                   .datum(v)
                   .on('click', select_headline)
@@ -327,8 +312,8 @@
                       .attr('width',25)
                       .attr('height',15)
                       .attr('fill',categoryColors[v.category]);
-                });
               });
+          });
   }
 
   function select_headline(d){
@@ -341,179 +326,154 @@
     }
 
   function draw_all(){
-
-    //filter by categories buttons
-    var checkedValues = $('.filter-button[checked]').map(function() {
-      return this.name;
-    }).get();
-            
-    filtered_data = map_data.filter(function(s){
-      //debugger;
-      //return $.inArray(s.category, checkedValues)> -1
-      //a story can have up to three categories, this looks in each of the category columns
-      return ($.inArray(s.category, checkedValues) > -1 
-                || $.inArray(s.category2, checkedValues) > -1 
-                || $.inArray(s.category3, checkedValues) > -1)
-    });
-       
-    //filter by search
-    var search = $('#search').val();
-    if (search!=""){
-      var stories_ids = entities_mapping[search];
-      filtered_data  = filtered_data.filter(function(s){
-        return $.inArray(s.story_id, stories_ids) > -1
+      //filter by categories buttons
+      var checkedValues = $('.filter-button[checked]').map(function() {
+          return this.name;
+      }).get(); 
+      filtered_data = map_data.filter(function(s){
+          //a story can have up to three categories, this looks in each of the category columns
+          return ($.inArray(s.category, checkedValues) > -1 
+              || $.inArray(s.category2, checkedValues) > -1 
+              || $.inArray(s.category3, checkedValues) > -1)
       });
-    }
-  
-    //removing the current SVG of the trend graph
-    d3.select("#trend").select("#trendg").remove();
-
-    //creating a new SVG in the proper size
-    var svg_trend_g = svg_trend.append("g")
-        .attr("id", "trendg")
-        .attr("transform", "translate(" + margin_trend.left + "," + margin_trend.top + ")");
-
-    //groupying the stories by week_year AND by category
-    var stories_by_date = d3.nest()
-        .key(function(d) { return (d.week_year);})
-        .key(function(d) { return (d.category);})
-        .rollup(function(d) { 
-           return d3.sum(d, function(g) {return 1; });
-        }).entries(filtered_data);
-    
-    //building an object for the drawing of the stacked bar chart
-    var stories_aggregated = stories_by_date.map(function(d){
-      var res = {'key':parseDate(d.key)}
-      var arr = [];
-      var i =-1;
-      var y0 = 0;
-      for (var key in categoryColors) {
-        i+=1;
-        arr[i] = {'category':key};
-        var val = 0;
-        d.values.forEach(function(h){
-        if(h.key==key){
-          val =  h.values
-        }
-        });      
-        if (i>0){
-        y0 = arr[i-1]['y1'];
-        }
-        arr[i]['y0']=y0;
-        arr[i]['y1']=y0+val;
+      //filter by search
+      var search = $('#search').val();
+      if (search!=""){
+          var stories_ids = entities_mapping[search];
+          filtered_data  = filtered_data.filter(function(s){
+              return $.inArray(s.story_id, stories_ids) > -1
+          });
       }
-      res['total'] = arr[arr.length - 1].y1;
-      res['values'] = arr;
-      return res;
-    });
-
-    //sorting the data according to the key, i.e. week_year
-    stories_aggregated.sort(function(a, b){
-        if (a.key<b.key){
-            return -1;
-        }
-        if (b.key<a.key){
-            return 1;
-        }
-        return 0;
-    });
-    
-    //drawing the stacked bar chart      
-    var y = d3.scale.linear()
-      .rangeRound([height_trend, 0]);
-      
-    var yAxis = d3.svg.axis()
-      .scale(y)
-      .ticks(4)
-      .orient("left");
-
-    y.domain([0, d3.max(stories_aggregated, function(d) { return d.total; })]);
-
-    svg_trend_g.append("g")
-      .attr("class", "x axis")
-      .attr("transform", "translate("+barWidth/2 +"," + height_trend + ")")
-      .call(xAxis);
-
-    svg_trend_g.append("g")
-      .attr("class", "y axis")
-      .call(yAxis)
-      .append("text")
-      .attr("transform", "rotate(-90)")
-      .attr("y", 0-margin_trend.left)
-      .attr("dy", ".71em")
-      .style("text-anchor", "end")
-      .text("# Stories");
-
-    var week = svg_trend_g.selectAll(".week")
-      .data(stories_aggregated)
-      .enter()
-      .append("g")
-      .attr("class", "g")
-      .attr("transform", function(d) { return "translate(" + x(d.key) + ",0)"; });
-
-    week.selectAll("rect")
-      .data(function(d) { return d.values; })
-      .enter()
-      .append("rect")
-      .attr("width", barWidth)
-      .attr("y", function(d) { return y(d.y1); })
-      .attr("height", function(d) { return y(d.y0) - y(d.y1); })
-      .style("fill", function(d) { return categoryColors[d.category]; });
-
-    draw_brush(svg_trend_g)
+      //removing the current SVG of the trend graph
+      d3.select("#trend").select("#trendg").remove();
+      //creating a new SVG in the proper size
+      var svg_trend_g = svg_trend.append("g")
+          .attr("id", "trendg")
+          .attr("transform", "translate(" + margin_trend.left + "," + margin_trend.top + ")");
+      //groupying the stories by week_year AND by category
+      var stories_by_date = d3.nest()
+          .key(function(d) { return (d.week_year);})
+          .key(function(d) { return (d.category);})
+          .rollup(function(d) { 
+              return d3.sum(d, function(g) {return 1; });
+          })
+          .entries(filtered_data);
+      //building an object for the drawing of the stacked bar chart
+      var stories_aggregated = stories_by_date.map(function(d){
+          var res = {'key':parseDate(d.key)}
+          var arr = [];
+          var i =-1;
+          var y0 = 0;
+          for (var key in categoryColors) {
+              i+=1;
+              arr[i] = {'category':key};
+              var val = 0;
+              d.values.forEach(function(h){
+                  if(h.key==key){
+                      val =  h.values
+                  }
+              });      
+              if (i>0){
+                  y0 = arr[i-1]['y1'];
+                  }
+                  arr[i]['y0']=y0;
+                  arr[i]['y1']=y0+val;
+          }
+          res['total'] = arr[arr.length - 1].y1;
+          res['values'] = arr;
+          return res;
+      });
+      //sorting the data according to the key, i.e. week_year
+      stories_aggregated.sort(function(a, b){
+          if (a.key<b.key){
+              return -1;
+          }
+          if (b.key<a.key){
+              return 1;
+          }
+          return 0;
+      });      
+      //drawing the stacked bar chart      
+      var y = d3.scale.linear()
+          .rangeRound([height_trend, 0]);       
+      var yAxis = d3.svg.axis()
+          .scale(y)
+          .ticks(4)
+          .orient("left");
+      y.domain([0, d3.max(stories_aggregated, function(d) { return d.total; })]);
+      svg_trend_g.append("g")
+          .attr("class", "x axis")
+          .attr("transform", "translate("+barWidth/2 +"," + height_trend + ")")
+          .call(xAxis);
+      svg_trend_g.append("g")
+          .attr("class", "y axis")
+          .call(yAxis)
+          .append("text")
+          .attr("transform", "rotate(-90)")
+          .attr("y", 0-margin_trend.left)
+          .attr("dy", ".71em")
+          .style("text-anchor", "end")
+          .text("# Stories");
+      var week = svg_trend_g.selectAll(".week")
+          .data(stories_aggregated)
+          .enter()
+          .append("g")
+          .attr("class", "g")
+          .attr("transform", function(d) { return "translate(" + x(d.key) + ",0)"; });
+      week.selectAll("rect")
+          .data(function(d) { return d.values; })
+          .enter()
+          .append("rect")
+          .attr("width", barWidth)
+          .attr("y", function(d) { return y(d.y1); })
+          .attr("height", function(d) { return y(d.y0) - y(d.y1); })
+          .style("fill", function(d) { return categoryColors[d.category]; });
+      draw_brush(svg_trend_g)
   }
 
   /*--------------------------------Populate on Load---------------------*/ 
   function populate_on_load(){
-     $("circle[country='Across Regions']").d3Click()
+      $("circle[country='Across Regions']").d3Click()
   }
 
   /*--------------------------------Brush--------------------------------*/  
   function draw_brush(svg){
-    brush = d3.svg.brush()
-        .x(x)
-        .extent([minStartDate, maxStartDate])
-        .on("brushstart", brushstart)
-        .on("brush", brushmove)
-        .on("brushend", brushend);
-
-    var arc = d3.svg.arc()
-        .outerRadius(height_trend / 2)
-        .startAngle(0)
-        .endAngle(function(d, i) { return i ? -Math.PI : Math.PI; });
-
-    var brushg = svg.append('g')
-        .attr('class', 'brush')
-        .call(brush);
-
-    brushg.selectAll(".resize").append("path")
-        .attr("transform", "translate(0," +  height_trend / 2 + ")")
-        .attr("d", arc)
-        .style("opacity", "0.4");
-
-    brushg.selectAll("rect")
-        .attr("height", height_trend);
-
-    // initializing css styling for brush and line segments
-    brushstart();
-    brushmove();
-    
-    function brushstart() {
-        svg.classed("selecting", true);
-    }
-
-    function brushmove() {
-      var s = brush.extent();
-      var filtered_data_date = filtered_data.filter(function(d){
-        parsedSelectedDate = parseDate(d.week_year);
-        var include_point = parsedSelectedDate >= s[0] && parsedSelectedDate <= s[1];
-        return include_point;
-      });  
-      draw_circles(filtered_data_date);
-    }
-
-    function brushend() {
-        svg.classed("selecting", !d3.event.target.empty());
+      brush = d3.svg.brush()
+          .x(x)
+          .extent([minStartDate, maxStartDate])
+          .on("brushstart", brushstart)
+          .on("brush", brushmove)
+          .on("brushend", brushend);
+      var arc = d3.svg.arc()
+          .outerRadius(height_trend / 2)
+          .startAngle(0)
+          .endAngle(function(d, i) { return i ? -Math.PI : Math.PI; });
+      var brushg = svg.append('g')
+          .attr('class', 'brush')
+          .call(brush);
+      brushg.selectAll(".resize").append("path")
+          .attr("transform", "translate(0," +  height_trend / 2 + ")")
+          .attr("d", arc)
+          .style("opacity", "0.4");
+      brushg.selectAll("rect")
+          .attr("height", height_trend);
+      // initializing css styling for brush and line segments
+      brushstart();
+      brushmove();
+      function brushstart() {
+          svg.classed("selecting", true);
+      }
+      function brushmove() {
+          var s = brush.extent();
+          var filtered_data_date = filtered_data.filter(function(d){
+              parsedSelectedDate = parseDate(d.week_year);
+              var include_point = parsedSelectedDate >= s[0] && parsedSelectedDate <= s[1];
+              return include_point;
+          });  
+          draw_circles(filtered_data_date);
+      }
+      function brushend() {
+            svg.classed("selecting", !d3.event.target.empty());
       }
   }  
   
@@ -525,17 +485,14 @@
           .key(function(d){return d.entity;})
           .sortKeys(d3.ascending)
           .entries(data);
-
       var entities = entities_nest.map(function(d){
               return d.key;
-          });
-
-      $(function() {
-          $("#search").autocomplete({
-              source: entities
-          });
       });
-
+      $(function() {
+            $("#search").autocomplete({
+                source: entities
+            });
+      });
       entities_nest.forEach(function(d){
           entities_mapping[d.key] = d.values.map(function(d){
               return d.story_id;
@@ -549,14 +506,12 @@
   
   /*-----------------------------Facilitate trigger click events for d3 elements---------*/
   jQuery.fn.d3Click = function () {
-  this.each(function (i, e) {
-    var evt = document.createEvent("MouseEvents");
-    evt.initMouseEvent("click", true, true, window, 0, 0, 0, 0, 0, false, false, false, false, 0, null);
-
-    e.dispatchEvent(evt);
-    });
+      this.each(function (i, e) {
+          var evt = document.createEvent("MouseEvents");
+          evt.initMouseEvent("click", true, true, window, 0, 0, 0, 0, 0, false, false, false, false, 0, null);
+          e.dispatchEvent(evt);
+      });
   };
-
 
 </script>
 
