@@ -155,11 +155,11 @@
   var g = svg.append("g");
 
   var tip = d3.tip()
-            .attr('class', 'd3-tip')
-            .html(function(d){
-                    return "<b>"+ d.values[0].country + "</b><br>"
-                          + d.values.length + ' stories';
-                  });
+      .attr('class', 'd3-tip')
+      .html(function(d){
+              return "<b>"+ d.values[0].country + "</b><br>"
+                    + d.values.length + ' stories';
+            });
 
   svg.call(tip);
 	
@@ -237,6 +237,7 @@
     	draw_all();
   });
 
+
   d3.selectAll(".filter-button").on("click", function() {
       var currButton = d3.select(this);
       if (currButton.attr('checked')){
@@ -247,8 +248,7 @@
           currButton.attr('checked','1');
           currButton.style('opacity',null);
       }
-      
-	draw_all();
+	    draw_all();
   });
 
   var rscale = null;
@@ -276,21 +276,21 @@
       g.selectAll("circle").remove();
       //draw new circles
       g.selectAll("circle")
-         .data(nested_data)
-         .enter()
-         .append("circle")
-         .attr("cx", function(d) {
-                 return projection([d.values[0].lng, d.values[0].lat])[0];
-         })
-         .attr("cy", function(d) {
-                 return projection([d.values[0].lng, d.values[0].lat])[1];
-         })
-         .attr("r", function(d) {
-                 return rscale(d.values.length);
-         })
-         .attr('class', 'circle')
-         .style('cursor', 'pointer')
-         .on("click",function (d){
+        .data(nested_data)
+        .enter()
+        .append("circle")
+        .attr("cx", function(d) {
+                return projection([d.values[0].lng, d.values[0].lat])[0];
+        })
+        .attr("cy", function(d) {
+                return projection([d.values[0].lng, d.values[0].lat])[1];
+        })
+        .attr("r", function(d) {
+                return rscale(d.values.length);
+        })
+        .attr('class', 'circle')
+        .style('cursor', 'pointer')
+        .on("click",function (d){
             // change circles styles
             d3.selectAll('circle').attr('class', 'circle')
             d3.select(this).attr('class', 'circle_selected');
@@ -317,14 +317,14 @@
                     })
                   .html(v.story_title + "<br />" + "Date: " + v.date)
                   .append('svg')
-                  .attr('width',300)
-                  .attr('height',15)
-                  .append('rect')
-                  .attr('x',0)
-                  .attr('y',5)
-                  .attr('width',25)
-                  .attr('height',15)
-                  .attr('fill',categoryColors[v.category]);
+                      .attr('width',300)
+                      .attr('height',15)
+                      .append('rect')
+                      .attr('x',0)
+                      .attr('y',5)
+                      .attr('width',25)
+                      .attr('height',15)
+                      .attr('fill',categoryColors[v.category]);
                 });
               });   
           })
@@ -342,11 +342,11 @@
     filtered_data = map_data.filter(function(s){
       //debugger;
       //return $.inArray(s.category, checkedValues)> -1
-      return ($.inArray(s.category, checkedValues) >-1 || $.inArray(s.category2, checkedValues) >-1 || $.inArray(s.category3, checkedValues)> -1)
-      
+      //a story can have up to three categories, this looks in each of the category columns
+      return ($.inArray(s.category, checkedValues) > -1 
+                || $.inArray(s.category2, checkedValues) > -1 
+                || $.inArray(s.category3, checkedValues) > -1)
     });
-
-
 		   
 		//filter by search
 		var search = $('#search').val();
