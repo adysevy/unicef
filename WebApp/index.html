@@ -326,9 +326,6 @@
       d3.select("#story_titles").html("");
       d3.select("#story_link").html("");
       //select current circle
-      
-
-
       d3.select(this)
           .each(function(e) {
               //iterate over all stories in circle
@@ -390,13 +387,17 @@
               return $.inArray(s.story_id, stories_ids) > -1
           });
       }
+      //clear out text in sidebar boxes
+      d3.select("#story_text").html("");
+      d3.select("#story_titles").html("");
+      d3.select("#story_link").html("");
       //removing the current SVG of the trend graph
       d3.select("#trend").select("#trendg").remove();
       //creating a new SVG in the proper size
       var svg_trend_g = svg_trend.append("g")
           .attr("id", "trendg")
           .attr("transform", "translate(" + margin_trend.left + "," + margin_trend.top + ")");
-      //groupying the stories by week_year AND by category
+      //grouping the stories by week_year AND by category
       var stories_by_date = d3.nest()
           .key(function(d) { return (d.week_year);})
           .key(function(d) { return (d.category);})
@@ -515,7 +516,11 @@
               parsedSelectedDate = parseDate(d.week_year);
               var include_point = parsedSelectedDate >= s[0] && parsedSelectedDate <= s[1];
               return include_point;
-          });  
+          });
+          //clear out text in sidebar boxes
+          d3.select("#story_text").html("");
+          d3.select("#story_titles").html("");
+          d3.select("#story_link").html("");
           draw_circles(filtered_data_date);
       }
       function brushend() {
