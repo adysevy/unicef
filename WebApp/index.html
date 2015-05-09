@@ -217,6 +217,7 @@
               }
               return 0;
           });
+
       minStartDate = parseDate(d3.min(map_data,function(d){return d.week_year;}));
       maxStartDate = parseDate(d3.max(map_data,function(d){return d.week_year;}));
       var oneWeek = 24*60*60*1000*7; 
@@ -231,7 +232,7 @@
           .scale(x)
           .orient("bottom")
           .ticks(d3.time.weeks, 4)
-          .tickFormat(d3.time.format('%U/%Y'));
+          .tickFormat(d3.time.format('%b %Y'));
       draw_all();
       populate_on_load();
   });
@@ -270,7 +271,27 @@
       }
       //remove all current circles 
       g.selectAll("circle").remove();
-      //draw new circles
+      g.append("rect")
+      // .attr('x', 0)
+      // .attr('y', 0)
+      .attr('x', projection([ -146,7.5])[0])
+      .attr('y', projection([-146,7.5])[1])
+      .attr('rx', 5)
+      .attr('ry', 5)
+      .attr('width', 60)
+      .attr('height', 240)
+      .style('stroke', '#6f6f6f')
+      .style('stroke-width', '1px')
+      .style('fill', 'none');
+      
+      g.append('text')
+      .attr('x', projection([ -149.9,9])[0])
+      .attr('y', projection([-149.9,9])[1])
+      .text('Across Regions')
+      .style('font-size', '12px')
+      .style('fill', '#6f6f6f');
+
+      //draw new circle
       g.selectAll("circle")
         .data(nested_data)
         .enter()
@@ -319,32 +340,24 @@
                       .append('svg')
                       .attr('width',300)
                       .attr('height',15);
-
-                  // var rectangleData = [
-                  // {'rx':0, 'ry': 5, 'height': 15, 'width': 25, 'color': categoryColors[v.category]}
-                  // {'rx':30, 'ry': 5, 'height': 15, 'width': 25, 'color': categoryColors[v.category2]}
-                  // {'rx':60, 'ry': 5, 'height': 15, 'width': 25, 'color': categoryColors[v.category3]}
-                  // ]
-                  // this is a tricky way of appending a colored tag to each headline, denoting category
-                  
-                      tags_svg.append('rect')
-                          .attr('x',0)
-                          .attr('y',5)
-                          .attr('width',25)
-                          .attr('height',15)
-                          .attr('fill',categoryColors[v.category]);
-                      tags_svg.append('rect')
-                          .attr('x',30)
-                          .attr('y',5)
-                          .attr('width',25)
-                          .attr('height',15)
-                          .attr('fill',categoryColors[v.category2]);
-                      tags_svg.append('rect')
-                          .attr('x',60)
-                          .attr('y',5)
-                          .attr('width',25)
-                          .attr('height',15)
-                          .attr('fill',categoryColors[v.category3]);
+                  tags_svg.append('rect')
+                      .attr('x',0)
+                      .attr('y',5)
+                      .attr('width',25)
+                      .attr('height',15)
+                      .attr('fill',categoryColors[v.category]);
+                  tags_svg.append('rect')
+                      .attr('x',30)
+                      .attr('y',5)
+                      .attr('width',25)
+                      .attr('height',15)
+                      .attr('fill',categoryColors[v.category2]);
+                  tags_svg.append('rect')
+                      .attr('x',60)
+                      .attr('y',5)
+                      .attr('width',25)
+                      .attr('height',15)
+                      .attr('fill',categoryColors[v.category3]);
               });
           });
   }
