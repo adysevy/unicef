@@ -315,14 +315,7 @@
                 e.values.forEach(function(v) {
                   d3.select('#story_titles').append("p")
                   .datum(v)
-                  .on('click', function(article_elem) {
-                      d3.selectAll('p').attr('class', 'story');
-                      d3.select(this).attr('class', 'story_selected');
-                      d3.select('#story_text')
-                        .html(article_elem.story);
-                      d3.select('#story_link')
-                        .html("<a href=\""+article_elem.story_link.match(/http.*/)[0]+"\"target=\"_blank\">"+ article_elem.story_link.match(/.*(?=- http)/)+"</a>");
-                    })
+                  .on('click', select_headline)
                   .html(v.story_title + "<br />" + "Date: " + v.date)
                   // this is a tricky way of appending a colored tag to each headline, denoting category
                   .append('svg')
@@ -337,6 +330,15 @@
                 });
               });
   }
+
+  function select_headline(d){
+      d3.selectAll('p').attr('class', 'story');
+      d3.select(this).attr('class', 'story_selected');
+      d3.select('#story_text')
+        .html(d.story);
+      d3.select('#story_link')
+        .html("<a href=\""+d.story_link.match(/http.*/)[0]+"\"target=\"_blank\">"+ d.story_link.match(/.*(?=- http)/)+"</a>");
+    }
 
   function draw_all(){
 
