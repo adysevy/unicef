@@ -15,7 +15,7 @@ story_id,entity,type
 481,Sheikh Zuweid,LOCATION
 481,Egypt,LOCATION
 481,Sinai Peninsula,LOCATION
-481,Ansar Beit al-Maqdis,PERSON
+481,Ansar Beit al Maqdis,PERSON
 1436,Afghanistan,LOCATION
 1436,Taliban,ORGANIZATION
 1436,Interior Ministry,ORGANIZATION
@@ -29,7 +29,7 @@ story_id,entity,type
 170,Boko Haram,PERSON
 170,News Agency Of Nigeria,ORGANIZATION
 2465,SITE Intelligence Group,ORGANIZATION
-2465,Ansar al-Sharia,PERSON
+2465,Ansar al Sharia,PERSON
 476,Saahdheer,LOCATION
 476,Khatumo,LOCATION
 476,Somaliland,LOCATION
@@ -50,7 +50,7 @@ story_id,entity,type
 848,Cameroon,LOCATION
 848,Morocco,LOCATION
 848,Gourougou,LOCATION
-1,Coca-Cola,ORGANIZATION
+1,Coca Cola,ORGANIZATION
 1,Pepsi,ORGANIZATION
 1,Calvert Investments,ORGANIZATION
 1,Ellen Kennedy,PERSON
@@ -146,8 +146,8 @@ story_id,entity,type
 1441,Gao,PERSON
 1441,Mokhtar Belmokhtar,PERSON
 1441,Al Moustarat,LOCATION
-1441,al-Mourabitoun,PERSON
-1441,Abu Assem al-Muhajir,PERSON
+1441,al Mourabitoun,PERSON
+1441,Abu Assem al Muhajir,PERSON
 1441,Mali,LOCATION
 1441,Belmokhtar,PERSON
 1441,Movement For Unity And Jihad,ORGANIZATION
@@ -178,7 +178,7 @@ story_id,entity,type
 8,South China Sea,LOCATION
 8,Nguyen Tan Dung,PERSON
 8,Vietnam,LOCATION
-980,Francoise Barre-Sinoussi,PERSON
+980,Francoise Barre Sinoussi,PERSON
 980,Ukraine,LOCATION
 980,Melbourne,LOCATION
 980,Malaysian Airlines,ORGANIZATION
@@ -266,7 +266,7 @@ story_id,entity,type
 2446,Dalian,LOCATION
 2765,India,LOCATION
 2765,Pakistan,LOCATION
-2765,Tehreek-E-Taliban Pakistan Jamaat Ahrar,ORGANIZATION
+2765,Tehreek E Taliban Pakistan Jamaat Ahrar,ORGANIZATION
 2765,Taliban,ORGANIZATION
 2832,India,LOCATION
 2832,Pakistan,LOCATION
@@ -288,7 +288,7 @@ story_id,entity,type
 3284,South Asia,LOCATION
 3474,South Koreas,LOCATION
 3474,South Korea,LOCATION
-3474,Ryoo Kihl-Jae,PERSON
+3474,Ryoo Kihl Jae,PERSON
 3474,Korea,LOCATION
 3474,Ryoo,PERSON
 3474,Pyongyang,LOCATION
@@ -300,7 +300,7 @@ story_id,entity,type
 2982,BJP,ORGANIZATION
 465,Algiers,LOCATION
 465,Mali,LOCATION
-24,Transparency International Asia-Pacific,ORGANIZATION
+24,Transparency International Asia Pacific,ORGANIZATION
 24,Srirak Plipat,PERSON
 2412,CNN Turk,ORGANIZATION
 2412,Erdogan,PERSON
@@ -310,10 +310,10 @@ story_id,entity,type
 26,US,LOCATION
 665,Karachi,LOCATION
 665,Pakistan,LOCATION
-665,al-Qaeda,ORGANIZATION
+665,al Qaeda,ORGANIZATION
 665,North Waziristan,LOCATION
 665,Taliban,ORGANIZATION
-1366,Abd-Rabbu Mansour Hadi,PERSON
+1366,Abd Rabbu Mansour Hadi,PERSON
 1366,Al Qaeda,ORGANIZATION
 1366,Sanaa,LOCATION
 1366,Yemen,LOCATION
@@ -321,7 +321,7 @@ story_id,entity,type
 2837,Christiana Tah,PERSON
 2837,Tah,PERSON
 2837,National Security Agency,ORGANIZATION
-1490,Jund al-Khalifa,PERSON
+1490,Jund al Khalifa,PERSON
 1490,Iraq,LOCATION
 1490,APS,ORGANIZATION
 1490,Herv Gourdel,PERSON
@@ -383,7 +383,7 @@ story_id,entity,type
 876,Somalia,LOCATION
 876,Kenya,LOCATION
 2060,Kenya,LOCATION
-2060,al-Shabab,ORGANIZATION
+2060,al Shabab,ORGANIZATION
 2353,Mandera,LOCATION
 2353,Somalia,LOCATION
 2353,Red Cross,ORGANIZATION
@@ -392,7 +392,7 @@ story_id,entity,type
 2353,Mandera County,LOCATION
 659,Abdullah,PERSON
 659,Independent Election Commission,ORGANIZATION
-659,Zia-Ul-Haq Amarkhail,PERSON
+659,Zia Ul Haq Amarkhail,PERSON
 659,Amarkhail,PERSON
 659,Abdullah Abdullah,PERSON
 659,IEC,ORGANIZATION
@@ -409,7 +409,7 @@ story_id,entity,type
 1481,Boko Haram,PERSON
 1481,Abia,LOCATION
 177,Mogadishu,LOCATION
-177,al-Shebaab,PERSON
+177,al Shebaab,PERSON
 177,Abdiaziz Abu Musab,PERSON
 177,Somalia,LOCATION
 177,Shebab,ORGANIZATION
@@ -424,7 +424,7 @@ story_id,entity,type
 2967,Agence France Presse,ORGANIZATION
 3442,Mogadishu,LOCATION
 3442,AMISOM,ORGANIZATION
-3442,al-Shebaab,PERSON
+3442,al Shebaab,PERSON
 3442,UN,ORGANIZATION
 3442,Somalia,LOCATION
 3671,AMISOM,ORGANIZATION
@@ -451,7 +451,7 @@ story_id,entity,type
 2415,Rammasun,PERSON
 2415,Vietnam News Agency,ORGANIZATION
 2415,Vietnam,LOCATION
-3397,Ban Ki-Moon,PERSON
+3397,Ban Ki Moon,PERSON
 3397,UN,ORGANIZATION
 3397,US,LOCATION
 988,National Meteorological Center,ORGANIZATION
@@ -579,10 +579,10 @@ story_id,entity,type
 3019,Arseny Yatseniuk,PERSON
 691,North Sinai,LOCATION
 691,Jerusalem,LOCATION
-691,Ansar Beit al-Maqdis,LOCATION
+691,Ansar Beit al Maqdis,LOCATION
 691,Sinai Peninsula,LOCATION
-691,El-Arish,LOCATION
-2068,Abdel Fattah al-Sisi,PERSON
+691,El Arish,LOCATION
+2068,Abdel Fattah al Sisi,PERSON
 2068,Ibrahim Mehleb,PERSON
 2068,Egypt,LOCATION
 2068,Mehleb,PERSON
@@ -600,7 +600,7 @@ story_id,entity,type
 1105,Mahamat Kamoun,PERSON
 3628,Central African Republic,LOCATION
 3628,Mahamat Kamoun,PERSON
-3628,Catherine Samba-Panza,PERSON
+3628,Catherine Samba Panza,PERSON
 3688,African Republic,LOCATION
 3688,Catherine Samba Panza,PERSON
 3688,Central African Republic,LOCATION
@@ -781,12 +781,12 @@ story_id,entity,type
 63,Taliban,ORGANIZATION
 63,Afghanistan,LOCATION
 1067,Mali,LOCATION
-3428,Socio-Economic Rights And Accountability Project,ORGANIZATION
+3428,Socio Economic Rights And Accountability Project,ORGANIZATION
 3428,UN,ORGANIZATION
 1084,Wais,PERSON
 1084,Musab Bin Omair Mosque,LOCATION
-1676,Ahmed Seif al-Yafie,PERSON
-1676,al-Yafie,PERSON
+1676,Ahmed Seif al Yafie,PERSON
+1676,al Yafie,PERSON
 1676,Shabwa Province,LOCATION
 1676,Yemen,LOCATION
 1676,Azzan,LOCATION
@@ -805,7 +805,7 @@ story_id,entity,type
 2721,Hamar,LOCATION
 2721,Darfur,LOCATION
 548,Lebanon,LOCATION
-548,Bashar al-Assad,PERSON
+548,Bashar al Assad,PERSON
 548,Al Qaeda,ORGANIZATION
 548,Hezbollah,ORGANIZATION
 548,Nusra Front,ORGANIZATION
@@ -835,14 +835,14 @@ story_id,entity,type
 1985,Lebanon,LOCATION
 1985,Syria,LOCATION
 1985,Arsal,LOCATION
-1985,al-Nusra Front,ORGANIZATION
+1985,al Nusra Front,ORGANIZATION
 2253,Syria,LOCATION
 2253,Arsal,LOCATION
 2253,Islamic State,ORGANIZATION
 2253,Hezbollah,ORGANIZATION
-2360,Abu Bakr al-Baghdadi,PERSON
+2360,Abu Bakr al Baghdadi,PERSON
 2360,Syria,LOCATION
-2360,As-Safir,ORGANIZATION
+2360,As Safir,ORGANIZATION
 2493,Lebanon,LOCATION
 2493,Bashar Assads,PERSON
 2493,Beirut,LOCATION
@@ -869,7 +869,7 @@ story_id,entity,type
 3530,Cibitoke,LOCATION
 3530,Buganda,LOCATION
 2582,Mogadishu,LOCATION
-2582,al-Shabaab,PERSON
+2582,al Shabaab,PERSON
 3595,Abdulaziz Abu Musab,PERSON
 3595,Shebab,ORGANIZATION
 3595,Mogadishu,LOCATION
@@ -885,12 +885,12 @@ story_id,entity,type
 1564,Herve Gourdel,PERSON
 1564,Iraq,LOCATION
 2454,Kabylie,LOCATION
-2454,Jund al-Khilafah,PERSON
+2454,Jund al Khilafah,PERSON
 2454,Islamic State,ORGANIZATION
-2454,North Africas al-Qaida,LOCATION
+2454,North Africas al Qaida,LOCATION
 2454,Francois Hollande,PERSON
 2454,Tizi Ouzou,LOCATION
-2454,Abu Muhammad al-Adnani,PERSON
+2454,Abu Muhammad al Adnani,PERSON
 2907,Africa,LOCATION
 2907,Abdelmalek Droukdel,PERSON
 2907,Al Qaeda,ORGANIZATION
@@ -905,7 +905,7 @@ story_id,entity,type
 64,Guinea,LOCATION
 64,Sierra Leone,LOCATION
 64,US Centers For Disease Control And Prevention,ORGANIZATION
-64,Un-Backed WHO,ORGANIZATION
+64,UN Backed WHO,ORGANIZATION
 64,Scott Dowell,PERSON
 64,West Africa,LOCATION
 67,Syria,LOCATION
@@ -969,8 +969,8 @@ story_id,entity,type
 2746,Mongolia,LOCATION
 405,Myanmar,LOCATION
 1727,Bhumibol Adulyadej,PERSON
-1727,Prayuth Chan-Ocha,PERSON
-2093,Prayuth Chan-Ocha,PERSON
+1727,Prayuth Chan OCHA,PERSON
+2093,Prayuth Chan OCHA,PERSON
 2093,Pornpetch Wichitcholchai,PERSON
 2093,Reuters,ORGANIZATION
 2093,NLA,ORGANIZATION
@@ -978,12 +978,12 @@ story_id,entity,type
 2093,National Legislative Assembly,ORGANIZATION
 3027,Thailand,LOCATION
 3027,Yingluck Shinawatra,PERSON
-3027,Prayuth Chan-Ocha,PERSON
+3027,Prayuth Chan OCHA,PERSON
 3258,Security Council,ORGANIZATION
 3258,Venezuelas,LOCATION
 3258,UNSC,ORGANIZATION
 3258,John Kerry,PERSON
-3258,Nicolas -Rrb- Maduros,PERSON
+3258,Nicolas RRB Maduros,PERSON
 3258,United Nations,ORGANIZATION
 3258,UN,ORGANIZATION
 2494,Libya,LOCATION
@@ -998,7 +998,7 @@ story_id,entity,type
 111,Thomas Shannon,PERSON
 2283,Haiti,LOCATION
 2634,Haiti,LOCATION
-2634,Jean-Bertrand Aristide,PERSON
+2634,Jean Bertrand Aristide,PERSON
 2634,Argentina,LOCATION
 2634,UNSC,ORGANIZATION
 2634,UN,ORGANIZATION
@@ -1035,7 +1035,7 @@ story_id,entity,type
 3293,Ethiopia,LOCATION
 3293,Egypt,LOCATION
 3293,Sudan,LOCATION
-3293,Hossam El-Din Moghazy,PERSON
+3293,Hossam El Din Moghazy,PERSON
 3293,MENA,ORGANIZATION
 1430,AFP,ORGANIZATION
 1430,Tripoli,LOCATION
@@ -1136,14 +1136,14 @@ story_id,entity,type
 2703,Europe,LOCATION
 2703,Germany,LOCATION
 2703,France,LOCATION
-2703,Pro-Kremlin,ORGANIZATION
+2703,Pro Kremlin,ORGANIZATION
 2703,US,LOCATION
 2703,Berlin,LOCATION
 2958,Ukraine,LOCATION
 2958,Ban,PERSON
 2958,Vladimir Putin,PERSON
 2958,Stephane Dujarric,PERSON
-2958,SG Ban Ki-Moon,ORGANIZATION
+2958,SG Ban Ki Moon,ORGANIZATION
 2958,UN,ORGANIZATION
 2958,Shanghai,LOCATION
 2958,Syria,LOCATION
@@ -1183,15 +1183,15 @@ story_id,entity,type
 82,Hosni Mubarak,PERSON
 82,Saudi Arabia,LOCATION
 82,Egypt,LOCATION
-82,Abdel-Fattah El-Sissi,PERSON
+82,Abdel Fattah El Sissi,PERSON
 82,Morocco,LOCATION
 82,US,LOCATION
-82,El-Sissi,PERSON
+82,El Sissi,PERSON
 870,Prayut,PERSON
 870,Malaysia,LOCATION
 870,Yingluck Shinawatra,PERSON
 870,Thailand,LOCATION
-870,Prayut Chan-O-Cha,PERSON
+870,Prayut Chan O Cha,PERSON
 870,Najib Razak,PERSON
 1793,Moscow,LOCATION
 1793,Ukraine,LOCATION
@@ -1219,14 +1219,14 @@ story_id,entity,type
 3026,Bhumibol Adulyadej,PERSON
 3026,His Majesty The King,PERSON
 3026,US,LOCATION
-3026,Prayut Chan-O-Cha,PERSON
+3026,Prayut Chan O Cha,PERSON
 3026,Thailand,LOCATION
 3073,Jarupong Ruangsuwan,PERSON
 3073,Thailand,LOCATION
 3073,Puea Thai Party,ORGANIZATION
 151,Hosni Mubarak,PERSON
 151,Egypt,LOCATION
-3082,Abdel Fattah al-Sisi,PERSON
+3082,Abdel Fattah al Sisi,PERSON
 3082,Egypt,LOCATION
 2042,Syria,LOCATION
 2042,Bashar Assad,PERSON
@@ -1234,11 +1234,11 @@ story_id,entity,type
 2042,Assad,PERSON
 3305,Assad,PERSON
 3305,Damascus,LOCATION
-3305,Bashar al-Assad,PERSON
+3305,Bashar al Assad,PERSON
 3305,Halaqi,PERSON
 3305,Syria,LOCATION
 3305,Riad Hijab,PERSON
-3305,Wael al-Halaqi,PERSON
+3305,Wael al Halaqi,PERSON
 964,India,LOCATION
 964,Bharatiya Janata Party,ORGANIZATION
 964,Gujarat,LOCATION
@@ -1250,9 +1250,9 @@ story_id,entity,type
 759,Neves,PERSON
 759,Rousseff,PERSON
 759,Brasilia,LOCATION
-1058,Zine El-Abidine Ben Ali,PERSON
+1058,Zine El Abidine Ben Ali,PERSON
 3546,Beji Caid Essebsi,PERSON
-3546,Zine El-Abidine Ben Ali,PERSON
+3546,Zine El Abidine Ben Ali,PERSON
 3546,France,LOCATION
 3546,Tunisia,LOCATION
 3546,Moncef Marzouki,PERSON
@@ -1261,13 +1261,13 @@ story_id,entity,type
 757,Sudan,LOCATION
 757,Salva Kiir,PERSON
 757,IGAD,ORGANIZATION
-1937,Omar al-Bashir,PERSON
+1937,Omar al Bashir,PERSON
 1937,Sudan,LOCATION
 1937,Bashir,PERSON
 2225,France,LOCATION
 2225,Catherine Samba Panza,PERSON
 2225,Central Africa,LOCATION
-2225,Jean-Yves Le Drian,PERSON
+2225,Jean Yves Le Drian,PERSON
 2531,Niger,LOCATION
 2531,Amadou,PERSON
 2531,Daouda Marthe,PERSON
@@ -1276,7 +1276,7 @@ story_id,entity,type
 2531,National Assembly,ORGANIZATION
 2531,MNSD,ORGANIZATION
 2531,Mahamadou Issoufou,PERSON
-2531,Agence France-Presse,ORGANIZATION
+2531,Agence France Presse,ORGANIZATION
 2531,Amadou Salifou,PERSON
 2531,National Movement For A Developing Society,ORGANIZATION
 2531,Hama Amadou,PERSON
@@ -1327,7 +1327,7 @@ story_id,entity,type
 1200,Tunisia,LOCATION
 1200,Libya,LOCATION
 2922,Europe,LOCATION
-2922,Interfax-Ukraine,ORGANIZATION
+2922,Interfax Ukraine,ORGANIZATION
 2922,Russia,LOCATION
 2922,Organization For Security,ORGANIZATION
 2922,Ukraine,LOCATION
@@ -1368,7 +1368,7 @@ story_id,entity,type
 3242,Buddhist,ORGANIZATION
 3242,Sri Lanka,LOCATION
 100,Sahel,LOCATION
-100,Mohamad Ould Abdel-Aziz,PERSON
+100,Mohamad Ould Abdel Aziz,PERSON
 128,Ukraine,LOCATION
 128,Vladimir Putin,PERSON
 128,Obama,PERSON
@@ -1420,7 +1420,7 @@ story_id,entity,type
 130,Dmitry Medvedev,PERSON
 533,Russia,LOCATION
 533,United Nations,ORGANIZATION
-1489,Jamal al-Shubki,PERSON
+1489,Jamal al Shubki,PERSON
 1489,Rafah,LOCATION
 1489,Egypt,LOCATION
 1489,Ma'An,LOCATION
@@ -1432,7 +1432,7 @@ story_id,entity,type
 1256,Russia,LOCATION
 1256,United Nations,ORGANIZATION
 1866,Lebanon,LOCATION
-1866,Ibrahim al-Haj,PERSON
+1866,Ibrahim al Haj,PERSON
 1866,Islamic State,ORGANIZATION
 1866,Mosul,LOCATION
 1866,Iraq,LOCATION
@@ -1449,10 +1449,10 @@ story_id,entity,type
 1177,Ibn Hamdan,PERSON
 1177,Monirul Islam,PERSON
 1177,Bangladesh,LOCATION
-1177,Ayman al-Zawahiri,PERSON
+1177,Ayman al Zawahiri,PERSON
 1177,Rahman,PERSON
 1177,Syria,LOCATION
-1177,al-Qaeda,ORGANIZATION
+1177,al Qaeda,ORGANIZATION
 1177,Samiun Rahman,PERSON
 149,Choucha,PERSON
 149,Tunisia,LOCATION
@@ -1482,10 +1482,10 @@ story_id,entity,type
 1774,Baghdad,LOCATION
 1774,Ministry Of Justice,ORGANIZATION
 1774,Iraq,LOCATION
-2500,Ardo-Djobi,LOCATION
+2500,Ardo Djobi,LOCATION
 2500,Fulani,PERSON
 2500,Bambari,LOCATION
-2500,Anti-Balaka,PERSON
+2500,Anti Balaka,PERSON
 2500,Ahmt Nadjad,PERSON
 2500,Seleka,LOCATION
 2500,Ibrahim Saleh,PERSON
@@ -1612,7 +1612,7 @@ story_id,entity,type
 2855,New York,LOCATION
 2883,Guinea,LOCATION
 2883,Pereira,PERSON
-2883,Guinea-Bissau,LOCATION
+2883,Guinea Bissau,LOCATION
 2883,Domingos Simoes Pereira,PERSON
 3203,Liberia,LOCATION
 3203,Nigeria,LOCATION
@@ -1755,7 +1755,7 @@ story_id,entity,type
 524,Bambari,LOCATION
 3270,Newark Liberty,LOCATION
 3270,Chicago O'Hare,LOCATION
-3270,Hartsfield-Jackson Atlanta,LOCATION
+3270,Hartsfield Jackson Atlanta,LOCATION
 3270,Liberia,LOCATION
 3270,White House,ORGANIZATION
 3270,Washington Dulles,LOCATION
@@ -1822,7 +1822,7 @@ story_id,entity,type
 2737,US,LOCATION
 2737,UN Sc 'S Al Qaeda,ORGANIZATION
 2737,Britain,LOCATION
-2737,Ansar al-Sharia,PERSON
+2737,Ansar al Sharia,PERSON
 1331,EU,ORGANIZATION
 1331,Ukraine,LOCATION
 2314,Brussels,LOCATION
@@ -1875,7 +1875,7 @@ story_id,entity,type
 449,Mombasa,LOCATION
 449,Tourist Police Unit,ORGANIZATION
 152,Shiite Islam,ORGANIZATION
-152,al-Muwaffaqiyah,LOCATION
+152,al Muwaffaqiyah,LOCATION
 152,Nineveh,LOCATION
 152,Shabak,LOCATION
 311,Baghdad,LOCATION
@@ -1884,7 +1884,7 @@ story_id,entity,type
 1666,Baghdad,LOCATION
 1666,Karrada,LOCATION
 1666,Iraq,LOCATION
-2852,Abdul-Malik al-Houthi,PERSON
+2852,Abdul Malik al Houthi,PERSON
 2852,Saudi Arabia,LOCATION
 2852,Sanaa,LOCATION
 2852,Yemen,LOCATION
@@ -1941,7 +1941,7 @@ story_id,entity,type
 2066,Hebron,LOCATION
 2066,West Bank,LOCATION
 2067,West Bank,LOCATION
-2067,al-Aqsa Martyrs Brigade,ORGANIZATION
+2067,al Aqsa Martyrs Brigade,ORGANIZATION
 2067,Hebron,LOCATION
 2067,Fatah,ORGANIZATION
 2453,Marwan Kawasme,PERSON
@@ -1991,7 +1991,7 @@ story_id,entity,type
 2978,Defence For Children International,ORGANIZATION
 2978,UN,ORGANIZATION
 2978,West Bank,LOCATION
-2978,Oscar Fernandez-Taranco,PERSON
+2978,Oscar Fernandez Taranco,PERSON
 3454,West Bank,LOCATION
 3454,Reuters TV,ORGANIZATION
 3454,Nablus,LOCATION
@@ -2030,7 +2030,7 @@ story_id,entity,type
 203,Anthony Banbury,PERSON
 203,Banbury,LOCATION
 203,UN,ORGANIZATION
-203,Ban Ki - Moon,PERSON
+203,Ban Ki Moon,PERSON
 203,Ahmed,PERSON
 203,New York,LOCATION
 204,West Bank,LOCATION
@@ -2111,7 +2111,7 @@ story_id,entity,type
 1150,Brantly,PERSON
 1150,Kent Brantly,PERSON
 1150,US,LOCATION
-3579,Porto-Novo,LOCATION
+3579,Porto Novo,LOCATION
 3579,Benin,LOCATION
 3579,Cotonou,LOCATION
 1669,Saudi Arabia,LOCATION
@@ -2136,11 +2136,11 @@ story_id,entity,type
 229,Sierra Leone,LOCATION
 229,Elhadj As Sy,PERSON
 229,West Africa,LOCATION
-113,al-Aqsa,LOCATION
+113,al Aqsa,LOCATION
 113,Israel,LOCATION
 113,Mahmud Abbas,PERSON
 113,Jerusalem,LOCATION
-2756,al-Aqsa,LOCATION
+2756,al Aqsa,LOCATION
 2756,Temple Mount,LOCATION
 2756,Luba Samri,PERSON
 2756,Jerusalem,LOCATION
@@ -2191,7 +2191,7 @@ story_id,entity,type
 1093,Syria,LOCATION
 1093,United States,LOCATION
 1911,Ifoghas,LOCATION
-1911,Algerian-Mali,LOCATION
+1911,Algerian Mali,LOCATION
 1911,UN,ORGANIZATION
 1911,Aguelhoc Adrar,PERSON
 1911,Mali,LOCATION
@@ -2207,7 +2207,7 @@ story_id,entity,type
 805,Jabal Ras,PERSON
 805,Shi'Ite Muslim,ORGANIZATION
 805,Al Bayda,PERSON
-805,al-Bayda,PERSON
+805,al Bayda,PERSON
 805,Hodeidah Province,LOCATION
 1559,Philippines,LOCATION
 1559,Vicente Belmonte Jr,PERSON
@@ -2224,7 +2224,7 @@ story_id,entity,type
 3313,Gerd Mueller,PERSON
 3313,Syria,LOCATION
 3313,Berlin,LOCATION
-41,National Anti-Corruption Commission,ORGANIZATION
+41,National Anti Corruption Commission,ORGANIZATION
 41,Thailand,LOCATION
 41,Yingluck Shinawatra,PERSON
 41,Yingluck,PERSON
@@ -2301,7 +2301,7 @@ story_id,entity,type
 3131,Borno,LOCATION
 921,Haiti,LOCATION
 921,UN,ORGANIZATION
-921,Port-Au-Prince,LOCATION
+921,Port Au Prince,LOCATION
 263,Donetsk,LOCATION
 263,Moscow,LOCATION
 263,Ukraine,LOCATION
@@ -2586,11 +2586,11 @@ story_id,entity,type
 1140,Mahfad,LOCATION
 1140,Yemen,LOCATION
 960,Umma,ORGANIZATION
-960,Sadiq al-Mahdi,PERSON
+960,Sadiq al Mahdi,PERSON
 960,Sara Najdallah,PERSON
 960,Sudan,LOCATION
 960,Mahdi,PERSON
-960,Khartoum-Area Kober Prison,LOCATION
+960,Khartoum Area Kober Prison,LOCATION
 960,Umma Party,ORGANIZATION
 960,Darfur,LOCATION
 960,Rapid Support Forces,ORGANIZATION
@@ -2625,19 +2625,19 @@ story_id,entity,type
 372,Venezuela,LOCATION
 372,Nicolas Maduro,PERSON
 1869,Rafah,LOCATION
-1869,Deir al-Balah,PERSON
+1869,Deir al Balah,PERSON
 1869,Israel,LOCATION
 1869,Khan Yunis,LOCATION
-1869,Ashraf al-Qudra,PERSON
+1869,Ashraf al Qudra,PERSON
 1869,Gaza,LOCATION
 1869,UN,ORGANIZATION
-1869,Ban Ki-Moon,PERSON
+1869,Ban Ki Moon,PERSON
 892,Sudan,LOCATION
 892,UNAMID,ORGANIZATION
 892,Darfur,LOCATION
-892,Omar Hassan al-Bashir,PERSON
+892,Omar Hassan al Bashir,PERSON
 892,Khartoum,LOCATION
-892,United Nations-African Union,ORGANIZATION
+892,United Nations African Union,ORGANIZATION
 1016,Mohamed Abu Elgassem,PERSON
 1016,Mustafa Abdalla Adarge,PERSON
 1016,Kutum,LOCATION
@@ -2650,7 +2650,7 @@ story_id,entity,type
 1057,UNAMID,ORGANIZATION
 1057,Foreign Ministry,ORGANIZATION
 1057,Azraq,LOCATION
-1057,Abdallah al-Azraq,PERSON
+1057,Abdallah al Azraq,PERSON
 1057,Darfur,LOCATION
 1057,United Nations,ORGANIZATION
 1057,Khartoum,LOCATION
@@ -2672,11 +2672,11 @@ story_id,entity,type
 2496,Central Darfur,LOCATION
 2496,Umm Dukhun,LOCATION
 2496,Sudan,LOCATION
-2496,Union-United Nations,ORGANIZATION
+2496,Union United Nations,ORGANIZATION
 2496,Darfur,LOCATION
 2496,Misseriya,LOCATION
-3455,al-Bashir,PERSON
-3455,Ali al-Za,PERSON
+3455,al Bashir,PERSON
+3455,Ali al Za,PERSON
 3455,Sudan,LOCATION
 3455,Bashir,PERSON
 3455,UNAMID,ORGANIZATION
@@ -2838,7 +2838,7 @@ story_id,entity,type
 596,Santos,PERSON
 1038,North Corabato,LOCATION
 1038,Southern Philippines,LOCATION
-1038,Jo-Ann Petinglay,PERSON
+1038,Jo Ann Petinglay,PERSON
 1038,Mlang,LOCATION
 1038,Joselito Pinol,PERSON
 2004,San Salvador,LOCATION
@@ -2856,7 +2856,7 @@ story_id,entity,type
 1301,Manado,LOCATION
 1301,Hawaii,LOCATION
 354,Security Council,ORGANIZATION
-354,UNSG Ban Ki - Moon,PERSON
+354,UNSG Ban Ki Moon,PERSON
 354,UN,ORGANIZATION
 354,United Nations,ORGANIZATION
 354,New York,LOCATION
@@ -2868,7 +2868,7 @@ story_id,entity,type
 2785,New Delhi,LOCATION
 844,Cairo,LOCATION
 844,Egypt,LOCATION
-844,Abdel Fattah al-Sisi,PERSON
+844,Abdel Fattah al Sisi,PERSON
 844,Ismailiya,LOCATION
 844,AFP,ORGANIZATION
 844,Suez Canal,LOCATION
@@ -3035,10 +3035,10 @@ story_id,entity,type
 3028,Kampala,LOCATION
 3597,Jonglei,LOCATION
 3597,Committee Of Experts On The Rights And Welfare,ORGANIZATION
-3597,Sloth-Nielsen,PERSON
+3597,Sloth Nielsen,PERSON
 3597,South Sudan,LOCATION
-3597,Julia Sloth-Nielsen,PERSON
-994,Pierre-Claver Ndayicariye,PERSON
+3597,Julia Sloth Nielsen,PERSON
+994,Pierre Claver Ndayicariye,PERSON
 994,Burundi,LOCATION
 994,Pierre Nkurunziza,PERSON
 3444,Juba,LOCATION
@@ -3070,7 +3070,7 @@ story_id,entity,type
 608,Hamas,ORGANIZATION
 608,Tony Blair,PERSON
 608,Israel,LOCATION
-608,Abdel Fattah al-Sisis,PERSON
+608,Abdel Fattah al Sisis,PERSON
 608,Gaza,LOCATION
 608,AFP,ORGANIZATION
 2284,Muammar,PERSON
@@ -3078,18 +3078,18 @@ story_id,entity,type
 2284,Libya Dawn,LOCATION
 2284,Zuwarah,LOCATION
 2284,Hafid Muammar,PERSON
-2564,al-Nusra,LOCATION
+2564,al Nusra,LOCATION
 2564,Pakistan,LOCATION
 2564,Golan Heights,LOCATION
 2564,Mustafa Setmariam Nasar,PERSON
-2564,al-Nusra Front,ORGANIZATION
+2564,al Nusra Front,ORGANIZATION
 2564,Army,ORGANIZATION
 2564,Fiji,LOCATION
 2564,Damascus,LOCATION
 2564,UN,ORGANIZATION
-2564,Abu Mussab al-Suri,PERSON
+2564,Abu Mussab al Suri,PERSON
 2564,Syria,LOCATION
-2564,al-Qaeda,ORGANIZATION
+2564,al Qaeda,ORGANIZATION
 3064,Haftar,PERSON
 3064,Muammar Gaddafi,PERSON
 3064,Libya,LOCATION
@@ -3127,15 +3127,15 @@ story_id,entity,type
 1529,Land Cruiser,ORGANIZATION
 1529,Benghazi,LOCATION
 1529,Haftar,PERSON
-1529,Mohamed El-Hejazi,PERSON
-1568,Abdullah al-Thinni,PERSON
+1529,Mohamed El Hejazi,PERSON
+1568,Abdullah al Thinni,PERSON
 1568,East,LOCATION
 1568,Muammar Gaddafi,PERSON
 1568,Libya,LOCATION
 1568,House Of Representatives,ORGANIZATION
 1568,Tripoli,LOCATION
 1568,Libya Dawn,LOCATION
-1601,Abdullah al-Thinni,PERSON
+1601,Abdullah al Thinni,PERSON
 1601,Benghazi,LOCATION
 1601,United Arab Emirates,LOCATION
 1601,Libya,LOCATION
@@ -3175,11 +3175,11 @@ story_id,entity,type
 2595,Muammar Gaddafi,PERSON
 2595,Benghazi,LOCATION
 2595,Libya,LOCATION
-2639,Ansar al-Sharia,PERSON
+2639,Ansar al Sharia,PERSON
 2639,Benghazi,LOCATION
 2639,Libya,LOCATION
 2932,Niger,LOCATION
-2932,Abdullah al-Thinni,PERSON
+2932,Abdullah al Thinni,PERSON
 2932,NATO,ORGANIZATION
 2932,West,LOCATION
 2932,Burkina Faso,LOCATION
@@ -3214,7 +3214,7 @@ story_id,entity,type
 3452,Benghazi,LOCATION
 3452,Libya Dawn,LOCATION
 3452,Libya,LOCATION
-3452,al-Sidra,LOCATION
+3452,al Sidra,LOCATION
 3488,Muammar Gaddafi,PERSON
 3488,UN,ORGANIZATION
 3488,Libya,LOCATION
@@ -3231,7 +3231,7 @@ story_id,entity,type
 2844,Fiji,LOCATION
 2844,Golan Heights,LOCATION
 2844,UN,ORGANIZATION
-2844,al-Nusra Front,ORGANIZATION
+2844,al Nusra Front,ORGANIZATION
 386,Liberia,LOCATION
 386,Guinea,LOCATION
 386,Fadela Chaib,PERSON
@@ -3280,7 +3280,7 @@ story_id,entity,type
 1025,Central African Republic,LOCATION
 1700,Caribbean,LOCATION
 1700,Caricom,ORGANIZATION
-1700,Trinidad-Based Caribbean Public Health Agency,ORGANIZATION
+1700,Trinidad Based Caribbean Public Health Agency,ORGANIZATION
 1700,PAHO,ORGANIZATION
 508,Thung Yang Daeng,LOCATION
 508,Suzuki,PERSON
@@ -3288,7 +3288,7 @@ story_id,entity,type
 508,South,LOCATION
 508,Narathiwat,LOCATION
 508,Lam Phraya,LOCATION
-508,Lammai-Lam Phraya,LOCATION
+508,Lammai Lam Phraya,LOCATION
 508,Pattani,LOCATION
 508,Rangae,PERSON
 508,Paku,LOCATION
@@ -3303,7 +3303,7 @@ story_id,entity,type
 1077,IGAD,ORGANIZATION
 1077,Inter Governmental Authority On Development,ORGANIZATION
 143,Venezuela,LOCATION
-143,Cano Limon-Covenas,PERSON
+143,Cano Limon Covenas,PERSON
 143,Ecopetrol,ORGANIZATION
 143,FARC,ORGANIZATION
 143,ELN,ORGANIZATION
@@ -3351,11 +3351,11 @@ story_id,entity,type
 2954,Myanmar,LOCATION
 2954,Rakhine,LOCATION
 594,UNEP,ORGANIZATION
-594,Asia-Pacific,LOCATION
+594,Asia Pacific,LOCATION
 594,Yoshinobu Fukasawa,PERSON
 594,Myanmar,LOCATION
 594,UN,ORGANIZATION
-594,Un-Habitat,ORGANIZATION
+594,UN Habitat,ORGANIZATION
 809,Pakistan,LOCATION
 3585,Washington,LOCATION
 3585,Mali,LOCATION
@@ -3390,7 +3390,7 @@ story_id,entity,type
 401,Aquino,PERSON
 534,NATO,ORGANIZATION
 534,State,ORGANIZATION
-534,Nagorno-Karabakh,LOCATION
+534,Nagorno Karabakh,LOCATION
 534,US,LOCATION
 534,Wales,LOCATION
 534,State Department,ORGANIZATION
@@ -3403,7 +3403,7 @@ story_id,entity,type
 1753,Sierra Leone,LOCATION
 1753,UN,ORGANIZATION
 1753,Nabarro,PERSON
-1753,Ban Ki-Moon,PERSON
+1753,Ban Ki Moon,PERSON
 1753,West Africa,LOCATION
 2891,Ukraines Foreign Ministry,ORGANIZATION
 2891,Transcarpathia,LOCATION
@@ -3426,7 +3426,7 @@ story_id,entity,type
 2009,David Cameron,PERSON
 2009,UK,LOCATION
 2805,Bahra,PERSON
-2805,Hadi al-Bahra,PERSON
+2805,Hadi al Bahra,PERSON
 2805,Coalition,ORGANIZATION
 2805,Saudi Arabia,LOCATION
 2805,Istanbul,LOCATION
@@ -3445,7 +3445,7 @@ story_id,entity,type
 40,Rammasun,PERSON
 40,Alexander Parma,PERSON
 40,Manila,LOCATION
-1535,Zine El-Abidine Ben Ali,PERSON
+1535,Zine El Abidine Ben Ali,PERSON
 1535,Tunisias Constituent Assembly,ORGANIZATION
 684,Upper Nile,LOCATION
 684,Juba,LOCATION
@@ -3512,7 +3512,7 @@ story_id,entity,type
 1377,Carrie Lam,PERSON
 1488,Haiti,LOCATION
 1488,OCHA,ORGANIZATION
-2032,UN Sc Ban Ki-Moon,ORGANIZATION
+2032,UN Sc Ban Ki Moon,ORGANIZATION
 2032,Haiti,LOCATION
 2032,UN,ORGANIZATION
 2032,Dominican Republic,LOCATION
@@ -3709,7 +3709,7 @@ story_id,entity,type
 1590,Pretoria,LOCATION
 1590,Stanley Mkhari,PERSON
 1590,Nyamwasa,PERSON
-469,UNSG Ban Ki-Moon,PERSON
+469,UNSG Ban Ki Moon,PERSON
 469,Ukraine,LOCATION
 469,Russia,LOCATION
 469,UNSC,ORGANIZATION
@@ -3765,7 +3765,7 @@ story_id,entity,type
 3108,South Sudan,LOCATION
 3108,Ethiopia,LOCATION
 3108,UN,ORGANIZATION
-3108,Kyung-Wha Kang,PERSON
+3108,Kyung Wha Kang,PERSON
 1450,UN Sc,ORGANIZATION
 1450,Security Council,ORGANIZATION
 1450,Ukraine,LOCATION
@@ -3777,10 +3777,10 @@ story_id,entity,type
 1361,Afghanistan,LOCATION
 1361,Iraq,LOCATION
 1361,Staffan De Mistura,PERSON
-1361,UNSG Ban Ki-Moon,PERSON
+1361,UNSG Ban Ki Moon,PERSON
 1361,UN,ORGANIZATION
 1361,Lakhdar Brahimi,PERSON
-1361,Bashar al-Assad,PERSON
+1361,Bashar al Assad,PERSON
 1361,Syria,LOCATION
 949,World Vision,ORGANIZATION
 949,Oslo,LOCATION
@@ -3886,11 +3886,11 @@ story_id,entity,type
 261,Timbuktu,LOCATION
 616,Mahdi Hafez,PERSON
 616,Baghdad,LOCATION
-616,Grand Ayatollah Ali al-Sistani,PERSON
+616,Grand Ayatollah Ali al Sistani,PERSON
 616,Iraq,LOCATION
 2675,Baghdad,LOCATION
 2675,Tikrit,LOCATION
-2675,Ayatollah Ali al-Sistani,PERSON
+2675,Ayatollah Ali al Sistani,PERSON
 2675,Iraq,LOCATION
 283,Cameroon,LOCATION
 283,Boko Haram,PERSON
@@ -3915,12 +3915,12 @@ story_id,entity,type
 977,Vladimir Morozov,PERSON
 977,Malaysian Airlines,ORGANIZATION
 1720,Red Cross,ORGANIZATION
-1720,Kamensk-Shakhtinsky,LOCATION
+1720,Kamensk Shakhtinsky,LOCATION
 1720,Moscow,LOCATION
 2180,India,LOCATION
 2180,Pakistan,LOCATION
 2180,Punjab,LOCATION
-2180,Lt-Gen Naveed Zaman,PERSON
+2180,Lt Gen Naveed Zaman,PERSON
 1722,Donetsk,LOCATION
 1722,Luhansk,LOCATION
 1722,Ukraine,LOCATION
@@ -3928,7 +3928,7 @@ story_id,entity,type
 184,Benghazi,LOCATION
 184,Libya,LOCATION
 184,Tripoli,LOCATION
-86,Ezzedine al-Qassam Brigades,PERSON
+86,Ezzedine al Qassam Brigades,PERSON
 86,AFP,ORGANIZATION
 86,Israel,LOCATION
 86,Hamas,ORGANIZATION
@@ -3989,7 +3989,7 @@ story_id,entity,type
 3171,Sanaa,LOCATION
 2187,Bobo,PERSON
 2187,Ougadougou,LOCATION
-2187,Bobo-Dioulasso,LOCATION
+2187,Bobo Dioulasso,LOCATION
 3166,Mogadishu,LOCATION
 3166,UN,ORGANIZATION
 1946,Chari,PERSON
@@ -4015,7 +4015,7 @@ story_id,entity,type
 1212,Sri Lanka,LOCATION
 1212,UNHCR,ORGANIZATION
 1235,Ethiopia,LOCATION
-1235,al-Shabaab,LOCATION
+1235,al Shabaab,LOCATION
 1235,Ministry Of Foreign Affairs,ORGANIZATION
 1235,Somalia,LOCATION
 1235,Kenya,LOCATION
@@ -4069,7 +4069,7 @@ story_id,entity,type
 2574,Rakhine,LOCATION
 2575,Thailand,LOCATION
 2575,Human Rights Watch,ORGANIZATION
-1873,Faiza al-Tanboura,PERSON
+1873,Faiza al Tanboura,PERSON
 1873,Jabaliya Elementary Girls School,ORGANIZATION
 1873,UN,ORGANIZATION
 1873,Pierre Krahenbuhl,PERSON
@@ -4107,9 +4107,9 @@ story_id,entity,type
 284,Invisible Children,ORGANIZATION
 284,Resistance Army,ORGANIZATION
 1166,Abdirahman Muhammad Tur,PERSON
-1166,Ahmad Umar Abu-Ubeydah,PERSON
+1166,Ahmad Umar Abu Ubeydah,PERSON
 1166,US,LOCATION
-1166,al-Shabaab,PERSON
+1166,al Shabaab,PERSON
 1927,Quetzaltenango,LOCATION
 1927,US Embassy,ORGANIZATION
 1927,US,LOCATION
@@ -4180,7 +4180,7 @@ story_id,entity,type
 803,UN,ORGANIZATION
 803,Ansarullah,ORGANIZATION
 803,Khalid Bahah,PERSON
-803,al-Islah,ORGANIZATION
+803,al Islah,ORGANIZATION
 796,Haiti,LOCATION
 3537,Senate,ORGANIZATION
 3537,Haiti,LOCATION
@@ -4339,7 +4339,7 @@ story_id,entity,type
 1562,FARC,ORGANIZATION
 1562,Jhon Jairo Obando,PERSON
 1562,Obando,PERSON
-1562,United Self-Defence Forces Of Colombia,ORGANIZATION
+1562,United Self Defence Forces Of Colombia,ORGANIZATION
 1562,Colombia,LOCATION
 2904,Movil,ORGANIZATION
 2904,Carlos Castano,PERSON
@@ -4349,7 +4349,7 @@ story_id,entity,type
 2904,Colombia,LOCATION
 1248,UNHCR,ORGANIZATION
 1824,Liwa,LOCATION
-1824,Ardo-Djobi,LOCATION
+1824,Ardo Djobi,LOCATION
 1824,Bosnia,LOCATION
 1824,Fulani,PERSON
 1824,Bambari,LOCATION
@@ -4400,7 +4400,7 @@ story_id,entity,type
 3461,Taliban,ORGANIZATION
 3461,Nawaz Sharif,PERSON
 225,Somers,PERSON
-225,Nasser Bin Ali al-Ansi,PERSON
+225,Nasser Bin Ali al Ansi,PERSON
 225,Obama,PERSON
 225,Defence,ORGANIZATION
 225,US,LOCATION
@@ -4409,7 +4409,7 @@ story_id,entity,type
 225,Korkie,PERSON
 225,Barack Obama,PERSON
 1574,Somers,PERSON
-1574,Nasser Bin Ali al-Ansi,PERSON
+1574,Nasser Bin Ali al Ansi,PERSON
 1574,Yemen,LOCATION
 1574,Pierre Korkie,PERSON
 1574,Luke Somers,PERSON
@@ -4511,7 +4511,7 @@ story_id,entity,type
 1801,Coalition Of Reforms And Democracy,ORGANIZATION
 1801,Timamy,PERSON
 1801,Kenya,LOCATION
-1801,al-Shabab,ORGANIZATION
+1801,al Shabab,ORGANIZATION
 1567,Tunisia,LOCATION
 1567,UN,ORGANIZATION
 1567,Benghazi,LOCATION
@@ -4538,7 +4538,7 @@ story_id,entity,type
 370,National Institute Of Immigration,ORGANIZATION
 370,Chiapas,LOCATION
 370,Federal Police,ORGANIZATION
-3233,Abdel-Rahman Hussein Mohamed Gardoud,PERSON
+3233,Abdel Rahman Hussein Mohamed Gardoud,PERSON
 3233,Nyala,LOCATION
 3233,South Darfur,LOCATION
 1980,ELN,ORGANIZATION
@@ -4569,14 +4569,14 @@ story_id,entity,type
 1103,Microbiology , Kinshasa University,ORGANIZATION
 1103,DR Congo Information,ORGANIZATION
 1103,Equateur Province,LOCATION
-1103,National Institute For Biomedical Research-Inrb,ORGANIZATION
+1103,National Institute For Biomedical Research INRB,ORGANIZATION
 1232,UNHCR,ORGANIZATION
 1232,Myanmar,LOCATION
 1232,Malaysia,LOCATION
 1232,Bangladesh,LOCATION
 1232,Rohingya Muslims,PERSON
 1232,Thailand,LOCATION
-2024,Park Geun-Hye,PERSON
+2024,Park Geun Hye,PERSON
 2024,South Korea,LOCATION
 2024,Pyongyang,LOCATION
 2024,North Korea,LOCATION
@@ -4598,7 +4598,7 @@ story_id,entity,type
 295,Soma,LOCATION
 295,Istanbul,LOCATION
 295,Izmir,LOCATION
-1650,Prayut Chan-Ocha,PERSON
+1650,Prayut Chan OCHA,PERSON
 1650,Bangkok,LOCATION
 1650,Prayut,PERSON
 1251,Africa,LOCATION
@@ -4623,7 +4623,7 @@ story_id,entity,type
 546,Israel Defense Forces,ORGANIZATION
 546,Golan Heights,LOCATION
 546,IDF,ORGANIZATION
-546,Bashar al-Assad,PERSON
+546,Bashar al Assad,PERSON
 546,Syria,LOCATION
 546,Israel,LOCATION
 907,Africa,LOCATION
@@ -4634,7 +4634,7 @@ story_id,entity,type
 2315,Defense Council,ORGANIZATION
 1572,Syria,LOCATION
 1572,Islamic State,ORGANIZATION
-1572,Bashar al-Assad,PERSON
+1572,Bashar al Assad,PERSON
 1572,Nusra Front,ORGANIZATION
 2640,Syria,LOCATION
 2640,Syrian Observatory For Human Rights,ORGANIZATION
@@ -4643,7 +4643,7 @@ story_id,entity,type
 3491,Syria,LOCATION
 3491,Moscow,LOCATION
 3491,Geneva,LOCATION
-3491,Bashar al-Assad,PERSON
+3491,Bashar al Assad,PERSON
 1785,Afghanistan,LOCATION
 1785,Takhar,LOCATION
 168,Mahamar Mohamed El Moctar,PERSON
@@ -4693,21 +4693,21 @@ story_id,entity,type
 3243,Lake Chad,LOCATION
 3243,Boko Haram,PERSON
 3243,Kolikolia,LOCATION
-2175,Abu Bakr al-Baghdadi,PERSON
+2175,Abu Bakr al Baghdadi,PERSON
 2175,Islamic State,ORGANIZATION
 2175,Iraq,LOCATION
 2175,Ansar,PERSON
-2175,Ansar Bayt al-Maqdis,PERSON
+2175,Ansar Bayt al Maqdis,PERSON
 2175,Syria,LOCATION
 2175,North Sinai,LOCATION
 853,Khosham,LOCATION
 853,ISIL,ORGANIZATION
 853,Tabia Jazeera,ORGANIZATION
-853,al-Nusra Front,ORGANIZATION
+853,al Nusra Front,ORGANIZATION
 853,Deir Ezzor,PERSON
 853,Syrian Observatory For Human Rights,ORGANIZATION
 853,NGO,ORGANIZATION
-853,al-Qaeda,ORGANIZATION
+853,al Qaeda,ORGANIZATION
 853,Shuheil,LOCATION
 262,Nigeria,LOCATION
 262,Boko Haram,PERSON
@@ -4835,7 +4835,7 @@ story_id,entity,type
 2502,Borno State,LOCATION
 2502,Kummabza,LOCATION
 2502,Borno,LOCATION
-2502,Askira-Uba,LOCATION
+2502,Askira Uba,LOCATION
 2502,Lassa,LOCATION
 2502,Boko Haram,PERSON
 2532,Damasak,PERSON
@@ -4898,7 +4898,7 @@ story_id,entity,type
 2915,Borno,LOCATION
 2915,BBC,ORGANIZATION
 2915,Gamboru Ngala,LOCATION
-2915,Kala-Balge,LOCATION
+2915,Kala Balge,LOCATION
 2915,Boko Haram,PERSON
 2916,Chibok,LOCATION
 2916,Nigeria,LOCATION
@@ -4978,7 +4978,7 @@ story_id,entity,type
 391,Yobe,LOCATION
 391,Nigeria,LOCATION
 391,Buni Yadi,LOCATION
-1579,Alliance Of Democratic Forces-Nalu,ORGANIZATION
+1579,Alliance Of Democratic Forces NALU,ORGANIZATION
 1579,Nord Kivu Province,LOCATION
 704,Cameroon,LOCATION
 704,Boko Haram,PERSON
@@ -5116,15 +5116,15 @@ story_id,entity,type
 457,Turkey,LOCATION
 457,Iraq,LOCATION
 457,Jordan,LOCATION
-457,al-Yarubiyah,LOCATION
-457,Bab al-Hawa,LOCATION
+457,al Yarubiyah,LOCATION
+457,Bab al Hawa,LOCATION
 457,Damascus,LOCATION
-457,al-Ramtha,PERSON
-457,UN SG Ban Ki-Moon,ORGANIZATION
+457,al Ramtha,PERSON
+457,UN SG Ban Ki Moon,ORGANIZATION
 457,Syria,LOCATION
 457,UNSC,ORGANIZATION
 457,Amanda Pitt,PERSON
-457,Bab al-Salam,LOCATION
+457,Bab al Salam,LOCATION
 578,Islamic State,ORGANIZATION
 578,Islamic State,LOCATION
 578,Aleppo,LOCATION
@@ -5153,7 +5153,7 @@ story_id,entity,type
 562,UN Women,ORGANIZATION
 562,Akhtar,PERSON
 562,UN,ORGANIZATION
-562,Phumzile Mlambo-Ngcuka,PERSON
+562,Phumzile Mlambo Ngcuka,PERSON
 562,United Nations,ORGANIZATION
 562,South Asia,LOCATION
 562,Farhan,PERSON
@@ -5229,7 +5229,7 @@ story_id,entity,type
 2169,Carmichael Road Detention Center,ORGANIZATION
 2169,Haiti,LOCATION
 2169,Bahamas,LOCATION
-2169,Port-Au-Prince,LOCATION
+2169,Port AU Prince,LOCATION
 2169,Nassau,LOCATION
 2955,UN,ORGANIZATION
 2955,United Nations,ORGANIZATION
@@ -5240,7 +5240,7 @@ story_id,entity,type
 1573,Yemen,LOCATION
 1573,Luke Somers,PERSON
 1573,US,LOCATION
-1573,Ansar al-Sharia,PERSON
+1573,Ansar al Sharia,PERSON
 138,Mozambique,LOCATION
 138,Renamo,ORGANIZATION
 1597,Caribbean,LOCATION
@@ -5262,7 +5262,7 @@ story_id,entity,type
 574,UN,ORGANIZATION
 574,Syria,LOCATION
 1254,Turkey,LOCATION
-1254,Bashar al-Assad,PERSON
+1254,Bashar al Assad,PERSON
 1254,Iraq,LOCATION
 1254,West,LOCATION
 1254,Islamic State,ORGANIZATION
@@ -5289,7 +5289,7 @@ story_id,entity,type
 3253,Bingol,LOCATION
 3253,Kobani,PERSON
 1013,EU,ORGANIZATION
-1013,al-Jilani al-Dahesh,PERSON
+1013,al Jilani al Dahesh,PERSON
 1013,AFP,ORGANIZATION
 1013,Tripoli,LOCATION
 1013,Libya,LOCATION
@@ -5306,10 +5306,10 @@ story_id,entity,type
 1172,Turkey,LOCATION
 1277,Syria,LOCATION
 1277,Islamic State,ORGANIZATION
-1277,Bashar al-Assad,PERSON
+1277,Bashar al Assad,PERSON
 1630,Damascus,LOCATION
 1630,Mleiha,LOCATION
-1630,Bashar al-Assad,PERSON
+1630,Bashar al Assad,PERSON
 1630,Ghouta,LOCATION
 1630,Hezbollah,ORGANIZATION
 2149,ISIL,ORGANIZATION
@@ -5340,7 +5340,7 @@ story_id,entity,type
 2556,Iraq,LOCATION
 2556,Sergei Lavrov,PERSON
 2556,United States,LOCATION
-2556,Bashar al-Assad,PERSON
+2556,Bashar al Assad,PERSON
 2556,Syria,LOCATION
 2556,Islamic State,ORGANIZATION
 2556,Al Qaeda,ORGANIZATION
@@ -5349,14 +5349,14 @@ story_id,entity,type
 2849,Saudi Arabia,LOCATION
 2849,Obama,PERSON
 2849,ISIS,ORGANIZATION
-2849,Bashar al-Assad,PERSON
+2849,Bashar al Assad,PERSON
 2849,Syria,LOCATION
 2849,Turkey,LOCATION
 2850,Islamic State,ORGANIZATION
 2850,Assad,PERSON
 2850,Iraq,LOCATION
-2850,al-Hayat,ORGANIZATION
-2850,Bashar al-Assad,PERSON
+2850,al Hayat,ORGANIZATION
+2850,Bashar al Assad,PERSON
 2850,Syria,LOCATION
 2850,UN,ORGANIZATION
 2879,Bashar Assad,PERSON
@@ -5398,17 +5398,17 @@ story_id,entity,type
 3490,Aleppo,LOCATION
 3616,Assad,PERSON
 3616,Damascus,LOCATION
-3616,Bashar al-Assad,PERSON
+3616,Bashar al Assad,PERSON
 3616,Halaqi,PERSON
 3616,Syria,LOCATION
 3616,Riad Hijab,PERSON
-3616,Wael al-Halaqi,PERSON
+3616,Wael al Halaqi,PERSON
 2644,Pakistan,LOCATION
 2644,Islamic State,ORGANIZATION
 2644,Iraq,LOCATION
 2644,Mullah Fazlullah,PERSON
-2644,Tehrik-E-Taliban Pakistan,LOCATION
-2644,Abu Bakr al-Baghdadi,PERSON
+2644,Tehrik E Taliban Pakistan,LOCATION
+2644,Abu Bakr al Baghdadi,PERSON
 2644,Shahid,PERSON
 2644,Syria,LOCATION
 2644,Taliban,ORGANIZATION
@@ -5502,13 +5502,13 @@ story_id,entity,type
 2299,Afghanistan,LOCATION
 2339,Taliban,ORGANIZATION
 2339,Kabul,LOCATION
-2339,Pul-E-Charkhi,LOCATION
+2339,Pul E Charkhi,LOCATION
 2365,Afghanistan,LOCATION
 2365,Taliban,ORGANIZATION
 2365,Ashraf Ghani,PERSON
 2365,Ghani,PERSON
 2365,European Union,ORGANIZATION
-2365,Franz-Michael Mellbin,PERSON
+2365,Franz Michael Mellbin,PERSON
 2435,Kabul International Airport,LOCATION
 2435,Taliban,ORGANIZATION
 2527,Taliban,ORGANIZATION
@@ -5543,7 +5543,7 @@ story_id,entity,type
 3521,Afghanistan,LOCATION
 3521,Taliban,ORGANIZATION
 3521,US,LOCATION
-3521,Nato-Led International Security Assistance Force,ORGANIZATION
+3521,NATO Led International Security Assistance Force,ORGANIZATION
 3621,Zabihalluh Mujahid,PERSON
 3621,Kabul,LOCATION
 3621,Taliban,ORGANIZATION
@@ -5593,7 +5593,7 @@ story_id,entity,type
 790,Malaysia,LOCATION
 832,Udomdet Sitabutr,PERSON
 832,Narathiwat,LOCATION
-832,Prayuth Chan-Ocha,PERSON
+832,Prayuth Chan OCHA,PERSON
 832,National Council For Peace And Order,ORGANIZATION
 832,Yala,ORGANIZATION
 832,Prayuth,PERSON
@@ -5706,7 +5706,7 @@ story_id,entity,type
 1632,Kashmir,LOCATION
 1632,Pampore,LOCATION
 1632,Pulwama,LOCATION
-1632,Srinagar-Jammu,LOCATION
+1632,Srinagar Jammu,LOCATION
 1632,BSF,ORGANIZATION
 2385,Riek Machar,PERSON
 2385,BBC,ORGANIZATION
@@ -5723,11 +5723,11 @@ story_id,entity,type
 2103,Lebanon,LOCATION
 2103,Islamic State,ORGANIZATION
 2103,Hezbollah,ORGANIZATION
-2103,al-Manar,ORGANIZATION
+2103,al Manar,ORGANIZATION
 2103,Syria,LOCATION
 2103,Syrian Observatory For Human Rights,ORGANIZATION
 2103,NGO,ORGANIZATION
-2103,Abu Abdullah al-Iraqi,PERSON
+2103,Abu Abdullah al Iraqi,PERSON
 2103,Qalamun,LOCATION
 2672,Observatory,ORGANIZATION
 2672,Golan,LOCATION
@@ -5741,12 +5741,12 @@ story_id,entity,type
 57,Shaar,LOCATION
 90,Lebanon,LOCATION
 90,Shiite Hezbollah,ORGANIZATION
-90,al-Nusra Front Allies,ORGANIZATION
+90,al Nusra Front Allies,ORGANIZATION
 90,Damascus,LOCATION
 90,Mleiha,LOCATION
 90,Syrian Observatory For Human Rights,ORGANIZATION
 92,Hama,LOCATION
-92,Bashar al-Assad,PERSON
+92,Bashar al Assad,PERSON
 92,Syria,LOCATION
 92,Syrian Observatory For Human Rights,ORGANIZATION
 92,Hurra,PERSON
@@ -5796,7 +5796,7 @@ story_id,entity,type
 1360,Syrian Observatory For Human Rights,ORGANIZATION
 1363,Islamic State,ORGANIZATION
 1363,Syrian Observatory For Human Rights,ORGANIZATION
-1363,Bashar al-Assads,PERSON
+1363,Bashar al Assads,PERSON
 1363,Daraa,LOCATION
 1673,Observatory,ORGANIZATION
 1673,Atarib,LOCATION
@@ -5818,12 +5818,12 @@ story_id,entity,type
 1878,Aleppo,LOCATION
 1878,US,LOCATION
 1878,Syria,LOCATION
-1878,al-Assad,PERSON
+1878,al Assad,PERSON
 2074,Aleppo,LOCATION
 2074,Syrian Observatory For Human Rights,ORGANIZATION
 2074,Sukkari,LOCATION
 2074,Ashrafieh,LOCATION
-2296,Wadi al-Deif,LOCATION
+2296,Wadi al Deif,LOCATION
 2296,Observatory,ORGANIZATION
 2296,Aleppo,LOCATION
 2296,Syrian Observatory For Human Rights Monitoring Group,ORGANIZATION
@@ -5840,7 +5840,7 @@ story_id,entity,type
 2363,Observatory,ORGANIZATION
 2462,Bashar Assad,PERSON
 2462,Islamic State,ORGANIZATION
-2462,Hadi al-Bahra,PERSON
+2462,Hadi al Bahra,PERSON
 2462,Coalition,ORGANIZATION
 2462,ISIS,ORGANIZATION
 2462,Syria,LOCATION
@@ -5858,7 +5858,7 @@ story_id,entity,type
 2601,Syria,LOCATION
 2601,Observatory,ORGANIZATION
 2601,Aleppo,LOCATION
-2722,Ain al-Arab,LOCATION
+2722,Ain al Arab,LOCATION
 2722,ISIL,ORGANIZATION
 2722,Aleppo,LOCATION
 2722,UNICEF,ORGANIZATION
@@ -5868,7 +5868,7 @@ story_id,entity,type
 2806,Khatab,LOCATION
 2806,Syrian Observatory For Human Rights,ORGANIZATION
 2806,Hama,LOCATION
-2936,Wadi al-Deif,LOCATION
+2936,Wadi al Deif,LOCATION
 2936,Observatory,ORGANIZATION
 2936,Aleppo,LOCATION
 2936,Syrian Observatory For Human Rights Monitoring Group,ORGANIZATION
@@ -5882,14 +5882,14 @@ story_id,entity,type
 3047,Jobar,LOCATION
 3048,Syrian Observatory For Human Rights,ORGANIZATION
 3048,Gaza,LOCATION
-3048,Bashar al-Assad,PERSON
+3048,Bashar al Assad,PERSON
 3150,Washington,LOCATION
 3150,Islamic State,ORGANIZATION
 3150,Assad,PERSON
 3150,Iraq,LOCATION
 3150,Obama,PERSON
 3150,United States,LOCATION
-3150,Bashar al-Assad,PERSON
+3150,Bashar al Assad,PERSON
 3150,Syria,LOCATION
 3198,Hama Military Airport,LOCATION
 3198,Hama,PERSON
@@ -5921,14 +5921,14 @@ story_id,entity,type
 3457,Aleppo,LOCATION
 3457,Syria,LOCATION
 3457,Syrian Observatory For Human Rights,ORGANIZATION
-3457,al-Bab,PERSON
+3457,al Bab,PERSON
 3617,Syrian Observatory For Human Rights Monitoring Group,ORGANIZATION
 3617,Raqa,LOCATION
 3617,Syria,LOCATION
 3649,Syria,LOCATION
 3649,Syrian Observatory For Human Rights,ORGANIZATION
 3649,ISIL,ORGANIZATION
-3649,Deir al-Zour,LOCATION
+3649,Deir al Zour,LOCATION
 3682,Syria,LOCATION
 3682,Syrian Observatory For Human Rights,ORGANIZATION
 3682,Iraq,LOCATION
@@ -5969,8 +5969,8 @@ story_id,entity,type
 3239,Kathmandu,LOCATION
 605,Inkhil,LOCATION
 605,Jordan,LOCATION
-605,Liwa al-Mujahideen Brigade,ORGANIZATION
-605,Bashar al-Assad,PERSON
+605,Liwa al Mujahideen Brigade,ORGANIZATION
+605,Bashar al Assad,PERSON
 605,Syria,LOCATION
 605,Saturdaymaher Rahal,PERSON
 605,Rahal,PERSON
@@ -5999,7 +5999,7 @@ story_id,entity,type
 776,Riyadh,LOCATION
 776,Sri Lanka,LOCATION
 776,Rauf Hakeem,PERSON
-1247,Alexandre-Ferdinand Nguendet,PERSON
+1247,Alexandre Ferdinand Nguendet,PERSON
 1247,Bambari,LOCATION
 1372,Saint Joseph Cathedral,ORGANIZATION
 1372,UN,ORGANIZATION
@@ -6009,7 +6009,7 @@ story_id,entity,type
 2226,St Joseph 'S Cathedral,LOCATION
 2226,Catholic Church,ORGANIZATION
 2226,Bambari,LOCATION
-2226,Jean-Yves Le Drian,PERSON
+2226,Jean Yves Le Drian,PERSON
 2819,Thibault Ndemaguia,PERSON
 2819,Bambari,LOCATION
 2819,St Joseph 'S Cathedral,ORGANIZATION
@@ -6019,7 +6019,7 @@ story_id,entity,type
 1806,UN,ORGANIZATION
 1806,Syria,LOCATION
 1806,Javier Miranda,PERSON
-610,Ibrahim al-Assaf,PERSON
+610,Ibrahim al Assaf,PERSON
 610,Saudi Arabia,LOCATION
 610,Palestinian Red Crescent,ORGANIZATION
 610,Gaza,LOCATION
@@ -6077,7 +6077,7 @@ story_id,entity,type
 2637,Iraq,LOCATION
 2637,Badr,PERSON
 2637,Anbar,LOCATION
-2637,Ahmed al-Khafaji,PERSON
+2637,Ahmed al Khafaji,PERSON
 2637,Baghdad,LOCATION
 2725,Interior Ministry,ORGANIZATION
 2725,Jendouba,LOCATION
@@ -6092,7 +6092,7 @@ story_id,entity,type
 335,Amama Mbabazi,PERSON
 335,Museveni,PERSON
 335,Uganda,LOCATION
-1378,al-Shabaab,PERSON
+1378,al Shabaab,PERSON
 1934,Africa,LOCATION
 1934,Saudi Arabia,LOCATION
 1934,Sierra Leone,LOCATION
@@ -6123,7 +6123,7 @@ story_id,entity,type
 408,Yingluck Shinawatra,PERSON
 408,Asia,LOCATION
 408,Prayuth,PERSON
-408,Prayuth Chan-Ocha,PERSON
+408,Prayuth Chan OCHA,PERSON
 738,Reuters,ORGANIZATION
 738,Sanaa,LOCATION
 738,Yemen,LOCATION
@@ -6157,7 +6157,7 @@ story_id,entity,type
 421,Suleiman,PERSON
 2210,IOM Displacement Tracking Matrix,ORGANIZATION
 2210,Haiti,LOCATION
-2210,Port-Au-Prince,LOCATION
+2210,Port AU Prince,LOCATION
 2210,IOM,ORGANIZATION
 2210,Gregoire Goodstein,PERSON
 2210,West,LOCATION
@@ -6181,28 +6181,28 @@ story_id,entity,type
 472,Guizhou,LOCATION
 472,Fuquan City,LOCATION
 472,Xinhua,ORGANIZATION
-18,Mohamed al-Bata,PERSON
+18,Mohamed al Bata,PERSON
 18,Nile Delta Village,LOCATION
 18,Egypt,LOCATION
 18,Raslan Fadl,PERSON
 18,FGM,ORGANIZATION
 18,Sohair,PERSON
-18,Sohair al-Bata,PERSON
-888,Habib al-Adly,PERSON
+18,Sohair al Bata,PERSON
+888,Habib al Adly,PERSON
 888,Cairo,LOCATION
 888,Egypt,LOCATION
 888,Alaa,PERSON
 888,Gamal,PERSON
 888,Hosni Mubarak,PERSON
-888,Abdel Fattah al-Sisi,PERSON
+888,Abdel Fattah al Sisi,PERSON
 888,Mubarak,PERSON
-1958,Mohamed al-Bata,PERSON
+1958,Mohamed al Bata,PERSON
 1958,Nile Delta Village,LOCATION
 1958,Egypt,LOCATION
 1958,Raslan Fadl,PERSON
 1958,FGM,ORGANIZATION
 1958,Sohair,PERSON
-1958,Sohair al-Bata,PERSON
+1958,Sohair al Bata,PERSON
 3053,Pakistan,LOCATION
 3053,Dera Ghazi Khan,PERSON
 3053,Mianwali,LOCATION
@@ -6288,7 +6288,7 @@ story_id,entity,type
 2828,Organisation Of American States,ORGANIZATION
 2828,Iguala,LOCATION
 1661,Michel Martelly,PERSON
-1661,Port-Au-Prince,LOCATION
+1661,Port AU Prince,LOCATION
 1661,Martelly,PERSON
 1661,Laurent Lamothe,PERSON
 3326,Florence Duperval Guillaume,PERSON
@@ -6310,7 +6310,7 @@ story_id,entity,type
 2266,Catherine Samba Panza,PERSON
 2211,Nicaragua,LOCATION
 2211,Daniel Ortega,PERSON
-2211,Hong Kong-Based,LOCATION
+2211,Hong Kong Based,LOCATION
 2211,Panama Canal,LOCATION
 2211,HKND Group,ORGANIZATION
 674,Iran,LOCATION
@@ -6409,12 +6409,12 @@ story_id,entity,type
 1892,Moscow,LOCATION
 1892,Socialist Party,ORGANIZATION
 1892,European Union,ORGANIZATION
-2184,Dlamini-Zuma,PERSON
+2184,Dlamini Zuma,PERSON
 2184,Blaise Compaore,PERSON
 2184,Burkina Faso,LOCATION
 2184,Edem Kodjo,PERSON
 2184,Togo,LOCATION
-2184,Nkosazana Dlamini-Zuma,PERSON
+2184,Nkosazana Dlamini Zuma,PERSON
 2768,Blaise Compaore,PERSON
 2768,Nigeria,LOCATION
 2768,Ghana,LOCATION
@@ -6454,7 +6454,7 @@ story_id,entity,type
 2186,Isaac Zida,PERSON
 2186,Burkina Faso,LOCATION
 3127,Blaise Compaore,PERSON
-3127,Clarisse Merindol-Ouoba,PERSON
+3127,Clarisse Merindol Ouoba,PERSON
 3127,Isaac Zida,PERSON
 3548,Blaise Compaore,PERSON
 3548,Compaore,PERSON
@@ -6475,13 +6475,13 @@ story_id,entity,type
 1853,Valeriy Chaly,PERSON
 1853,European Union,ORGANIZATION
 1853,Ukrainian Army,ORGANIZATION
-155,al-Hassi,PERSON
-155,Salem al-Hassi,PERSON
+155,al Hassi,PERSON
+155,Salem al Hassi,PERSON
 155,Libya,LOCATION
 155,Supreme Constitutional Court,ORGANIZATION
 155,Associated Press,ORGANIZATION
 155,Ahmed Maiteg,PERSON
-155,Mohammed al-Arisha,PERSON
+155,Mohammed al Arisha,PERSON
 122,Blaise Compaore,PERSON
 122,Burkina Faso,LOCATION
 1581,Sahara,LOCATION
@@ -6491,7 +6491,7 @@ story_id,entity,type
 2985,Jose Mario Vaz,PERSON
 2985,Vaz,PERSON
 2985,Nuno Gomes Nabiam,PERSON
-2985,Guinea-Bissau,LOCATION
+2985,Guinea Bissau,LOCATION
 712,Security Council,ORGANIZATION
 712,Amnesty International,ORGANIZATION
 712,South Sudan,LOCATION
@@ -6515,7 +6515,7 @@ story_id,entity,type
 3605,Syria,LOCATION
 134,Xinjiang,LOCATION
 134,Xi Jinping,PERSON
-651,Nuri al-Maliki,PERSON
+651,Nuri al Maliki,PERSON
 651,Samara,LOCATION
 1983,UNICEF,ORGANIZATION
 1983,Sinjar,LOCATION
@@ -6552,7 +6552,7 @@ story_id,entity,type
 3433,National Democratic Front Of Bodoland,ORGANIZATION
 3433,Bhutan,LOCATION
 3433,NDFB,ORGANIZATION
-761,Abdul Fattah al-Sisi,PERSON
+761,Abdul Fattah al Sisi,PERSON
 761,Egypt,LOCATION
 761,Rafah,LOCATION
 761,Sinai Peninsula,LOCATION
@@ -6615,7 +6615,7 @@ story_id,entity,type
 352,Mali,LOCATION
 352,Kidal,LOCATION
 352,Tessalit,LOCATION
-1095,Abd-Rabbu Mansour Hadi,PERSON
+1095,Abd Rabbu Mansour Hadi,PERSON
 1095,Reuters,ORGANIZATION
 1095,Sanaa,LOCATION
 1095,Yemen,LOCATION
@@ -6643,7 +6643,7 @@ story_id,entity,type
 3409,Caribbean,LOCATION
 3409,Paraguay,LOCATION
 3409,Peru,LOCATION
-3409,Pan-American Health Organization,ORGANIZATION
+3409,Pan American Health Organization,ORGANIZATION
 1246,Pakistan,LOCATION
 1246,National Institute Of Health,ORGANIZATION
 1246,Islamabad,LOCATION
@@ -6679,7 +6679,7 @@ story_id,entity,type
 2209,Colombia,LOCATION
 2905,Africa,LOCATION
 2905,Haiti,LOCATION
-2905,Port-Au-Prince,LOCATION
+2905,Port AU Prince,LOCATION
 2905,St Martin,LOCATION
 2905,Dominican Republic,LOCATION
 2905,Asia,LOCATION
@@ -6869,7 +6869,7 @@ story_id,entity,type
 3055,UNHCR,ORGANIZATION
 3055,Chad,LOCATION
 3055,Cameroon,LOCATION
-3055,Anti-Balaka,PERSON
+3055,Anti Balaka,PERSON
 3055,DRC,ORGANIZATION
 3055,Congo,LOCATION
 3175,Donetsk,LOCATION
@@ -6903,7 +6903,7 @@ story_id,entity,type
 1136,Israel,LOCATION
 1136,Khan Younis,LOCATION
 1136,Gaza,LOCATION
-1136,al-Najar,PERSON
+1136,al Najar,PERSON
 1136,Gaza Strip,LOCATION
 1136,Gaza Health Ministry,ORGANIZATION
 1137,Gaza,LOCATION
@@ -7027,7 +7027,7 @@ story_id,entity,type
 2960,Beijing,LOCATION
 2960,Xinjiang,LOCATION
 2960,China News Service,ORGANIZATION
-114,al-Quds,ORGANIZATION
+114,al Quds,ORGANIZATION
 114,Nabil Abu Rudaina,PERSON
 114,UN General Assembly,ORGANIZATION
 114,Mahmoud Abbas,PERSON
@@ -7066,19 +7066,19 @@ story_id,entity,type
 820,US,LOCATION
 820,Asiri,PERSON
 820,Arabian Peninsula,LOCATION
-820,Ibrahim Hassan al-Asiri,PERSON
+820,Ibrahim Hassan al Asiri,PERSON
 1422,Gaza City,LOCATION
-1422,Ashraf al-Qudra,PERSON
+1422,Ashraf al Qudra,PERSON
 1692,Croatia,LOCATION
 1692,Karlovac,LOCATION
 1692,Mura,PERSON
-1692,Koprivnica-Krizevci,LOCATION
-1692,Sisak-Moslavina,LOCATION
+1692,Koprivnica Krizevci,LOCATION
+1692,Sisak Moslavina,LOCATION
 1692,Central Croatia,LOCATION
 1604,Syria,LOCATION
 1604,OPCW,ORGANIZATION
 1604,US,LOCATION
-1604,Bashar al-Assad,PERSON
+1604,Bashar al Assad,PERSON
 1604,Organisation For The Prohibition Of Chemical Weapons,ORGANIZATION
 1745,Aleppo,LOCATION
 1745,Marea,PERSON
@@ -7120,7 +7120,7 @@ story_id,entity,type
 569,Uganda,LOCATION
 840,Saudi Arabia,LOCATION
 840,SABA,ORGANIZATION
-840,al-Wadia,LOCATION
+840,al Wadia,LOCATION
 840,Yemen,LOCATION
 3172,Kashmir,LOCATION
 3172,Pakistan,LOCATION
@@ -7137,10 +7137,10 @@ story_id,entity,type
 1102,Kupwara,LOCATION
 1102,Badami Bagh,LOCATION
 1102,Kalaroos,LOCATION
-59,al-Aram,LOCATION
+59,al Aram,LOCATION
 59,Shabwa,LOCATION
 1940,Shabwa Province,LOCATION
-1940,al-Qaeda,LOCATION
+1940,al Qaeda,LOCATION
 1940,Shabwa,LOCATION
 1940,Hadramawt Province,LOCATION
 1940,Sayun,LOCATION
@@ -7188,7 +7188,7 @@ story_id,entity,type
 1682,Farooq,PERSON
 1682,Ayesha Raza Farooq,PERSON
 1682,Lahore,LOCATION
-1682,Gulshan-E-Iqbal,ORGANIZATION
+1682,Gulshan E Iqbal,ORGANIZATION
 1682,Gadap,LOCATION
 1435,Mount Chaambi,LOCATION
 1435,Defence Ministry,ORGANIZATION
@@ -7210,7 +7210,7 @@ story_id,entity,type
 3637,Roka Commune,LOCATION
 2178,Middle East,LOCATION
 2178,Interior Ministry,ORGANIZATION
-2178,al-Ahsa,LOCATION
+2178,al Ahsa,LOCATION
 2178,Eastern Province,LOCATION
 2178,Saudi Arabia,LOCATION
 2178,Huseiniya,LOCATION
@@ -7262,8 +7262,8 @@ story_id,entity,type
 2867,La Guajira Province,LOCATION
 2867,La Guajira,LOCATION
 2867,Colombia,LOCATION
-687,Moise Jean-Charles,PERSON
-687,Port-Au-Prince,LOCATION
+687,Moise Jean Charles,PERSON
+687,Port AU Prince,LOCATION
 628,Birao,LOCATION
 628,Ahmat Mahamat Nedjad,PERSON
 628,Michel Djotodia,PERSON
@@ -7283,7 +7283,7 @@ story_id,entity,type
 3578,Dhaka,LOCATION
 884,Washington,LOCATION
 884,Security Council,ORGANIZATION
-884,Nabil al-Araby,PERSON
+884,Nabil al Araby,PERSON
 884,Israel,LOCATION
 884,US,LOCATION
 884,Arab League,ORGANIZATION
@@ -7297,7 +7297,7 @@ story_id,entity,type
 2313,Israel,LOCATION
 2313,UN,ORGANIZATION
 2313,Middle East,LOCATION
-2313,Jens Toyberg-Frandzen,PERSON
+2313,Jens Toyberg Frandzen,PERSON
 2656,Ukraine,LOCATION
 2656,Brussels,LOCATION
 2656,Stefan Fuele,PERSON
@@ -7308,7 +7308,7 @@ story_id,entity,type
 2656,European Parliament,ORGANIZATION
 2963,Thailand,LOCATION
 2963,Election Commission,ORGANIZATION
-2963,Prayuth Chan-Ocha,PERSON
+2963,Prayuth Chan OCHA,PERSON
 3302,Security Council,ORGANIZATION
 3302,United Arab Emirates,LOCATION
 3302,Egypt,LOCATION
@@ -7388,7 +7388,7 @@ story_id,entity,type
 885,Netanyahu,PERSON
 885,Israel,LOCATION
 885,Jerusalem,LOCATION
-1159,Abu Mohammad al-Golani,PERSON
+1159,Abu Mohammad al Golani,PERSON
 1159,Jolani,PERSON
 1159,US,LOCATION
 1159,Nusra Front,ORGANIZATION
@@ -7411,12 +7411,12 @@ story_id,entity,type
 463,Bangui,LOCATION
 463,Bossangoa,LOCATION
 463,MSF,ORGANIZATION
-181,Inter-American Court Of Human Rights,ORGANIZATION
+181,Inter American Court Of Human Rights,ORGANIZATION
 181,Guatemala,LOCATION
 987,Uzbekistan,LOCATION
 1005,AFP,ORGANIZATION
-1005,Fatah al-Islam,ORGANIZATION
-1005,Nahr El-Bared,LOCATION
+1005,Fatah al Islam,ORGANIZATION
+1005,Nahr El Bared,LOCATION
 1492,North Sinais,LOCATION
 1492,Interior Ministry,ORGANIZATION
 767,Israel,LOCATION
@@ -7484,7 +7484,7 @@ story_id,entity,type
 2049,Vitaly Churkin,PERSON
 2312,ASG Kang,ORGANIZATION
 2312,UN,ORGANIZATION
-2312,Kyung-Wha Kang,PERSON
+2312,Kyung Wha Kang,PERSON
 2312,South Sudan,LOCATION
 2409,OCHA,ORGANIZATION
 2409,University Of Oxford,ORGANIZATION
@@ -7570,7 +7570,7 @@ story_id,entity,type
 2968,Uganda,LOCATION
 1524,Bogota,LOCATION
 1524,UN,ORGANIZATION
-1524,Kyung-Wha Kang,PERSON
+1524,Kyung Wha Kang,PERSON
 1524,Colombia,LOCATION
 3078,Nasa,ORGANIZATION
 3078,Nukak,ORGANIZATION
@@ -7622,7 +7622,7 @@ story_id,entity,type
 623,India,LOCATION
 623,Bokaro,LOCATION
 623,Jharkhand,LOCATION
-623,Cnn-Ibn News Channel,ORGANIZATION
+623,CNN IBN News Channel,ORGANIZATION
 748,Chibok,LOCATION
 748,Boko Haram,PERSON
 748,Kwaranglum,LOCATION
@@ -7761,7 +7761,7 @@ story_id,entity,type
 1933,Associated Press,ORGANIZATION
 1933,Tobruk,LOCATION
 378,Islamic State,ORGANIZATION
-378,Uk-Based Syrian Observatory For Human Rights,ORGANIZATION
+378,UK Based Syrian Observatory For Human Rights,ORGANIZATION
 388,Canada,LOCATION
 388,Ndassima,LOCATION
 388,Seleka,LOCATION
@@ -7848,7 +7848,7 @@ story_id,entity,type
 3398,Xinhua News Agency,ORGANIZATION
 3587,Riek Machar,PERSON
 3587,South,LOCATION
-3587,Omar al-Bashir,PERSON
+3587,Omar al Bashir,PERSON
 3587,Machar,PERSON
 3587,Sudan,LOCATION
 3587,Salva Kiir,PERSON
@@ -7896,7 +7896,7 @@ story_id,entity,type
 2544,South Sudan,LOCATION
 2664,UN,ORGANIZATION
 2664,South Sudan,LOCATION
-2679,Ali al-Za,PERSON
+2679,Ali al Za,PERSON
 2679,UN,ORGANIZATION
 2679,Sudan,LOCATION
 2679,South Sudan,LOCATION
@@ -7951,7 +7951,7 @@ story_id,entity,type
 3277,Abu Sayyaf,PERSON
 1392,Bangui,LOCATION
 1392,UN,ORGANIZATION
-1392,Anti-Balaka,PERSON
+1392,Anti Balaka,PERSON
 1653,Madagascar,LOCATION
 1653,National Bureau For Risk And Disaster Management,ORGANIZATION
 1505,Sierra Leone,LOCATION
@@ -8024,7 +8024,7 @@ story_id,entity,type
 49,Israel,LOCATION
 49,UN,ORGANIZATION
 49,Gaza City,LOCATION
-51,Ashraf al-Qudra,PERSON
+51,Ashraf al Qudra,PERSON
 51,Israel,LOCATION
 51,Gaza,LOCATION
 51,Beit Hanun,LOCATION
@@ -8071,7 +8071,7 @@ story_id,entity,type
 2256,Erez,LOCATION
 2256,Palestinian National Reconciliation Government,ORGANIZATION
 2256,Rami Hamdala,PERSON
-2432,Ben Zayed al-Nahyan,PERSON
+2432,Ben Zayed al Nahyan,PERSON
 2432,Israel,LOCATION
 2432,UAE,LOCATION
 2432,Gaza,LOCATION
@@ -8103,7 +8103,7 @@ story_id,entity,type
 3007,Abdullah Abu Rahma,PERSON
 3007,Bilin,LOCATION
 3007,Ramallah,LOCATION
-3041,al-Maghazi,LOCATION
+3041,al Maghazi,LOCATION
 3041,Israel,LOCATION
 3041,UN,ORGANIZATION
 3041,UNRWA,ORGANIZATION
@@ -8140,7 +8140,7 @@ story_id,entity,type
 3489,Gaza Strip,LOCATION
 3489,Gaza,LOCATION
 3489,Fatah,ORGANIZATION
-3489,Eyad al-Bazam,PERSON
+3489,Eyad al Bazam,PERSON
 3489,Hamas Interior Ministry,ORGANIZATION
 3573,Peter Maurer,PERSON
 3573,Hamas,ORGANIZATION
@@ -8186,7 +8186,7 @@ story_id,entity,type
 1006,Doha,LOCATION
 1006,Reuters,ORGANIZATION
 1006,Gulf,LOCATION
-1006,Tamim Bin Hamad al-Thani,PERSON
+1006,Tamim Bin Hamad al Thani,PERSON
 1006,Israel,LOCATION
 1236,Gulf Of Aden,LOCATION
 1236,Horn Of Africa,LOCATION
@@ -8291,7 +8291,7 @@ story_id,entity,type
 1031,Jim Yong Kim,PERSON
 1031,Kim,PERSON
 1031,World Bank,ORGANIZATION
-1578,Abdel Kader Baba-Ladde,PERSON
+1578,Abdel Kader Baba Ladde,PERSON
 1578,Northern District Of Kabo,LOCATION
 1578,UN,ORGANIZATION
 1578,Central African Republic,LOCATION
@@ -8322,7 +8322,7 @@ story_id,entity,type
 291,NATO,ORGANIZATION
 291,Bosnia,LOCATION
 3254,Kim,PERSON
-3254,Kim Jong-Un,PERSON
+3254,Kim Jong UN,PERSON
 1033,Raul Khadzhimba,PERSON
 1033,Putin,PERSON
 1033,Tbilisi,LOCATION
@@ -8398,7 +8398,7 @@ story_id,entity,type
 1046,Guyanas,PERSON
 1263,Ahmad Umar,PERSON
 1263,Somalia,LOCATION
-1263,al-Shabaab,PERSON
+1263,al Shabaab,PERSON
 1263,Abu Mohammed,PERSON
 1263,US,LOCATION
 1263,Abu Ubaidah,PERSON
@@ -8472,7 +8472,7 @@ story_id,entity,type
 3212,Crimea,LOCATION
 1041,Muslim For Human Rights,ORGANIZATION
 1041,Kheled Khalifa,PERSON
-1041,al-Shabab,ORGANIZATION
+1041,al Shabab,ORGANIZATION
 1041,Somalia,LOCATION
 1880,Ranadeep Gokhale,PERSON
 1906,Sanaa University,ORGANIZATION
@@ -8524,7 +8524,7 @@ story_id,entity,type
 1728,Botswana,LOCATION
 1728,Keabetswe Makgophe,PERSON
 1070,Washington,LOCATION
-1070,UN -Rrb- Security Council,ORGANIZATION
+1070,UN RRB Security Council,ORGANIZATION
 1070,Russia,LOCATION
 1070,EU,ORGANIZATION
 1070,United States,LOCATION
@@ -8557,7 +8557,7 @@ story_id,entity,type
 719,US,LOCATION
 719,Francois Hollande,PERSON
 719,Barack Obama,PERSON
-3003,Rabaa al-Adaweya,PERSON
+3003,Rabaa al Adaweya,PERSON
 3003,Muslim Brotherhood,ORGANIZATION
 3003,Sherine Fahmy,PERSON
 3003,Cairo Appeals Court,ORGANIZATION
@@ -8585,7 +8585,7 @@ story_id,entity,type
 142,Alvaro Uribe,PERSON
 142,Juan Manuel Santos,PERSON
 142,Uribe,PERSON
-142,Invamer-Gallup,ORGANIZATION
+142,Invamer Gallup,ORGANIZATION
 142,Colombia,LOCATION
 142,El Espectador,ORGANIZATION
 142,Santos,PERSON
@@ -8597,9 +8597,9 @@ story_id,entity,type
 2065,Juan Manuel Santos,PERSON
 275,Haiti,LOCATION
 275,UN,ORGANIZATION
-275,Port-Au-Prince,LOCATION
+275,Port AU Prince,LOCATION
 275,Aristide,PERSON
-275,Jean-Bertrand Aristide,PERSON
+275,Jean Bertrand Aristide,PERSON
 1596,Haiti,LOCATION
 1596,Jean Bertrand Aristide,PERSON
 1596,Aristide,PERSON
@@ -8643,7 +8643,7 @@ story_id,entity,type
 492,Pakistan,LOCATION
 492,Islamabad,LOCATION
 492,Nawaz Sharif,PERSON
-492,Tahir Ul-Qadri,PERSON
+492,Tahir Ul Qadri,PERSON
 492,Imran Khan,PERSON
 492,Raheel Sharif,PERSON
 901,Islamabad,LOCATION
@@ -8657,7 +8657,7 @@ story_id,entity,type
 1633,Khan 'S Lahore,LOCATION
 1633,PTI,ORGANIZATION
 1633,Lahore,LOCATION
-1633,Tahir-Ul-Qadri,PERSON
+1633,Tahir Ul Qadri,PERSON
 1633,Imran Khan,PERSON
 1633,Punjab Province,LOCATION
 1752,Pakistan,LOCATION
@@ -8667,7 +8667,7 @@ story_id,entity,type
 1752,Imran Khan,PERSON
 1752,Sharif,PERSON
 2080,Lahore,LOCATION
-2080,Canadian-Pakistani Tahir-Ul-Qadri,PERSON
+2080,Canadian Pakistani Tahir Ul Qadri,PERSON
 2119,Pakistan,LOCATION
 2119,Khan,PERSON
 2119,Nawaz Sharif,PERSON
@@ -8679,13 +8679,13 @@ story_id,entity,type
 2121,Nawaz Sharif,PERSON
 2121,Imran Khan,PERSON
 2121,Punjab,LOCATION
-2121,Tahir Ul-Qadri,PERSON
+2121,Tahir Ul Qadri,PERSON
 2122,Pakistan,LOCATION
 2122,Imran Khan,PERSON
 2122,Islamabad,LOCATION
 2561,Qadri,PERSON
 2561,Nawaz Sharif,PERSON
-2561,Tahir-Ul-Qadri,PERSON
+2561,Tahir Ul Qadri,PERSON
 2609,Pakistan,LOCATION
 2609,Parliament,ORGANIZATION
 2609,Nawaz Sharif,PERSON
@@ -8697,10 +8697,10 @@ story_id,entity,type
 2943,Taliban,ORGANIZATION
 3156,Pakistan,LOCATION
 3156,PTI,ORGANIZATION
-3156,Pml-N,ORGANIZATION
+3156,PML N,ORGANIZATION
 3308,Nawaz Sharif,PERSON
 3308,Pakistanicapital Islamabad,LOCATION
-3308,Tahir Ul-Qadri,PERSON
+3308,Tahir Ul Qadri,PERSON
 3308,Sharif,PERSON
 3424,Pakistan,LOCATION
 3424,Taliban,ORGANIZATION
@@ -8713,17 +8713,17 @@ story_id,entity,type
 3623,Pakistan,LOCATION
 3623,Lahore,LOCATION
 3623,Nawaz Sharif,PERSON
-3623,Tahir Ul-Qadri,PERSON
+3623,Tahir Ul Qadri,PERSON
 3624,Pakistan,LOCATION
 3624,Qadri,PERSON
 3624,Punjab,LOCATION
 3624,Lahore,LOCATION
-3624,Tahir-Ul-Qadri,PERSON
+3624,Tahir Ul Qadri,PERSON
 3624,Rana Mashood,PERSON
 3624,Mashood,PERSON
 3624,Punjab Province,LOCATION
 3625,Islamabad,LOCATION
-3625,Tahir-Ul-Qadri,PERSON
+3625,Tahir Ul Qadri,PERSON
 3625,Imran Khan,PERSON
 3625,Pakistan,LOCATION
 3686,Islamabad,LOCATION
@@ -8749,7 +8749,7 @@ story_id,entity,type
 1082,Gaza,LOCATION
 3118,Lebanon,LOCATION
 3118,Syria,LOCATION
-3118,al-Qaeda,ORGANIZATION
+3118,al Qaeda,ORGANIZATION
 3118,Emad Ayyad,PERSON
 3118,Hezbollah,ORGANIZATION
 1017,Mouadamiya,LOCATION
@@ -8777,11 +8777,11 @@ story_id,entity,type
 1429,UN,ORGANIZATION
 1429,Baghdad,LOCATION
 1173,Sanaa,LOCATION
-1173,Al - Qaeda,ORGANIZATION
+1173,Al Qaeda,ORGANIZATION
 1173,Maarib,LOCATION
 1173,Majzar,LOCATION
-1173,al-Bayda,PERSON
-1173,Ansar al-Sharia,PERSON
+1173,al Bayda,PERSON
+1173,Ansar al Sharia,PERSON
 1173,Maarib Province,LOCATION
 583,UN,ORGANIZATION
 583,Bangui,LOCATION
@@ -8795,12 +8795,12 @@ story_id,entity,type
 639,Myanmar,LOCATION
 639,Cambodia,LOCATION
 1083,Lebanon,LOCATION
-1083,al-Nusra,LOCATION
+1083,al Nusra,LOCATION
 1083,Turkey,LOCATION
 1083,Qatar,LOCATION
 1083,Hezbollah,ORGANIZATION
-1083,As-Safir,ORGANIZATION
-1083,al-Nusra Front,ORGANIZATION
+1083,As Safir,ORGANIZATION
+1083,al Nusra Front,ORGANIZATION
 1083,Syria,LOCATION
 475,Mandera County,LOCATION
 1624,Cairo,LOCATION
@@ -8862,7 +8862,7 @@ story_id,entity,type
 2633,Honduras,LOCATION
 2633,Cooperazione Internazionale,ORGANIZATION
 2633,Guatemala,LOCATION
-2956,Sevledina Sarajlic-Spahic,PERSON
+2956,Sevledina Sarajlic Spahic,PERSON
 2956,Nermin Niksic,PERSON
 2956,Bosnia,LOCATION
 2956,Zenica,LOCATION
@@ -8911,7 +8911,7 @@ story_id,entity,type
 1170,Royal Air Force,ORGANIZATION
 1170,RAF,ORGANIZATION
 1170,Denmark,LOCATION
-1170,Ain al-Arab,LOCATION
+1170,Ain al Arab,LOCATION
 1170,Netherlands,LOCATION
 1170,Kobani,PERSON
 1170,Iraq,LOCATION
@@ -8923,7 +8923,7 @@ story_id,entity,type
 3448,Syria,LOCATION
 3448,ISIL,ORGANIZATION
 3448,Jordan,PERSON
-3448,Maaz al-Kassasbeh,PERSON
+3448,Maaz al Kassasbeh,PERSON
 658,Taliban,ORGANIZATION
 658,Robat Singi District,LOCATION
 658,Herat,LOCATION
@@ -8970,7 +8970,7 @@ story_id,entity,type
 1390,Arabian Peninsula,LOCATION
 1390,Ibb,LOCATION
 1390,Houthi,ORGANIZATION
-1390,Hazm al-Adeen,LOCATION
+1390,Hazm al Adeen,LOCATION
 1390,Yemen,LOCATION
 2938,Arabian Peninsula,LOCATION
 2938,Radaa,LOCATION
@@ -8985,7 +8985,7 @@ story_id,entity,type
 1238,Abdiweli Sheikh Ahmed,PERSON
 1238,Hassan Sheikh Mohamud,PERSON
 1238,Ahmed,PERSON
-2790,al-Shebaab,PERSON
+2790,al Shebaab,PERSON
 2790,Shebaab,ORGANIZATION
 2790,Somalia,LOCATION
 2790,Mogadishu,LOCATION
@@ -9003,8 +9003,8 @@ story_id,entity,type
 1187,Ukraine,LOCATION
 1187,Kiev,LOCATION
 1267,Syria,LOCATION
-1267,Abdul Aziz al-Asheikh,PERSON
-1267,al-Asheikh,PERSON
+1267,Abdul Aziz al Asheikh,PERSON
+1267,al Asheikh,PERSON
 1267,Iraq,LOCATION
 1403,Serbia,LOCATION
 1403,European Commission,ORGANIZATION
@@ -9031,7 +9031,7 @@ story_id,entity,type
 3306,CMC,ORGANIZATION
 3306,UN Security Council,ORGANIZATION
 3306,Syria,LOCATION
-2434,Ansar al-Sharia,PERSON
+2434,Ansar al Sharia,PERSON
 2434,Hadramawt,LOCATION
 511,Guatemala,LOCATION
 511,Guatemala City,LOCATION
@@ -9044,9 +9044,9 @@ story_id,entity,type
 2869,Quito,LOCATION
 1814,Sabah,PERSON
 1814,Kuwait,LOCATION
-1814,Ahmed Fahad al-Sabah,PERSON
+1814,Ahmed Fahad al Sabah,PERSON
 1814,Gulf,LOCATION
-1814,Sabah al-Ahmed al-Sabah,PERSON
+1814,Sabah al Ahmed al Sabah,PERSON
 1053,Morocco,LOCATION
 1053,Guelmim,LOCATION
 1053,Bouizakarne,LOCATION
@@ -9092,8 +9092,8 @@ story_id,entity,type
 353,Nigeria,LOCATION
 353,Amnesty,ORGANIZATION
 483,Amerli,LOCATION
-483,al-Adhaim,LOCATION
-483,Abdulamir al-Zaidi,PERSON
+483,al Adhaim,LOCATION
+483,Abdulamir al Zaidi,PERSON
 483,Army,ORGANIZATION
 1862,Buenaventura,ORGANIZATION
 1862,Juan Manuel Santos,PERSON
@@ -9168,18 +9168,18 @@ story_id,entity,type
 1514,Slaviansk,LOCATION
 1514,Kiev,LOCATION
 3337,Yemen,LOCATION
-3337,al-Makarib,LOCATION
+3337,al Makarib,LOCATION
 3337,Sanaa,LOCATION
 3337,Arhab,LOCATION
 3337,Huthis,PERSON
 3337,Yahia Taqi,PERSON
-3337,al-Islah,ORGANIZATION
+3337,al Islah,ORGANIZATION
 381,Sanaa International Airport,LOCATION
 381,Huthi,PERSON
 381,Zaidi,PERSON
-381,Abdulmalik al-Huthi,PERSON
-771,al-Baydah,LOCATION
-771,Ansar al-Sharia,PERSON
+381,Abdulmalik al Huthi,PERSON
+771,al Baydah,LOCATION
+771,Ansar al Sharia,PERSON
 771,Al Qaeda,ORGANIZATION
 771,Sanaa,LOCATION
 1279,Interior Ministry,ORGANIZATION
@@ -9198,11 +9198,11 @@ story_id,entity,type
 2727,Shiite Huthi,ORGANIZATION
 2727,AQAP,ORGANIZATION
 2727,Yemen,LOCATION
-2764,Abdullah Yahya al-Hakim,PERSON
+2764,Abdullah Yahya al Hakim,PERSON
 2764,Yemen,LOCATION
 2764,Saleh,PERSON
 2764,Sanaa,LOCATION
-2764,Abdulmalik al-Huthi,PERSON
+2764,Abdulmalik al Huthi,PERSON
 2764,UN Sc,ORGANIZATION
 2764,UN,ORGANIZATION
 2764,Ali Abdullah Saleh,PERSON
@@ -9268,7 +9268,7 @@ story_id,entity,type
 3314,Turkeys Disaster And Emergency Management Presidency,ORGANIZATION
 3567,Jordan,LOCATION
 3567,Syria,LOCATION
-3567,Abdullah al-Ensour,PERSON
+3567,Abdullah al Ensour,PERSON
 3567,Jordan,PERSON
 3567,Human Rights Watch,ORGANIZATION
 3644,Syria,LOCATION
@@ -9437,25 +9437,25 @@ story_id,entity,type
 512,Veracruz,LOCATION
 512,Zetas,ORGANIZATION
 512,Poza Rica,LOCATION
-279,Nuri al-Maliki,PERSON
+279,Nuri al Maliki,PERSON
 279,Maliki,PERSON
-279,Haider al-Abadi,PERSON
+279,Haider al Abadi,PERSON
 279,Iraq,LOCATION
 2392,Maliki,PERSON
-2392,Nouri al-Maliki,PERSON
+2392,Nouri al Maliki,PERSON
 2392,Iraq,LOCATION
 3678,Washington,LOCATION
 3678,Maliki,PERSON
 3678,Iraq,LOCATION
 3678,Saddam Hussein,PERSON
-3678,Nuri al-Maliki,PERSON
+3678,Nuri al Maliki,PERSON
 3678,Fouad Masoum,PERSON
 3678,Baghdad,LOCATION
-3678,Haidar al-Abadi,PERSON
+3678,Haidar al Abadi,PERSON
 3679,Maliki,PERSON
 3679,Fuad Masum,PERSON
 3679,Iraq,LOCATION
-3679,Nuri al-Maliki,PERSON
+3679,Nuri al Maliki,PERSON
 3679,US,LOCATION
 3679,Baghdad,LOCATION
 1165,Brunei,LOCATION
@@ -9525,7 +9525,7 @@ story_id,entity,type
 637,Semyonovka,LOCATION
 637,Alexander Lukyanchenko,PERSON
 637,Organization For Security And Cooperation In Europe,ORGANIZATION
-1291,Jalal-Abad,LOCATION
+1291,Jalal Abad,LOCATION
 1291,Kyrgyz Border Guard Service,ORGANIZATION
 2416,Hun Sen,PERSON
 2416,Sam Rainsy,PERSON
@@ -9546,7 +9546,7 @@ story_id,entity,type
 3327,Nicolas Maduro,PERSON
 3327,US,LOCATION
 3327,Obama,PERSON
-2285,Youssef al-Qaradawi,PERSON
+2285,Youssef al Qaradawi,PERSON
 2285,Gulf Arab,LOCATION
 2285,Muslim Brotherhood,ORGANIZATION
 2285,Egypt,LOCATION
@@ -9558,7 +9558,7 @@ story_id,entity,type
 2872,Maliki,PERSON
 2872,Iraq,LOCATION
 2872,Saudi Arabia,LOCATION
-2872,Nuri al-Maliki,PERSON
+2872,Nuri al Maliki,PERSON
 2872,United States,LOCATION
 2872,Iran,LOCATION
 2872,Baghdad,LOCATION
@@ -9568,7 +9568,7 @@ story_id,entity,type
 1713,Yemen,LOCATION
 1713,Abdrabuh Mansur Hadi,PERSON
 1713,Sanaa,LOCATION
-1713,Abdulmalik al-Huthi,PERSON
+1713,Abdulmalik al Huthi,PERSON
 1713,UN,ORGANIZATION
 3643,Haiti,LOCATION
 120,Blaise Compaore,PERSON
@@ -9599,7 +9599,7 @@ story_id,entity,type
 1299,Rakhine,LOCATION
 1299,Lewa,LOCATION
 1299,Bay Of Bengal,LOCATION
-770,Zine El-Abidine Ben Ali,PERSON
+770,Zine El Abidine Ben Ali,PERSON
 770,Tunisia,LOCATION
 770,Nidaa Tounes,ORGANIZATION
 2761,Hawthorne,PERSON
@@ -9678,7 +9678,7 @@ story_id,entity,type
 2863,WHO,ORGANIZATION
 2863,Galkayo,LOCATION
 814,Beni,PERSON
-814,Bel-Air,LOCATION
+814,Bel Air,LOCATION
 814,DRC,ORGANIZATION
 814,Congo,LOCATION
 1543,Guinea,LOCATION
@@ -9704,7 +9704,7 @@ story_id,entity,type
 1327,Lakhdar Brahimi,PERSON
 1327,Brahimi,PERSON
 1327,Syria,LOCATION
-1327,Ban Ki-Moon,PERSON
+1327,Ban Ki Moon,PERSON
 2964,Africa,LOCATION
 2964,AMISOM,ORGANIZATION
 2964,Somalia,LOCATION
@@ -9712,7 +9712,7 @@ story_id,entity,type
 2964,AFRICOM,LOCATION
 2964,Rodriguez,PERSON
 2964,United States Military,LOCATION
-2964,al-Shabab,ORGANIZATION
+2964,al Shabab,ORGANIZATION
 515,David Rodriguez,PERSON
 515,US Africa,LOCATION
 515,Islamic State,ORGANIZATION
@@ -9756,7 +9756,7 @@ story_id,entity,type
 2366,New York,LOCATION
 1542,Pakistan,LOCATION
 1542,Taliban,ORGANIZATION
-1542,Tehreek-E-Taliban Pakistan,LOCATION
+1542,Tehreek E Taliban Pakistan,LOCATION
 1542,Mir Ali,LOCATION
 1542,Mehsud,PERSON
 1542,Ashiqullah Mehsud,PERSON
@@ -9774,19 +9774,19 @@ story_id,entity,type
 1440,Congo,LOCATION
 1245,Maldives,LOCATION
 1352,Gaza,LOCATION
-1352,Ashraf al-Qudra,PERSON
+1352,Ashraf al Qudra,PERSON
 1009,Morsi,PERSON
 1009,Sinai Peninsula,LOCATION
 1009,Mohamed Morsis,PERSON
 1009,Cairo,LOCATION
 1009,Israel,LOCATION
-1009,El-Farafrah,LOCATION
+1009,El Farafrah,LOCATION
 1009,Gaza Strip,LOCATION
-2803,al-Maghazi,LOCATION
+2803,al Maghazi,LOCATION
 2803,Gaza,LOCATION
 2803,AFP,ORGANIZATION
-2803,Deir al-Balah,PERSON
-2803,Ashraf al-Qudra,PERSON
+2803,Deir al Balah,PERSON
+2803,Ashraf al Qudra,PERSON
 25,Afghanistan,LOCATION
 25,Badakhshan,LOCATION
 25,Mohammad Jan Rassoulyar,PERSON
@@ -9882,8 +9882,8 @@ story_id,entity,type
 904,Mora,PERSON
 904,Cameroons Far North Region,LOCATION
 904,IRIN,ORGANIZATION
-904,Mayo-Tsanaga,PERSON
-904,Mayo-Sava,LOCATION
+904,Mayo Tsanaga,PERSON
+904,Mayo Sava,LOCATION
 1396,Mali,LOCATION
 1396,AFP,ORGANIZATION
 1396,Republican,ORGANIZATION
@@ -9911,7 +9911,7 @@ story_id,entity,type
 543,Renamo,ORGANIZATION
 543,Maputo,LOCATION
 1179,UN Humanitarian Air Service,ORGANIZATION
-1179,Bambari-Sibut-Dekoa,LOCATION
+1179,Bambari Sibut Dekoa,LOCATION
 1179,WFP,ORGANIZATION
 1592,Masvingo Province,LOCATION
 1592,Chingwizi,LOCATION
@@ -9943,7 +9943,7 @@ story_id,entity,type
 2751,Abdullah,PERSON
 2751,Jerusalem,LOCATION
 2751,Jordan,LOCATION
-2751,al-Aqsa,LOCATION
+2751,al Aqsa,LOCATION
 2751,Israel,LOCATION
 2751,Islam,ORGANIZATION
 2751,Dome,LOCATION
@@ -10022,7 +10022,7 @@ story_id,entity,type
 1425,Gaza,LOCATION
 1425,Mussa Abu Marzuq,PERSON
 1425,Fatah,ORGANIZATION
-1425,Azzam al-Ahmad,PERSON
+1425,Azzam al Ahmad,PERSON
 2212,Hamas,ORGANIZATION
 2212,Israel,LOCATION
 2212,Al Jazeera,ORGANIZATION
@@ -10051,7 +10051,7 @@ story_id,entity,type
 1087,Tripoli,LOCATION
 1087,Tobruk,LOCATION
 1087,GNC,ORGANIZATION
-1743,Saleh al-Arouri,PERSON
+1743,Saleh al Arouri,PERSON
 1743,Turkey,LOCATION
 1743,Hamas,ORGANIZATION
 1743,Istanbul,LOCATION
@@ -10078,8 +10078,8 @@ story_id,entity,type
 52,Gaza Strip,LOCATION
 52,MENA,ORGANIZATION
 187,Abbas,PERSON
-187,Ziad al-Nakhale,PERSON
-187,Azzam al-Ahmed,PERSON
+187,Ziad al Nakhale,PERSON
+187,Azzam al Ahmed,PERSON
 187,Hamas,ORGANIZATION
 187,Islamic Jihad,ORGANIZATION
 187,Majed Faraj,PERSON
@@ -10120,7 +10120,7 @@ story_id,entity,type
 1936,Gaza,LOCATION
 2010,Ban,PERSON
 2010,Gaza,LOCATION
-2010,Ban Ki-Moon,PERSON
+2010,Ban Ki Moon,PERSON
 2010,UN,ORGANIZATION
 2035,OCHA,ORGANIZATION
 2035,White House,ORGANIZATION
@@ -10136,7 +10136,7 @@ story_id,entity,type
 2037,Hamas,ORGANIZATION
 2037,Cairo,LOCATION
 2037,Israel,LOCATION
-2037,al-Qassam Brigades,ORGANIZATION
+2037,al Qassam Brigades,ORGANIZATION
 2037,Egypt,LOCATION
 2037,Moussa Abu Marzouk,PERSON
 2037,Gaza,LOCATION
@@ -10173,13 +10173,13 @@ story_id,entity,type
 2431,US,LOCATION
 2431,Kuwait,LOCATION
 2431,Arab League,ORGANIZATION
-2431,Ban Ki-Moon,PERSON
+2431,Ban Ki Moon,PERSON
 2460,Reuters,ORGANIZATION
 2460,Hamas,ORGANIZATION
 2460,Cairo,LOCATION
 2460,Israel,LOCATION
 2460,Gaza,LOCATION
-2460,Mohammed al-Zahar,PERSON
+2460,Mohammed al Zahar,PERSON
 2460,West Bank,LOCATION
 2461,Iraq,LOCATION
 2461,Cairo,LOCATION
@@ -10247,8 +10247,8 @@ story_id,entity,type
 3614,Zeitoun,LOCATION
 3614,Hamas,ORGANIZATION
 3614,Israel,LOCATION
-3614,al-Qassam,LOCATION
-3614,Ashraf al-Qudra,PERSON
+3614,al Qassam,LOCATION
+3614,Ashraf al Qudra,PERSON
 3614,Gaza,LOCATION
 3614,Palestinian Interior Ministry,ORGANIZATION
 3615,Hamas,ORGANIZATION
@@ -10286,13 +10286,13 @@ story_id,entity,type
 1075,Lamu County,LOCATION
 1075,Boni,PERSON
 1132,Egypt,LOCATION
-1132,El-Joura,LOCATION
+1132,El Joura,LOCATION
 1132,Sinai Peninsula,LOCATION
 1355,Israel,LOCATION
 1355,Gaza Strip,LOCATION
 1355,Sinai,LOCATION
 1355,Sinai Peninsula,LOCATION
-1355,El-Arish,LOCATION
+1355,El Arish,LOCATION
 2069,Gaza Strip,LOCATION
 2069,Sheikh Zuweid,LOCATION
 2069,Sinai Province,LOCATION
@@ -10303,7 +10303,7 @@ story_id,entity,type
 3119,Gaza,LOCATION
 3119,United Nations,ORGANIZATION
 3119,North Sinai,LOCATION
-3188,El-Joura,LOCATION
+3188,El Joura,LOCATION
 3188,Egypt,LOCATION
 3188,Sinai,LOCATION
 3188,Sinai Peninsula,LOCATION
@@ -10361,7 +10361,7 @@ story_id,entity,type
 2909,US,LOCATION
 2909,Iraq,LOCATION
 2364,Mahfad,LOCATION
-2364,al-Qaeda,ORGANIZATION
+2364,al Qaeda,ORGANIZATION
 2364,Abyan Province,LOCATION
 2364,Yemen,LOCATION
 2399,Interior Ministry,ORGANIZATION
@@ -10372,7 +10372,7 @@ story_id,entity,type
 3577,Yemen,LOCATION
 836,Mogadishu,LOCATION
 836,Abdiasis Abu Musab,PERSON
-836,al-Shebaab,PERSON
+836,al Shebaab,PERSON
 836,Al Shabaab,PERSON
 1306,Mogadishu,LOCATION
 1306,Somalia,LOCATION
@@ -10414,7 +10414,7 @@ story_id,entity,type
 849,West Kordofan,LOCATION
 849,Misseriya,LOCATION
 849,Zurug,LOCATION
-849,Mohammed Omer al-Ansari,PERSON
+849,Mohammed Omer al Ansari,PERSON
 849,Awlad Amran,PERSON
 1825,Cameroon,LOCATION
 1825,Equatorial Guinea,LOCATION
@@ -10512,9 +10512,9 @@ story_id,entity,type
 2913,Afghanistan,LOCATION
 2913,Ashraf Ghani,PERSON
 2913,Abdullah Abdullah,PERSON
-2913,Ex-World Bank,ORGANIZATION
+2913,Ex World Bank,ORGANIZATION
 2047,Nigeria,LOCATION
-2047,Linda Thomas-Greenfield,PERSON
+2047,Linda Thomas Greenfield,PERSON
 2047,State,ORGANIZATION
 2047,Africas,LOCATION
 2047,Bureau Of African Affairs,ORGANIZATION
@@ -10533,12 +10533,12 @@ story_id,entity,type
 2999,European Union,ORGANIZATION
 2999,EU,ORGANIZATION
 603,Haiti,LOCATION
-603,SG Ban Ki-Moon,ORGANIZATION
+603,SG Ban Ki Moon,ORGANIZATION
 603,UN,ORGANIZATION
 603,United Nations,ORGANIZATION
 603,Caribbean,LOCATION
 603,Miami Herald,ORGANIZATION
-1909,Ex-Seleka,LOCATION
+1909,Ex Seleka,LOCATION
 835,UNICEF Office Of Emergency Programmes,ORGANIZATION
 835,Ted Chaiban,PERSON
 835,UN,ORGANIZATION
@@ -10589,7 +10589,7 @@ story_id,entity,type
 3110,Joice Mujuru,PERSON
 3110,Mujuru,PERSON
 3110,Mugabe,PERSON
-2347,Pro-Europe,ORGANIZATION
+2347,Pro Europe,ORGANIZATION
 2347,Moldova,LOCATION
 1461,Texas,LOCATION
 1461,Border Patrol,ORGANIZATION
@@ -10607,7 +10607,7 @@ story_id,entity,type
 940,International Grains Council,ORGANIZATION
 1334,Ihor Shvaika,PERSON
 1334,Ukraine,LOCATION
-315,Adnan al-Damiri,PERSON
+315,Adnan al Damiri,PERSON
 315,Ramallah,LOCATION
 315,Palestine,LOCATION
 315,Israel,LOCATION
@@ -10677,13 +10677,13 @@ story_id,entity,type
 318,Islam,ORGANIZATION
 318,Meriam Yahia Ibrahim Ishag,PERSON
 318,Britain,LOCATION
-318,Abbas Mohammed al-Khalifa,PERSON
+318,Abbas Mohammed al Khalifa,PERSON
 3088,Tangal,LOCATION
 3088,Amnesty International,ORGANIZATION
 3088,Kauda,LOCATION
 3088,Sudan,LOCATION
 3088,Umm Durain,LOCATION
-3088,Sudan People 'S Liberation Movement-North,ORGANIZATION
+3088,Sudan People 'S Liberation Movement North,ORGANIZATION
 3088,Amnesty,ORGANIZATION
 3088,South Kordofan,LOCATION
 1126,Mogadishu,LOCATION
@@ -10742,7 +10742,7 @@ story_id,entity,type
 454,MSF,ORGANIZATION
 454,Mosul,LOCATION
 454,Iraq,LOCATION
-926,Haider al-Abadi,PERSON
+926,Haider al Abadi,PERSON
 926,Baghdad,LOCATION
 926,Diyala,LOCATION
 926,Iraq,LOCATION
@@ -10764,7 +10764,7 @@ story_id,entity,type
 3523,Army,ORGANIZATION
 3523,Pakistan,LOCATION
 3523,Mumbai,LOCATION
-3523,Zaki-Ur-Rahman Lakhvi,PERSON
+3523,Zaki Ur Rahman Lakhvi,PERSON
 3523,Lakhvi,PERSON
 2950,Muhammadu Buhari,PERSON
 2950,Nigeria,LOCATION
@@ -10774,7 +10774,7 @@ story_id,entity,type
 1537,Yemen,LOCATION
 1537,Abyan,LOCATION
 1537,Shabwa,LOCATION
-1537,Saeed al-Faquih,PERSON
+1537,Saeed al Faquih,PERSON
 2646,Catholic,ORGANIZATION
 2646,Pontifical Mission Societies,ORGANIZATION
 2646,Baboua,LOCATION
@@ -10834,7 +10834,7 @@ story_id,entity,type
 1337,Pyongyang,LOCATION
 1337,North Korea,LOCATION
 1337,KCNA,ORGANIZATION
-1337,Kim Jong-Un,PERSON
+1337,Kim Jong UN,PERSON
 2479,KCNA,ORGANIZATION
 2479,North Korea,LOCATION
 2782,South Korea,LOCATION
@@ -10847,7 +10847,7 @@ story_id,entity,type
 2782,Agence France Presse,ORGANIZATION
 2782,Japan,LOCATION
 2782,East Sea,LOCATION
-2782,Hoy-Sik,PERSON
+2782,Hoy Sik,PERSON
 1850,Gabriel Oprea,PERSON
 1850,Gorj,LOCATION
 1850,Bucharest,LOCATION
@@ -10858,7 +10858,7 @@ story_id,entity,type
 1850,Arges,ORGANIZATION
 1850,Interior Ministry,ORGANIZATION
 1546,CIA,ORGANIZATION
-1546,Zeid Raad al-Hussein,PERSON
+1546,Zeid Raad al Hussein,PERSON
 1546,UN Convention Against Torture,ORGANIZATION
 1546,George W Bush,PERSON
 1546,The Justice Department,ORGANIZATION
@@ -10911,7 +10911,7 @@ story_id,entity,type
 992,Bangkok,LOCATION
 992,George Orwell,PERSON
 2095,Kenya,LOCATION
-2095,al-Shabab,ORGANIZATION
+2095,al Shabab,ORGANIZATION
 2095,Human Rights Watch,ORGANIZATION
 3169,UN,ORGANIZATION
 3169,Egypt,LOCATION
@@ -10938,7 +10938,7 @@ story_id,entity,type
 3683,NATO,ORGANIZATION
 3683,United States,LOCATION
 3683,Amnesty International,ORGANIZATION
-2141,Inter-American Commission On Human Rights,ORGANIZATION
+2141,Inter American Commission On Human Rights,ORGANIZATION
 3032,Miguel Agustin Pro Juarez Human Rights Center,ORGANIZATION
 3032,Mexico,LOCATION
 3032,Central America,LOCATION
@@ -10984,7 +10984,7 @@ story_id,entity,type
 3581,Amnesty Internationals,ORGANIZATION
 3581,Christian Mukosa,PERSON
 3581,Amnesty International,ORGANIZATION
-3581,Catherine Samba-Panza,PERSON
+3581,Catherine Samba Panza,PERSON
 3657,Save The Children,ORGANIZATION
 1680,Dhaka,LOCATION
 1680,Meghna River,LOCATION
@@ -11017,15 +11017,15 @@ story_id,entity,type
 2709,KAA,ORGANIZATION
 3676,Cairo,LOCATION
 3676,Egypt,LOCATION
-3676,Abdel-Fattah El-Sissi,PERSON
+3676,Abdel Fattah El Sissi,PERSON
 3676,Mohammed Morsi,PERSON
 3676,Human Rights Watch,ORGANIZATION
 3676,New York,LOCATION
-1709,Abdel-Razzaq al-Nazouri,PERSON
+1709,Abdel Razzaq al Nazouri,PERSON
 1709,Benghazi,LOCATION
 1709,Kharijites,LOCATION
 1709,Libya,LOCATION
-1709,al-Nazouri,PERSON
+1709,al Nazouri,PERSON
 1709,Tripoli,LOCATION
 1709,Misrata,LOCATION
 1775,Benghazi,LOCATION
@@ -11095,7 +11095,7 @@ story_id,entity,type
 808,Mir Quasem Ali,PERSON
 808,Motiur Rahman Nizami,PERSON
 808,Bangladesh,LOCATION
-808,Jamaat-E-Islami,ORGANIZATION
+808,Jamaat E Islami,ORGANIZATION
 3522,Pakistan,LOCATION
 3522,Azharul Islam,ORGANIZATION
 3522,Bangladesh,LOCATION
@@ -11108,14 +11108,14 @@ story_id,entity,type
 2108,Meshaal Assiri,PERSON
 2108,Interior Ministry,ORGANIZATION
 2108,Gulf,LOCATION
-2108,Wail al-Shehri,PERSON
+2108,Wail al Shehri,PERSON
 2108,Assir,LOCATION
 2108,Abha,LOCATION
 2108,Saudi Arabia,LOCATION
 1606,India,LOCATION
 1606,Pakistan,LOCATION
 1606,Kashmir,LOCATION
-1762,Nagorno-Karabakh,LOCATION
+1762,Nagorno Karabakh,LOCATION
 1762,Azerbaijani Defense Ministry,ORGANIZATION
 1762,Azerbaijan,LOCATION
 1762,Armenia,LOCATION
@@ -11125,7 +11125,7 @@ story_id,entity,type
 3588,Vladimir Putin,PERSON
 3588,Russia,LOCATION
 3588,Sochi,LOCATION
-3588,Nagorno-Karabakh,LOCATION
+3588,Nagorno Karabakh,LOCATION
 3588,UN,ORGANIZATION
 3588,US,LOCATION
 3588,Iran,LOCATION
@@ -11140,12 +11140,12 @@ story_id,entity,type
 2464,Abd Rabu Mansour Hadi,PERSON
 2464,Sana'A,LOCATION
 1788,Brazzaville,LOCATION
-1788,Christian Anti-Balaka,PERSON
-1788,Congo-Brazzaville,LOCATION
+1788,Christian Anti Balaka,PERSON
+1788,Congo Brazzaville,LOCATION
 3057,Brazzaville,LOCATION
 3057,Seleka,PERSON
 3057,Mohamed Moussa Dhaffane,PERSON
-3205,Christian Anti-Balaka,PERSON
+3205,Christian Anti Balaka,PERSON
 3205,Ahmat Ibrahim Nadjad,PERSON
 3205,Grimari,LOCATION
 3205,Nadjad,PERSON
@@ -11250,7 +11250,7 @@ story_id,entity,type
 1778,Israel,LOCATION
 1778,Gaza,LOCATION
 1778,Hamas,ORGANIZATION
-2033,Nouri al-Maliki,PERSON
+2033,Nouri al Maliki,PERSON
 2204,Denmark,LOCATION
 2204,Netherlands,LOCATION
 2204,Norway,LOCATION
@@ -11340,19 +11340,19 @@ story_id,entity,type
 3471,PKK,ORGANIZATION
 419,Mohammed Morsi,PERSON
 419,Egypt,LOCATION
-419,Ansar Beit al-Maqdis,PERSON
+419,Ansar Beit al Maqdis,PERSON
 3084,Egypt,LOCATION
-3084,al-Jazeera,ORGANIZATION
+3084,al Jazeera,ORGANIZATION
 3084,Marriott,ORGANIZATION
 3084,Barack Obama,PERSON
-3084,Abdel Fatah al-Sisi,PERSON
+3084,Abdel Fatah al Sisi,PERSON
 3449,Facebook,ORGANIZATION
 3449,Sinai Peninsula,LOCATION
 3449,ISIL,ORGANIZATION
 3449,Egypt,LOCATION
 3449,Sinai,LOCATION
 3449,Mohammed Samir,PERSON
-3449,Ansar Beit al-Maqdis,ORGANIZATION
+3449,Ansar Beit al Maqdis,ORGANIZATION
 1088,Palestinian Centre For Human Rights,ORGANIZATION
 1088,Israel,LOCATION
 1088,Gaza,LOCATION
@@ -11367,7 +11367,7 @@ story_id,entity,type
 3450,Iraq,LOCATION
 1794,Hollywood,LOCATION
 1794,North Korea,LOCATION
-1794,Kim Jong-Un,PERSON
+1794,Kim Jong UN,PERSON
 441,Donetsk,LOCATION
 441,Human Rights Watch,ORGANIZATION
 678,Hong Kong,LOCATION
@@ -11438,17 +11438,17 @@ story_id,entity,type
 3333,Tripoli,LOCATION
 3333,Libya,LOCATION
 320,Observatory,ORGANIZATION
-320,Suleiman al-Halabi,LOCATION
-320,al-Nusra Front,ORGANIZATION
+320,Suleiman al Halabi,LOCATION
+320,al Nusra Front,ORGANIZATION
 320,Aleppo,LOCATION
 320,Ashrafiyeh,LOCATION
 320,Red Crescent Aleppo,ORGANIZATION
 320,Syria,LOCATION
 320,Syrian Observatory For Human Rights,ORGANIZATION
-320,al-Qaeda,ORGANIZATION
+320,al Qaeda,ORGANIZATION
 1362,Aleppo,LOCATION
 1362,SANA,ORGANIZATION
-1362,Bashar al-Assad,PERSON
+1362,Bashar al Assad,PERSON
 1362,Hezbollah,ORGANIZATION
 1362,Damascus,LOCATION
 3090,Observatory,ORGANIZATION
@@ -11457,7 +11457,7 @@ story_id,entity,type
 3090,Hezbollah,ORGANIZATION
 3090,Damascus,LOCATION
 3090,Hama,LOCATION
-3090,Bashar al-Assad,PERSON
+3090,Bashar al Assad,PERSON
 3090,Syrian Observatory For Human Rights,ORGANIZATION
 3090,Mleiha,LOCATION
 3090,SANA,ORGANIZATION
@@ -11501,7 +11501,7 @@ story_id,entity,type
 1903,UN,ORGANIZATION
 1903,Zuwara,LOCATION
 1903,Libya,LOCATION
-520,Deir El-Zour,LOCATION
+520,Deir El Zour,LOCATION
 520,Syria,LOCATION
 520,Syrian Observatory For Human Rights,ORGANIZATION
 520,Islamic State,ORGANIZATION
@@ -11509,7 +11509,7 @@ story_id,entity,type
 199,Nigeria,LOCATION
 199,Lagos,LOCATION
 1347,South Sudan,LOCATION
-1347,Amanda Lawrence-Brown,PERSON
+1347,Amanda Lawrence Brown,PERSON
 1347,Raphael Gorgeu,PERSON
 1347,UNICEF,ORGANIZATION
 1347,UN,ORGANIZATION
@@ -11631,14 +11631,14 @@ story_id,entity,type
 1090,Gaza,LOCATION
 1090,Qudra,PERSON
 1090,Jabalia,LOCATION
-1090,Ashraf al-Qudra,PERSON
+1090,Ashraf al Qudra,PERSON
 3192,UNRWA,ORGANIZATION
 3192,Gaza,LOCATION
 3192,UN,ORGANIZATION
 3192,Jabalia,LOCATION
 852,Syria,LOCATION
 852,Arsal,LOCATION
-852,Bashar al-Assad,PERSON
+852,Bashar al Assad,PERSON
 2830,Kobane,LOCATION
 2830,Staffan De Mistura,PERSON
 2830,BBC,ORGANIZATION
@@ -11689,13 +11689,13 @@ story_id,entity,type
 278,Egypt,LOCATION
 278,Army,ORGANIZATION
 278,Mohamed Morsi,PERSON
-278,Abdel Fattah al-Sisi,PERSON
-278,Rabaa al-Adawiya,PERSON
+278,Abdel Fattah al Sisi,PERSON
+278,Rabaa al Adawiya,PERSON
 731,Muslim Brotherhood,ORGANIZATION
 731,Minya,LOCATION
 731,Egypt,LOCATION
 731,Mohamed Badie,PERSON
-731,Abdel Fattah El-Sisi,PERSON
+731,Abdel Fattah El Sisi,PERSON
 731,Mohamed Morsi,PERSON
 731,Brotherhood,ORGANIZATION
 843,Badie,PERSON
@@ -11720,17 +11720,17 @@ story_id,entity,type
 1836,Mohamed Morsi,PERSON
 1836,MENA,ORGANIZATION
 2144,Hesham Genina,PERSON
-2144,al-Ahram,ORGANIZATION
+2144,al Ahram,ORGANIZATION
 2144,Central Auditing Authority,ORGANIZATION
 2144,Muslim Brotherhood,ORGANIZATION
 2144,Mahmoud Mekki,PERSON
 2144,Ahmed Mekki,PERSON
-2549,Mahienour El-Masry,PERSON
+2549,Mahienour El Masry,PERSON
 2549,Egypt,LOCATION
 2549,Arabic Network For Human Rights Information,ORGANIZATION
 2549,Mohammed Morsi,PERSON
 2717,Magdy Hussein,PERSON
-2717,Anti-Coup Alliance,ORGANIZATION
+2717,Anti Coup Alliance,ORGANIZATION
 2717,Morsi,PERSON
 2717,Mohammed Morsi,PERSON
 2975,Hosni Mubarak,PERSON
@@ -11748,7 +11748,7 @@ story_id,entity,type
 2970,Namubiru,PERSON
 2970,UGANDA,LOCATION
 3116,Haiti,LOCATION
-3116,Port-Au-Prince,LOCATION
+3116,Port AU Prince,LOCATION
 613,Damietta,LOCATION
 613,Morsi,PERSON
 613,Mohammed Morsi,PERSON
@@ -11757,7 +11757,7 @@ story_id,entity,type
 3531,Vladimir Putin,PERSON
 3531,Navalny,PERSON
 2215,Kuwait,LOCATION
-2215,Mussallam al-Barrak,PERSON
+2215,Mussallam al Barrak,PERSON
 2215,Barrak,PERSON
 2215,Gulf,LOCATION
 3536,Barack Obama,PERSON
@@ -11766,7 +11766,7 @@ story_id,entity,type
 3536,Yoani Sanchez,PERSON
 2162,Inom Abdurasulov,PERSON
 2162,Kyrgyzstan,LOCATION
-2162,Jalal-Abad,LOCATION
+2162,Jalal Abad,LOCATION
 2162,Osh,LOCATION
 2162,Kadyrjan Batyrov,PERSON
 2162,Karamat Abdullaeva,PERSON
@@ -11777,12 +11777,12 @@ story_id,entity,type
 3639,Justin Muturi,PERSON
 1901,Hosni Mubarak,PERSON
 1901,Egypt,LOCATION
-1901,al-Ahram,ORGANIZATION
+1901,al Ahram,ORGANIZATION
 20,Interior Ministry,ORGANIZATION
 20,Libya,LOCATION
 20,Haftar,LOCATION
 20,Khalifa Qassim Haftar,PERSON
-20,Gomaa al-Abbani,PERSON
+20,Gomaa al Abbani,PERSON
 20,Haftar,ORGANIZATION
 185,European Union,ORGANIZATION
 185,Tunisia,LOCATION
@@ -11790,7 +11790,7 @@ story_id,entity,type
 185,EU,ORGANIZATION
 185,Tripoli,LOCATION
 185,EU,LOCATION
-485,Abdullah al-Thinni,PERSON
+485,Abdullah al Thinni,PERSON
 485,General National Congress,ORGANIZATION
 1134,Tunisia,LOCATION
 1134,United States,LOCATION
@@ -11798,7 +11798,7 @@ story_id,entity,type
 1134,Libya,LOCATION
 1205,Tripoli,LOCATION
 1707,Thinni,PERSON
-1707,Abdullah al-Thinni,PERSON
+1707,Abdullah al Thinni,PERSON
 1707,Libya,LOCATION
 1707,Farida Allaghi,PERSON
 1986,Benghazi,LOCATION
@@ -11815,9 +11815,9 @@ story_id,entity,type
 2394,Lions Of Monotheism,ORGANIZATION
 2394,Tripoli,LOCATION
 2394,Libya,LOCATION
-2455,Abdullah al-Thinni,PERSON
+2455,Abdullah al Thinni,PERSON
 2455,NOC,ORGANIZATION
-2455,Mohammed al-Dairi,PERSON
+2455,Mohammed al Dairi,PERSON
 2455,Libya,LOCATION
 2455,UN,ORGANIZATION
 2455,House Of Representatives,ORGANIZATION
@@ -11836,7 +11836,7 @@ story_id,entity,type
 2553,Cairo,LOCATION
 2553,Libya,LOCATION
 2553,Tripoli,LOCATION
-2553,Ansar al-Sharia,PERSON
+2553,Ansar al Sharia,PERSON
 2594,Libya,LOCATION
 2594,Tripoli,LOCATION
 3263,Libya,LOCATION
@@ -11847,21 +11847,21 @@ story_id,entity,type
 3516,Libya,LOCATION
 845,Reuters,ORGANIZATION
 845,Parliament,ORGANIZATION
-845,Mehdi al-Hafidh,PERSON
+845,Mehdi al Hafidh,PERSON
 845,Iraq,LOCATION
 2216,Iraq,LOCATION
 2216,UN,ORGANIZATION
 2216,US,LOCATION
 2216,Iran,LOCATION
 2216,Baghdad,LOCATION
-2216,Mehdi al-Hafidh,PERSON
+2216,Mehdi al Hafidh,PERSON
 1175,Taliban,ORGANIZATION
 1175,Hamid Karzai,PERSON
 1175,Ashraf Ghani,PERSON
 1175,Reuters,ORGANIZATION
 1175,Kabul,LOCATION
 1175,Ghani,PERSON
-319,Sadiq al-Mahdi,PERSON
+319,Sadiq al Mahdi,PERSON
 319,Mahdi,PERSON
 319,Umma Party,ORGANIZATION
 319,Darfur,LOCATION
@@ -11872,7 +11872,7 @@ story_id,entity,type
 1891,Middle East,LOCATION
 1891,Eastern Europe,LOCATION
 1891,Myanmar,LOCATION
-1891,Nagorno-Karabakh,LOCATION
+1891,Nagorno Karabakh,LOCATION
 1891,Syria,LOCATION
 150,UN,ORGANIZATION
 150,Egypt,LOCATION
@@ -11890,7 +11890,7 @@ story_id,entity,type
 191,UGANDA,LOCATION
 998,Africa,LOCATION
 998,Metropolitan Development Authority,ORGANIZATION
-1914,Nagorno-Karabakh,LOCATION
+1914,Nagorno Karabakh,LOCATION
 1914,Azerbaijani Ministry Of Defense,ORGANIZATION
 1914,APA,ORGANIZATION
 1914,Azerbaijan,LOCATION
@@ -11923,9 +11923,9 @@ story_id,entity,type
 1970,Minsk Group,ORGANIZATION
 1970,Europe,LOCATION
 1970,Ban,PERSON
-1970,UNSG Ban Ki-Moon,PERSON
+1970,UNSG Ban Ki Moon,PERSON
 1970,OSCE,ORGANIZATION
-1970,Nagorno-Karabakh,LOCATION
+1970,Nagorno Karabakh,LOCATION
 1970,Organization For Security,ORGANIZATION
 1970,South Caucasus,LOCATION
 2132,UNICEF,ORGANIZATION
@@ -12085,7 +12085,7 @@ story_id,entity,type
 2261,Tangi,PERSON
 2261,Pakistan,LOCATION
 2261,Bajaur,LOCATION
-2261,Khyber-Pakhtunkwha,LOCATION
+2261,Khyber Pakhtunkwha,LOCATION
 2261,Naeem Gul,PERSON
 2998,Ethiopia,LOCATION
 2998,Moyale,LOCATION
@@ -12282,7 +12282,7 @@ story_id,entity,type
 2424,Baghdad,LOCATION
 2424,Hawija,LOCATION
 2424,Iraq,LOCATION
-2491,Salah al-Din,PERSON
+2491,Salah al Din,PERSON
 2491,Iraq,LOCATION
 2491,Diyala,LOCATION
 2491,Nineveh,LOCATION
@@ -12297,7 +12297,7 @@ story_id,entity,type
 2801,Hilla,LOCATION
 2801,Babil,LOCATION
 2801,Iraq,LOCATION
-2871,Haider al-Abadi,PERSON
+2871,Haider al Abadi,PERSON
 2871,Baghdad,LOCATION
 3037,Kadhimiya,LOCATION
 3037,Baghdad,LOCATION
@@ -12340,7 +12340,7 @@ story_id,entity,type
 3481,Zakariya Ahmed Ismail Hersi,PERSON
 3481,Hersi,PERSON
 3481,Gedo,LOCATION
-3481,al-Shabab,ORGANIZATION
+3481,al Shabab,ORGANIZATION
 3113,San Salvador,LOCATION
 3113,Maras,PERSON
 3113,El Salvador,LOCATION
@@ -12354,7 +12354,7 @@ story_id,entity,type
 3438,Joko Widodo,PERSON
 3438,Papua,LOCATION
 3438,Indonesia,LOCATION
-3438,National Commission On Human Rights -Lrb- Komnas Ham,ORGANIZATION
+3438,National Commission On Human Rights LRB Komnas Ham,ORGANIZATION
 3438,Victim Protection Agency,ORGANIZATION
 3438,Human Rights Watch,ORGANIZATION
 1264,Mogadishu,LOCATION
@@ -12384,7 +12384,7 @@ story_id,entity,type
 3274,Syria,LOCATION
 3274,Pentagon,ORGANIZATION
 1487,Kenya,LOCATION
-1487,al-Shabab,ORGANIZATION
+1487,al Shabab,ORGANIZATION
 1487,Mandera,LOCATION
 1627,Benghazi,LOCATION
 1627,Libya,LOCATION
@@ -12415,7 +12415,7 @@ story_id,entity,type
 2229,Chiba Prefecture,LOCATION
 2229,Shizuoka Prefecture,LOCATION
 2229,Phanfone,LOCATION
-2229,Izu-Oshima Island,LOCATION
+2229,Izu Oshima Island,LOCATION
 2229,Japan,LOCATION
 2229,Hamamatsu,LOCATION
 2229,Ibaraki Prefecture,LOCATION
@@ -12428,10 +12428,10 @@ story_id,entity,type
 2788,Lamu County,LOCATION
 2788,Somalia,LOCATION
 3036,Egypt,LOCATION
-3036,Abdel-Fattah El-Sisi,PERSON
+3036,Abdel Fattah El Sisi,PERSON
 3036,Libya,LOCATION
 3036,Mohammed Samir,PERSON
-115,al-Bayda,PERSON
+115,al Bayda,PERSON
 2596,Tripoli,LOCATION
 2596,US,LOCATION
 220,West Bank,LOCATION
@@ -12453,7 +12453,7 @@ story_id,entity,type
 1359,Tripoli,LOCATION
 3604,AFP,ORGANIZATION
 3604,Haiti,LOCATION
-3604,Port-Au-Prince,LOCATION
+3604,Port AU Prince,LOCATION
 1106,Francois Bozize,PERSON
 1106,Central African Republic 'S Seleka,LOCATION
 1106,Muslim Seleka,ORGANIZATION
@@ -12473,15 +12473,15 @@ story_id,entity,type
 3222,Chimaltenango,LOCATION
 3222,Sacatepequez,PERSON
 612,Sinai,ORGANIZATION
-612,al-Salam,LOCATION
+612,al Salam,LOCATION
 612,Egypt,LOCATION
-612,El-Arish,LOCATION
+612,El Arish,LOCATION
 689,Nicaragua,LOCATION
 689,Caribbean,LOCATION
 689,Coco,ORGANIZATION
 689,First Lady,PERSON
 689,Prinzapolka,PERSON
-1585,Itar-Tass,ORGANIZATION
+1585,Itar Tass,ORGANIZATION
 1585,Vladimir Putin,PERSON
 1585,Shoigu,PERSON
 1585,Moscow,LOCATION
@@ -12540,7 +12540,7 @@ story_id,entity,type
 80,UGANDA,LOCATION
 80,Kampala,LOCATION
 3348,DPKO,ORGANIZATION
-3348,Christian Anti-Balaka,PERSON
+3348,Christian Anti Balaka,PERSON
 3348,HWR,PERSON
 3348,Boda,PERSON
 3348,Carnot,LOCATION
@@ -12569,7 +12569,7 @@ story_id,entity,type
 2177,Benghazi,LOCATION
 2177,Red Crescent,ORGANIZATION
 654,Bashar Assad,PERSON
-654,al-Qaeda,LOCATION
+654,al Qaeda,LOCATION
 654,ISIS,ORGANIZATION
 654,Latakia,LOCATION
 654,Syria,LOCATION
@@ -12653,7 +12653,7 @@ story_id,entity,type
 3052,Afghanistan,LOCATION
 3094,Pakistan,LOCATION
 3094,North Waziristan,LOCATION
-3094,Khyber-Pakhtunkhwa,LOCATION
+3094,Khyber Pakhtunkhwa,LOCATION
 3241,Pakistan,LOCATION
 3241,Taliban,ORGANIZATION
 3241,Dattakhel,LOCATION
@@ -12664,7 +12664,7 @@ story_id,entity,type
 3241,Marsikhel,PERSON
 2521,Ramadi,LOCATION
 2521,ISIS,ORGANIZATION
-2521,Faleh al-Issawi,PERSON
+2521,Faleh al Issawi,PERSON
 2521,Anbar Province,LOCATION
 2521,Anbar,LOCATION
 3620,Hadramout,LOCATION
@@ -12790,7 +12790,7 @@ story_id,entity,type
 28,Panjgur,LOCATION
 28,Reuters,ORGANIZATION
 28,Afghanistan,LOCATION
-28,Tanzeemul Islam-Ul-Furqan,PERSON
+28,Tanzeemul Islam Ul Furqan,PERSON
 28,Organisation Of Islam,ORGANIZATION
 28,Baluchistan,LOCATION
 28,Iran,LOCATION
@@ -12809,12 +12809,12 @@ story_id,entity,type
 2357,Islamic State,ORGANIZATION
 3412,Jordan,LOCATION
 3412,Syria,LOCATION
-3412,Moaz Youssef al-Kasasbeh,PERSON
+3412,Moaz Youssef al Kasasbeh,PERSON
 3412,ISIL,ORGANIZATION
 3412,Raqqa,LOCATION
 209,Kenya,LOCATION
 209,Interior Ministry,ORGANIZATION
-800,Ansar al-Sharia,PERSON
+800,Ansar al Sharia,PERSON
 800,Assabri,LOCATION
 800,Benghazi,LOCATION
 800,Red Crescent,ORGANIZATION
@@ -12893,12 +12893,12 @@ story_id,entity,type
 793,EU,LOCATION
 793,Abdiweli Sheikh Ahmed,PERSON
 3484,Salman,PERSON
-3484,al-Wefeq,PERSON
+3484,al Wefeq,PERSON
 3484,Sheikh Ali Salman,PERSON
 3484,Shiite,ORGANIZATION
 3484,Interior Ministry,ORGANIZATION
 3484,Gulf,LOCATION
-3484,Abduallah al-Shamlan,PERSON
+3484,Abduallah al Shamlan,PERSON
 3484,Salam,PERSON
 2371,Serbia,LOCATION
 2371,Bosnia,LOCATION
@@ -12913,7 +12913,7 @@ story_id,entity,type
 1818,Syrian Revolution General Commission,ORGANIZATION
 1818,Raqqa,LOCATION
 1818,Aleppo,LOCATION
-1818,Tariq al-Bab,LOCATION
+1818,Tariq al Bab,LOCATION
 554,Kashmir,LOCATION
 554,Sangam,LOCATION
 554,Srinagar,LOCATION
@@ -13107,7 +13107,7 @@ story_id,entity,type
 2611,Sindh Expanded Programme For Immunisation,ORGANIZATION
 2611,Karachi,LOCATION
 3240,Khyber Pakhtunkhwa,LOCATION
-3240,Tehreek-E-Taliban Pakistan,LOCATION
+3240,Tehreek E Taliban Pakistan,LOCATION
 3240,North Waziristan,LOCATION
 3240,North Waziristan Agency,ORGANIZATION
 2450,Riek Machar,PERSON
@@ -13125,7 +13125,7 @@ story_id,entity,type
 1679,Abdullah,PERSON
 1679,Independent Election Commission,ORGANIZATION
 1679,Ashraf Ghani,PERSON
-1679,Ex-World Bank,ORGANIZATION
+1679,Ex World Bank,ORGANIZATION
 1679,Ghani,PERSON
 1679,Abdullah Abdullah,PERSON
 1679,IEC,ORGANIZATION
@@ -13165,15 +13165,15 @@ story_id,entity,type
 2626,Lake Rweru,LOCATION
 2626,Burundi,LOCATION
 2626,Rwanda,LOCATION
-1530,Abdullah al-Thinni,PERSON
+1530,Abdullah al Thinni,PERSON
 1530,Tripoli,LOCATION
 1018,Bashar Assad,PERSON
 1018,Assad,PERSON
 1018,Attar,PERSON
-1018,Najah al-Attar,PERSON
+1018,Najah al Attar,PERSON
 1018,Baath Party,ORGANIZATION
 1018,Sharaa,PERSON
-1018,Faruq al-Sharaa,PERSON
+1018,Faruq al Sharaa,PERSON
 1018,SANA,ORGANIZATION
 233,Senate,ORGANIZATION
 233,Liberia,LOCATION
@@ -13191,7 +13191,7 @@ story_id,entity,type
 1770,UN Mission,ORGANIZATION
 1770,UN,ORGANIZATION
 1770,Czech Republic,LOCATION
-3418,Omar al-Bashir,PERSON
+3418,Omar al Bashir,PERSON
 3418,Sudan,LOCATION
 3418,National Electoral Commission,ORGANIZATION
 3534,Democratic Republic Of Congo,LOCATION
@@ -13342,7 +13342,7 @@ story_id,entity,type
 1777,Tripoli,LOCATION
 2302,Al Jazeera,PERSON
 221,Amin Makki Madani,PERSON
-221,Omar al-Bashir,PERSON
+221,Omar al Bashir,PERSON
 221,Sudan,LOCATION
 221,Geneva,LOCATION
 221,Farouk Abu Issa,PERSON
@@ -13367,7 +13367,7 @@ story_id,entity,type
 2888,Abou Moussa,PERSON
 2888,UNOCA,ORGANIZATION
 4,Tajikistan,LOCATION
-4,Gorno-Badakhshan,LOCATION
+4,Gorno Badakhshan,LOCATION
 4,Dushanbe,LOCATION
 4,Khorog,LOCATION
 4,Afghanistan,LOCATION
@@ -13482,9 +13482,9 @@ story_id,entity,type
 1495,Syria,LOCATION
 1495,Assad,PERSON
 1495,Jen Psaki,PERSON
-1495,Bashar Al - -Rsb- Assad,PERSON
+1495,Bashar Al RSB Assad,PERSON
 1495,US State Department,ORGANIZATION
-1495,Agence France-Presse,ORGANIZATION
+1495,Agence France Presse,ORGANIZATION
 1495,Raqqaa,PERSON
 1495,Raqa,LOCATION
 1495,State Department,ORGANIZATION
@@ -13504,7 +13504,7 @@ story_id,entity,type
 968,Durable Solutions Promotion Group,ORGANIZATION
 968,Saroja Sivachandran,PERSON
 968,Sri Lanka,LOCATION
-3115,Port-Au-Prince,LOCATION
+3115,Port AU Prince,LOCATION
 494,UNICEF,ORGANIZATION
 494,Bangui,LOCATION
 494,Ministry Of Health,ORGANIZATION
@@ -13659,7 +13659,7 @@ story_id,entity,type
 2439,Central Africa,LOCATION
 3246,Brazzaville,LOCATION
 3246,Seleka,LOCATION
-3246,Catherine Samba-Panza,PERSON
+3246,Catherine Samba Panza,PERSON
 452,Argentina,LOCATION
 452,NML Capital,ORGANIZATION
 452,NML,ORGANIZATION
@@ -13685,7 +13685,7 @@ story_id,entity,type
 337,Colombia,LOCATION
 337,US,LOCATION
 337,Santos,PERSON
-735,Dahr al-Baydar,LOCATION
+735,Dahr al Baydar,LOCATION
 735,Damascus,LOCATION
 735,AFP,ORGANIZATION
 735,National News Agency,ORGANIZATION
@@ -13712,7 +13712,7 @@ story_id,entity,type
 2848,Palestinian Authority,ORGANIZATION
 2848,Gaza,LOCATION
 2848,Gaza Strip,LOCATION
-2848,Abdel Fattah al-Sisi,PERSON
+2848,Abdel Fattah al Sisi,PERSON
 1738,Haftar,PERSON
 1738,Zintan,LOCATION
 1738,Libya,LOCATION
@@ -13726,7 +13726,7 @@ story_id,entity,type
 53,Sisi,PERSON
 53,Mahmoud Abbas,PERSON
 53,Gaza,LOCATION
-53,Abdel Fattah al-Sisi,PERSON
+53,Abdel Fattah al Sisi,PERSON
 850,Maaliya,LOCATION
 1218,FAO,ORGANIZATION
 1218,Sri Lankas Department Of Agriculture,ORGANIZATION
@@ -13759,7 +13759,7 @@ story_id,entity,type
 2091,Ganzi,LOCATION
 2091,Louxu,LOCATION
 2091,Communist Party,ORGANIZATION
-2091,Us-Based International Campaign For Tibet,ORGANIZATION
+2091,US Based International Campaign For Tibet,ORGANIZATION
 3437,Tibet,LOCATION
 3437,Sichuan,LOCATION
 3437,Free Tibet,ORGANIZATION
@@ -13782,7 +13782,7 @@ story_id,entity,type
 2911,Canada,LOCATION
 2911,Sudan,LOCATION
 2911,Netherlands,LOCATION
-2911,Khartoum-Area,LOCATION
+2911,Khartoum Area,LOCATION
 2911,United States,LOCATION
 2911,Meriam Yahia Ibrahim Ishag,PERSON
 141,Tutu,PERSON
@@ -13821,15 +13821,15 @@ story_id,entity,type
 3610,Mount Sinjar,LOCATION
 3610,Greater Syria,LOCATION
 3610,Iraq,LOCATION
-3610,Mohammed Shia al-Sudani,PERSON
+3610,Mohammed Shia al Sudani,PERSON
 3610,ISIS,ORGANIZATION
 3610,Islamic State,ORGANIZATION
 3646,Fallujah,LOCATION
 3646,Iraq,LOCATION
 3646,ISIL,ORGANIZATION
-3646,Abu Anas al-Libi,PERSON
+3646,Abu Anas al Libi,PERSON
 3646,Ministry Of Human Rights,ORGANIZATION
-3646,al-Anbar,LOCATION
+3646,al Anbar,LOCATION
 3646,Anadolu Agency,ORGANIZATION
 3632,Democratic Republic Of Congo,LOCATION
 3632,Bertrand Bisimwa,PERSON
@@ -13847,7 +13847,7 @@ story_id,entity,type
 2255,BRSC,ORGANIZATION
 2255,Benina,PERSON
 2255,Benghazi Revolutionaries Shoura Council,ORGANIZATION
-2255,Ansar al-Sharia,PERSON
+2255,Ansar al Sharia,PERSON
 742,Sindh,LOCATION
 742,Pakistan,LOCATION
 742,UNICEF,ORGANIZATION
@@ -13953,7 +13953,7 @@ story_id,entity,type
 1445,Ankara,LOCATION
 1445,Syria,LOCATION
 1445,Turkey,LOCATION
-1445,Bashar al-Assad,PERSON
+1445,Bashar al Assad,PERSON
 1445,Besir Atalay,PERSON
 1921,Aung San Suu Kyi,LOCATION
 1921,Suu Kyi,PERSON
@@ -14000,7 +14000,7 @@ story_id,entity,type
 918,Nairobi,LOCATION
 918,Mogadishu,LOCATION
 918,Kenya,LOCATION
-918,al-Shabab,ORGANIZATION
+918,al Shabab,ORGANIZATION
 918,Hassan Hanafi Haji,PERSON
 2232,Kobane,LOCATION
 2232,Syria,LOCATION
@@ -14027,7 +14027,7 @@ story_id,entity,type
 2320,Musa,PERSON
 2320,Sakina,PERSON
 2320,Kenya,LOCATION
-2320,al-Shabab,ORGANIZATION
+2320,al Shabab,ORGANIZATION
 2320,Somalia,LOCATION
 2482,Degodia,LOCATION
 2482,Kenya,LOCATION
@@ -14069,7 +14069,7 @@ story_id,entity,type
 3098,Emmanuel Adamu Danzaria,PERSON
 3098,Mukhtar Yero,PERSON
 3098,AFP,ORGANIZATION
-215,Souk al-Basra,LOCATION
+215,Souk al Basra,LOCATION
 215,Karbala,LOCATION
 798,Islamic State,ORGANIZATION
 798,Anbar,LOCATION
@@ -14077,25 +14077,25 @@ story_id,entity,type
 798,Iraq,LOCATION
 2252,Abbasiya,LOCATION
 2252,Samarra,LOCATION
-656,Mafraq al-Saeed,LOCATION
+656,Mafraq al Saeed,LOCATION
 656,Shabwa,LOCATION
 656,Yemen,LOCATION
 657,Aden,LOCATION
 657,AFP,ORGANIZATION
-657,al-Qaeda,ORGANIZATION
+657,al Qaeda,ORGANIZATION
 657,Yemen,LOCATION
 697,Rada,PERSON
 697,Yemen,LOCATION
 895,Aden,LOCATION
 895,Yemen,LOCATION
-929,al-Qaeda,LOCATION
+929,al Qaeda,LOCATION
 929,Yemen,LOCATION
 929,Sanaa,LOCATION
 929,Arabian Peninsula,LOCATION
-929,al-Qaeda,ORGANIZATION
+929,al Qaeda,ORGANIZATION
 929,Baida,PERSON
-1497,al-Ahmar,PERSON
-1497,Abdullah al-Ahmar,PERSON
+1497,al Ahmar,PERSON
+1497,Abdullah al Ahmar,PERSON
 1497,Sanaa,LOCATION
 1497,Hashid,LOCATION
 2297,Rada,PERSON
@@ -14143,7 +14143,7 @@ story_id,entity,type
 3499,Mozogo,LOCATION
 3499,Cameroon,LOCATION
 3499,Boko Haram,PERSON
-3499,Far-North,LOCATION
+3499,Far North,LOCATION
 2375,US,LOCATION
 2375,Ankara,LOCATION
 631,Apapa,LOCATION
@@ -14172,7 +14172,7 @@ story_id,entity,type
 846,Grand Mosque,LOCATION
 846,Kuwait,LOCATION
 846,Reuters,ORGANIZATION
-846,Musallam al-Barrak,PERSON
+846,Musallam al Barrak,PERSON
 2410,Ertosi,LOCATION
 2410,Iran,LOCATION
 2410,Hakkari,LOCATION
@@ -14186,7 +14186,7 @@ story_id,entity,type
 2391,Sinai Peninsula,LOCATION
 2391,Cairo,LOCATION
 2391,Interior Ministry,ORGANIZATION
-2391,al-Azhar University,ORGANIZATION
+2391,al Azhar University,ORGANIZATION
 2391,Mohammed Morsi,PERSON
 2391,MENA,ORGANIZATION
 906,Nigeria,LOCATION
@@ -14232,7 +14232,7 @@ story_id,entity,type
 2444,UNHCR,ORGANIZATION
 243,Thailand,LOCATION
 243,Amnesty International,ORGANIZATION
-243,Asia-Pacific,LOCATION
+243,Asia Pacific,LOCATION
 1388,Pentagon,ORGANIZATION
 1388,Syria,LOCATION
 1388,Kobani,LOCATION
@@ -14259,7 +14259,7 @@ story_id,entity,type
 1357,Islamic State,ORGANIZATION
 1357,Baghdad,LOCATION
 1357,Kirkuk,LOCATION
-1813,Nuri al-Maliki,PERSON
+1813,Nuri al Maliki,PERSON
 1813,US,LOCATION
 1813,Iraq,LOCATION
 321,Arabian Peninsula,LOCATION
@@ -14274,11 +14274,11 @@ story_id,entity,type
 1536,Al Qaeda,ORGANIZATION
 2763,Yemen,LOCATION
 2763,Arabian Peninsula,LOCATION
-2763,Nabil al-Dahab,PERSON
-2763,al-Bayda,PERSON
+2763,Nabil al Dahab,PERSON
+2763,al Bayda,PERSON
 2763,US,LOCATION
-2763,Shawki al-Badani,PERSON
-2763,Ansar al-Sharia,PERSON
+2763,Shawki al Badani,PERSON
+2763,Ansar al Sharia,PERSON
 2763,Al Qaeda,ORGANIZATION
 6,Washington,LOCATION
 6,NATO,ORGANIZATION
@@ -14310,15 +14310,15 @@ story_id,entity,type
 77,Manila,LOCATION
 37,Mark Rutte,PERSON
 37,Ukraine,LOCATION
-37,Interfax-Ukraine,ORGANIZATION
+37,Interfax Ukraine,ORGANIZATION
 37,Vladimir Putin,PERSON
 37,The Hague,LOCATION
 37,Arseniy Yatsenyuk,PERSON
 37,Kiev,LOCATION
 343,Benghazi,LOCATION
-343,Ahmed Habib al-Mesmari,PERSON
+343,Ahmed Habib al Mesmari,PERSON
 343,Libya,LOCATION
-343,Abdullah al-Thani,PERSON
+343,Abdullah al Thani,PERSON
 343,Thani,PERSON
 343,Tobruk,LOCATION
 376,Misrata Brigade,ORGANIZATION
@@ -14331,9 +14331,9 @@ story_id,entity,type
 484,Tripoli,LOCATION
 484,Libya,LOCATION
 1135,Tripoli,LOCATION
-2875,Mohamed al-Suissi,PERSON
+2875,Mohamed al Suissi,PERSON
 2875,Tajura,LOCATION
-2875,al-Suissi,PERSON
+2875,al Suissi,PERSON
 2875,Tripoli,LOCATION
 2875,AFP,ORGANIZATION
 2875,Suissi,PERSON
@@ -14363,7 +14363,7 @@ story_id,entity,type
 1815,General Security,ORGANIZATION
 3085,Abdullah Azzam Brigades,ORGANIZATION
 3085,Lebanon,LOCATION
-3085,al-Qaeda,LOCATION
+3085,al Qaeda,LOCATION
 3085,Sirajeddine Zuraiqat,PERSON
 3085,Hezbollah,ORGANIZATION
 3085,Beiruts,LOCATION
@@ -14376,7 +14376,7 @@ story_id,entity,type
 3627,Bangui,LOCATION
 3627,AFP,ORGANIZATION
 3627,Central African Republic,LOCATION
-3627,Boy-Rabe,LOCATION
+3627,Boy Rabe,LOCATION
 663,Dhaka,LOCATION
 663,Disease Control And Research,ORGANIZATION
 663,Abu Dhabi,LOCATION
@@ -14456,7 +14456,7 @@ story_id,entity,type
 3653,Pakistan,LOCATION
 3653,Mumbai,LOCATION
 3653,India,LOCATION
-3653,Zaki-Ur-Rehman Lakhvi,PERSON
+3653,Zaki Ur Rehman Lakhvi,PERSON
 519,Ladsous,PERSON
 2295,Abdel Raheem Muhammad Hussein,PERSON
 2295,United Nations Security Council,ORGANIZATION
@@ -14466,7 +14466,7 @@ story_id,entity,type
 2295,Interior,ORGANIZATION
 2295,Darfur,LOCATION
 2295,Ali Kushayb,PERSON
-2295,Omar Hassan al-Bashir,PERSON
+2295,Omar Hassan al Bashir,PERSON
 416,Taiwan,LOCATION
 416,Alfonso Portillo,PERSON
 416,United States,LOCATION
@@ -14563,11 +14563,11 @@ story_id,entity,type
 579,Bahah,LOCATION
 579,Yemen,LOCATION
 579,Mohammed Basindwa,PERSON
-579,Abd-Rabbu Mansour Hadi,PERSON
+579,Abd Rabbu Mansour Hadi,PERSON
 579,Shi'Ite Muslim Houthi,ORGANIZATION
 579,Sanaa,LOCATION
 579,Khaled Bahah,PERSON
-579,Saleh al-Samad,PERSON
+579,Saleh al Samad,PERSON
 2012,Yemen,LOCATION
 2012,Khaled Mahfouz Bahah,PERSON
 2012,Hudeida,LOCATION
@@ -14580,11 +14580,11 @@ story_id,entity,type
 1194,Sibusiso Dlamini,PERSON
 1194,Swaziland,LOCATION
 1194,Cabinet,ORGANIZATION
-1947,Jean-Baudouin Mayo,PERSON
+1947,Jean Baudouin Mayo,PERSON
 1947,Mayo,PERSON
 1947,Supreme Court,ORGANIZATION
 1947,Makala,LOCATION
-1947,Jean-Bertrand Ewanga,PERSON
+1947,Jean Bertrand Ewanga,PERSON
 1947,DRC,ORGANIZATION
 1947,Ewanga,PERSON
 182,Algiers,LOCATION
@@ -14617,7 +14617,7 @@ story_id,entity,type
 1589,Permanent Council Of The OSCE,ORGANIZATION
 3170,UN,ORGANIZATION
 3170,Libya,LOCATION
-214,Moqtada al-Sadr,PERSON
+214,Moqtada al Sadr,PERSON
 214,Samarra,LOCATION
 214,Islamic State,ORGANIZATION
 214,Sadr,PERSON
@@ -14762,12 +14762,12 @@ story_id,entity,type
 1556,Hong Kong,LOCATION
 1556,Beijing,LOCATION
 2351,Hong Kong,LOCATION
-2351,Benny Tai Yiu-Ting,PERSON
-2351,Chan Kin-Man,PERSON
-2351,Chu Yiu-Ming,PERSON
+2351,Benny Tai Yiu Ting,PERSON
+2351,Chan Kin Man,PERSON
+2351,Chu Yiu Ming,PERSON
 2625,Hong Kong,LOCATION
 2996,Hong Kong,LOCATION
-2996,Leung Chun-Ying,PERSON
+2996,Leung Chun Ying,PERSON
 1817,National Transitional Council,ORGANIZATION
 1817,Muammar Gaddafi,PERSON
 1817,Salwa Bugaighis,PERSON
@@ -14831,7 +14831,7 @@ story_id,entity,type
 3096,Bambari,LOCATION
 3096,Bangui,LOCATION
 3096,Reuters,ORGANIZATION
-3096,Anti-Balaka,PERSON
+3096,Anti Balaka,PERSON
 3096,Ponsien,PERSON
 3096,Bambari,PERSON
 3463,UN,ORGANIZATION
@@ -14909,7 +14909,7 @@ story_id,entity,type
 146,Chamber Of Deputies,ORGANIZATION
 146,Canada,LOCATION
 146,France,LOCATION
-146,Port-Au-Prince,LOCATION
+146,Port AU Prince,LOCATION
 146,United States,LOCATION
 367,Michelle Bachelet,PERSON
 367,Alameda Avenue,LOCATION
@@ -14921,7 +14921,7 @@ story_id,entity,type
 241,Rakhine,LOCATION
 1315,Luba Samri,PERSON
 1315,Jerusalem,LOCATION
-1315,al-Aqsa,LOCATION
+1315,al Aqsa,LOCATION
 1315,Israel,LOCATION
 1315,West Bank,LOCATION
 1315,Old City,LOCATION
@@ -14974,7 +14974,7 @@ story_id,entity,type
 3106,Khieu Samphan,PERSON
 3106,Khmer Rouge,ORGANIZATION
 3106,Cambodia,LOCATION
-3180,Un-Backed Khmer Rouge,ORGANIZATION
+3180,UN Backed Khmer Rouge,ORGANIZATION
 3180,Muslims,PERSON
 3180,Cambodia,LOCATION
 1190,Namkham,LOCATION
@@ -14986,7 +14986,7 @@ story_id,entity,type
 956,Cairo,LOCATION
 956,Egypt,LOCATION
 956,Sisi,PERSON
-956,Abdel Fattah al-Sisi,PERSON
+956,Abdel Fattah al Sisi,PERSON
 956,Mohamed Mursi,PERSON
 956,Mursi,PERSON
 2673,Egypt,LOCATION
@@ -15010,11 +15010,11 @@ story_id,entity,type
 2933,Security Council,ORGANIZATION
 2933,Israel,LOCATION
 2933,France,LOCATION
-2933,Riyad al-Malki,PERSON
+2933,Riyad al Malki,PERSON
 2933,Malki,PERSON
 2933,UN Security Council,ORGANIZATION
 2933,AFP,ORGANIZATION
-232,Jean-Pierre Bemba,PERSON
+232,Jean Pierre Bemba,PERSON
 232,Movement For The Liberation Of Congo,ORGANIZATION
 1411,Yanghee Lee,PERSON
 1411,Muslims,PERSON
@@ -15045,7 +15045,7 @@ story_id,entity,type
 135,Sombat Boonngamanong,PERSON
 135,Information And Communication Technology Ministry,ORGANIZATION
 135,Bangkok,LOCATION
-135,Pisit Pao-In,PERSON
+135,Pisit Pao In,PERSON
 135,Thailand,LOCATION
 135,Chonburi Province,LOCATION
 16,Godfrey Kamanya,PERSON
@@ -15064,7 +15064,7 @@ story_id,entity,type
 963,Hadramawt Province,LOCATION
 963,Baida,PERSON
 1096,Yemen,LOCATION
-1096,Abd-Rabbu Mansour Hadi,PERSON
+1096,Abd Rabbu Mansour Hadi,PERSON
 1096,Zaydi,PERSON
 1096,Sanaa,LOCATION
 1096,Houthis,PERSON
@@ -15075,19 +15075,19 @@ story_id,entity,type
 2076,Washington,LOCATION
 2076,Yemen,LOCATION
 2076,Saleh,PERSON
-2076,Abd-Rabbu Mansour Hadi,PERSON
+2076,Abd Rabbu Mansour Hadi,PERSON
 2076,Sanaa,LOCATION
 2076,Ali Abdullah Saleh,PERSON
 2076,Saudi Arabia,LOCATION
 2116,Abd Rabbu Mansour Hadi,PERSON
 2116,Change Square,LOCATION
 2116,Sanaa,LOCATION
-2116,Abdulmalek al-Houthi,PERSON
+2116,Abdulmalek al Houthi,PERSON
 2116,Houthi,PERSON
 2116,Islah,ORGANIZATION
 2558,Abd Rabbuh Mansur Hadi,PERSON
 2558,Sana'A,LOCATION
-2558,Abdul Malik al-Houthi,PERSON
+2558,Abdul Malik al Houthi,PERSON
 2558,Yemen,LOCATION
 2831,Abd Rabbu Mansour Hadi,PERSON
 2831,Ahmed Awad Bin Mubarak,PERSON
@@ -15105,7 +15105,7 @@ story_id,entity,type
 3307,Abed Rabbo Mansour Hadis,PERSON
 3307,SABA,ORGANIZATION
 3307,United States,LOCATION
-3307,Abdel-Malek al-Hawthi,PERSON
+3307,Abdel Malek al Hawthi,PERSON
 3307,Hawthi,PERSON
 1460,Riek Machar,PERSON
 1460,Igga,PERSON
@@ -15116,7 +15116,7 @@ story_id,entity,type
 1460,James Wani Igga,PERSON
 3146,Djibouti,LOCATION
 3146,Republican Guard,ORGANIZATION
-539,National Anti-Corruption Commission,ORGANIZATION
+539,National Anti Corruption Commission,ORGANIZATION
 539,Thailand,LOCATION
 539,NACC,ORGANIZATION
 371,Felipe Calderon,PERSON
@@ -15278,7 +15278,7 @@ story_id,entity,type
 2966,Malawi,LOCATION
 2966,Maxon Mbendera,PERSON
 2966,Blantyre,LOCATION
-1532,al-Baida,LOCATION
+1532,al Baida,LOCATION
 1532,Interior Ministry,ORGANIZATION
 1532,UN,ORGANIZATION
 1532,Mitri,PERSON
@@ -15287,12 +15287,12 @@ story_id,entity,type
 2851,Hashim,PERSON
 2851,Abu Jaber,PERSON
 2851,Idlib,LOCATION
-2851,Ahrar al-Sham,PERSON
+2851,Ahrar al Sham,PERSON
 2851,Reuters,ORGANIZATION
 2851,Ram Hamdan,LOCATION
 2851,Abu Saleh Tahan,PERSON
 2851,Islamic State Armed Group,ORGANIZATION
-768,Omar Hassan al-Bashir,PERSON
+768,Omar Hassan al Bashir,PERSON
 768,Sudan,LOCATION
 417,Amazonas,LOCATION
 417,Bolvar,LOCATION
@@ -15332,7 +15332,7 @@ story_id,entity,type
 732,Abdel Rahim Abdel Malik,PERSON
 732,AFP,ORGANIZATION
 732,Minya,LOCATION
-1282,Tahir Ul-Qadri,PERSON
+1282,Tahir Ul Qadri,PERSON
 1282,Nawaz Sharif,PERSON
 1282,Imran Khan,PERSON
 1282,Sharif,PERSON
@@ -15378,13 +15378,13 @@ story_id,entity,type
 2456,Italy,LOCATION
 2456,Britain,LOCATION
 2456,Saudi Arabia,LOCATION
-655,Zine El-Abidine Ben Ali,PERSON
+655,Zine El Abidine Ben Ali,PERSON
 655,Tunisia,LOCATION
 3483,Bouri,LOCATION
 3483,Karzakan,LOCATION
 3483,Saudi Arabia,LOCATION
 3483,Sitra,LOCATION
-3483,al-Khalifa,PERSON
+3483,al Khalifa,PERSON
 1935,Pakistan,LOCATION
 1935,Chad,LOCATION
 1935,Saudi Arabia,LOCATION
@@ -15395,7 +15395,7 @@ story_id,entity,type
 1742,Mohammed Abu Shamaleh,PERSON
 1742,Rafah,LOCATION
 1742,Hamas,ORGANIZATION
-1742,Raed al-Attar,PERSON
+1742,Raed al Attar,PERSON
 1742,Gaza,LOCATION
 1742,Mohammed Barhoum,PERSON
 1874,Anthony Lake,PERSON
@@ -15417,7 +15417,7 @@ story_id,entity,type
 882,Broad Front,ORGANIZATION
 882,Vazquez,PERSON
 458,Syria,LOCATION
-458,Ban Ki-Moon,PERSON
+458,Ban Ki Moon,PERSON
 458,United Nations Security Council,ORGANIZATION
 458,Reuters,ORGANIZATION
 458,UN,ORGANIZATION
@@ -15454,7 +15454,7 @@ story_id,entity,type
 551,Joint Mission Of The Organization,ORGANIZATION
 1434,Syria,LOCATION
 1434,Iraq,LOCATION
-1434,Bashar al-Assad,PERSON
+1434,Bashar al Assad,PERSON
 1434,Damascus,LOCATION
 1747,United States Of America,LOCATION
 1747,Maritime Vessel Cape Ray,PERSON
@@ -15468,13 +15468,13 @@ story_id,entity,type
 2114,Obama,PERSON
 2114,Damascus,LOCATION
 2114,United States,LOCATION
-2114,Bashar al-Assad,PERSON
+2114,Bashar al Assad,PERSON
 2114,Syria,LOCATION
 2680,Syria,LOCATION
 2680,Assad,PERSON
-2680,Bashar al-Assad,PERSON
+2680,Bashar al Assad,PERSON
 2681,Arab,PERSON
-2681,Bashar al-Assad,PERSON
+2681,Bashar al Assad,PERSON
 3280,Syria,LOCATION
 3280,Sigrid Kaag,PERSON
 3280,Security Council,ORGANIZATION
@@ -15621,7 +15621,7 @@ story_id,entity,type
 2138,Equity Movement,ORGANIZATION
 2138,United Nations,ORGANIZATION
 2138,Sudan Peoples Liberation Army,ORGANIZATION
-2123,Asia-Pacific,LOCATION
+2123,Asia Pacific,LOCATION
 2123,Sri Lanka,LOCATION
 2123,Jaffna,LOCATION
 2740,UNICEF,ORGANIZATION
@@ -15674,7 +15674,7 @@ story_id,entity,type
 2787,Burundi,LOCATION
 2787,Congo,LOCATION
 1856,Hosingow,LOCATION
-1856,al-Shebaab,PERSON
+1856,al Shebaab,PERSON
 1856,Ruqiya Farah Yarow,PERSON
 679,Jakarta,LOCATION
 679,South East Asian,LOCATION
@@ -15684,7 +15684,7 @@ story_id,entity,type
 1500,Islamic State,ORGANIZATION
 1500,South Waziristan,LOCATION
 1500,Wana,LOCATION
-1500,Abu Bakr al-Baghdadi,PERSON
+1500,Abu Bakr al Baghdadi,PERSON
 1500,US,LOCATION
 1500,United States,LOCATION
 1500,US,LOCATION
@@ -15732,7 +15732,7 @@ story_id,entity,type
 3250,US,LOCATION
 3250,Sawyer,PERSON
 3250,Lagos,LOCATION
-1668,Abdullah al-Thinni,PERSON
+1668,Abdullah al Thinni,PERSON
 1668,Tripoli,LOCATION
 2131,Lewis Brown,PERSON
 2131,Liberia,LOCATION
@@ -15765,13 +15765,13 @@ story_id,entity,type
 3510,John Kirby,PERSON
 3510,United States,LOCATION
 3510,Somalia,LOCATION
-698,Nimr al-Nimr,PERSON
+698,Nimr al Nimr,PERSON
 698,Reuters,ORGANIZATION
 698,Sanaa,LOCATION
-85,Dahr al-Baidar,PERSON
+85,Dahr al Baidar,PERSON
 85,Internal Security Forces,ORGANIZATION
 85,Beirut,LOCATION
-85,Beirut-Damascus,LOCATION
+85,Beirut Damascus,LOCATION
 85,Bekaa Valley,LOCATION
 85,The Daily Star,ORGANIZATION
 948,Impala Platinum,ORGANIZATION

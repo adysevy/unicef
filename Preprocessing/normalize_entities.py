@@ -26,6 +26,7 @@ with open('../WebApp/data/entities.txt', 'wb') as outfile:
         word = word.replace('\s+', ' ')
         word = word.title()
         word = word.replace('Al-', 'al-')
+        word = word.replace('-', ' ')
         
         splits = word.split()
         phrase = []
