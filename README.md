@@ -6,7 +6,7 @@ The goal of this project was to take texts containing summaries of important new
 `http://adysevy.github.io/unicef/WebApp/`
 
 ### Link to video demo
-`https://vimeo.com/127946758`
+`https://vimeo.com/127950984`
 	
 ### Run visualization localy
 1. Clone the repository
