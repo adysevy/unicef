@@ -4,7 +4,7 @@
     <!-- Basic Page Needs
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <meta charset="utf-8">
-    <title>Visualizing Crisis News Briefs</title>
+    <title>Visualizing OPSCEN newsbriefs</title>
     <meta name="description" content="A visualization tool for exploring worldwide news crisis events">
     <meta name="author" content="Andrea Krukowski, Meredith McCarron, and Ady Sevy">
 
@@ -49,12 +49,13 @@
 }
 .circle_unselected {
     fill: #525252;
-    opacity: 0.7;
+    opacity: 0.6;
 }
 .circle_selected {
-    fill: #1CACE2;
-    stroke: #bdbdbd;
-    opacity: 0.7;
+    fill: #525252;
+    stroke: black;
+    stroke-width: 1.5;
+    opacity: 0.9;
 }
 .story {
     background: none;
@@ -79,20 +80,20 @@
 
     <div class="row">
         <div id="heading" class="u-max-full-width">
-            <h5> Visualizing Crisis News Briefs </h5>
+            <h5> Visualizing OPSCEN newsbriefs </h5>
         </div>
     </div>
 
 <!-- ROW CONTAINING BUTTONS AND SEARCH BAR -->
     <div class="row">
         <div id="filters" class="ten columns">
-            <button style="background: #66c2a5;" class='filter-button' name="Political/social unrest" checked="1">Political/Social Unrest</button>
-            <button style="background: #fc8d62;" class='filter-button' name="conflict" checked="1">Conflict</button>
-            <button style="background: #8da0cb;" class='filter-button' name="disaster" checked="1">Disaster</button>
-            <button style="background: #e78ac3;" class='filter-button' name="food insecurity" checked="1">Food Insecurity</button>
-            <button style="background: #a6d854;" class='filter-button' name="disease" checked="1">Disease</button> 
-            <button style="background: #ffd92f;" class='filter-button' name="water insecurity" checked="1">Water Insecurity</button>
-            <button style="background: #e5c494;" class='filter-button' name="population displacement" checked="1">Population Displacement</button>
+            <button style="background: #1f78b4;" class='filter-button' name="Political/social unrest" checked="1">Political/Social Unrest</button>
+            <button style="background: #e31a1c;" class='filter-button' name="conflict" checked="1">Conflict</button>
+            <button style="background: #33a02c;" class='filter-button' name="disaster" checked="1">Disaster</button>
+            <button style="background: #b2df8a;" class='filter-button' name="food insecurity" checked="1">Food Insecurity</button>
+            <button style="background: #fb9a99;" class='filter-button' name="disease" checked="1">Disease</button> 
+            <button style="background: #a6cee3;" class='filter-button' name="water insecurity" checked="1">Water Insecurity</button>
+            <button style="background: #fdbf6f;" class='filter-button' name="population displacement" checked="1">Population Displacement</button>
         </div>
 
         <div id="filters" class="two columns">
@@ -103,7 +104,7 @@
   <!-- ROW & COLUMN CONTAINING MAP AND TRENDLINE -->
     <div class="row">
         <div class="nine columns" >
-            <div id="map" style="background: #dbf2fb; overflow: hidden;"> </div>
+            <div id="map" style="overflow: hidden;"> </div>
             <div id="trend" style="overflow: hidden;"></div>
         </div>
 
@@ -114,11 +115,18 @@
                 <h6>All Headlines</h6>
                     <div id="story_titles" style='height: 220px; overflow: scroll; padding: 5px; margin: 0px 0px 5px 0px; border: 1px solid #e4e4e4; cursor:pointer;'> </div>
                 <h6>Full Story</h6>
-                    <div id="story_text" style='height: 250px; overflow: auto; padding: 5px; border: 1px solid #e4e4e4'> </div>  
+                    <div id="story_text" style='height: 220px; overflow: auto; padding: 5px; border: 1px solid #e4e4e4'> </div>  
                 <h6>Source:</h6>
                     <div id="story_link" style='padding: 5px; overflow: auto; height: 30px; border: 1px solid #e4e4e4;'></div>
             </div>
         </div>
+    </div>
+    <div class="row">
+      <div id="disclosure" class="nine columns" style="padding: 10px; overflow: auto;">
+        <p>
+          * This represents UNICEF's daily aggregation of relevant news items.  UNICEF is not the original source, and thus news items do not reflect the views of UNICEF, nor does UNICEF ensure the veracity of news items.
+        </p>
+      </div>
     </div>
 
 </div><!-- container -->
@@ -133,7 +141,15 @@
 <script>
 
   /*----------------------Global Variables - Map-----------------------*/
-  var categoryColors = {'Political/social unrest':'#66c2a5','conflict':'#fc8d62','disaster':'#8da0cb','food insecurity':'#e78ac3','disease':'#a6d854','water insecurity':'#ffd92f', 'population displacement': '#e5c494', '':'none'}
+  var categoryColors = {
+  	'Political/social unrest':'#1f78b4',
+	'conflict':'#e31a1c',
+	'disaster':'#33a02c',
+	'food insecurity':'#b2df8a',
+	'disease':'#fb9a99',
+	'water insecurity':'#a6cee3', 
+	'population displacement': '#fdbf6f', 
+	'':'none'};
       
   var width = $('#map').width();
   var map_height = 480;
@@ -459,7 +475,7 @@
           .attr("y", 0-margin_trend.left)
           .attr("dy", ".71em")
           .style("text-anchor", "end")
-          .text("# Stories");
+          .text("# of Stories");
       var week = svg_trend_g.selectAll(".week")
           .data(stories_aggregated)
           .enter()
